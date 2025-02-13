@@ -55,20 +55,11 @@
 		"estacoes" : null
 	},
 	{
-		"nomeproduto" : "CARTEIRA DIGITAL",
-		"idproduto" : 42.0,
-		"nomemodulo" : "Iti - Itau",
-		"idmodulo" : 151.0,
-		"submodulo" : null,
-		"pdvs" : null,
-		"estacoes" : null
-	},
-	{
 		"nomeproduto" : "CTE (TECNOSPEED)",
 		"idproduto" : 9.0,
 		"nomemodulo" : null,
 		"idmodulo" : null,
-		"submodulo" : 15.0,
+		"submodulo" : null,
 		"pdvs" : null,
 		"estacoes" : null
 	},
@@ -82,13 +73,13 @@
 		"estacoes" : null
 	},
 	{
-		"nomeproduto" : "EMULADOR",
-		"idproduto" : 14.0,
+		"nomeproduto" : "FORCA DE VENDA",
+		"idproduto" : 29.0,
 		"nomemodulo" : null,
 		"idmodulo" : null,
 		"submodulo" : null,
 		"pdvs" : null,
-		"estacoes" : null
+		"estacoes" : 10.0
 	},
 	{
 		"nomeproduto" : "FORCA DE VENDAS - HERBIE",
@@ -97,7 +88,7 @@
 		"idmodulo" : null,
 		"submodulo" : null,
 		"pdvs" : null,
-		"estacoes" : 920.0
+		"estacoes" : 418.0
 	},
 	{
 		"nomeproduto" : "GESTAO IMEDIATA",
@@ -140,42 +131,6 @@
 		"idproduto" : 46.0,
 		"nomemodulo" : "GOMenu Pedido (Tablet na mesa)",
 		"idmodulo" : 307.0,
-		"submodulo" : null,
-		"pdvs" : null,
-		"estacoes" : null
-	},
-	{
-		"nomeproduto" : "INTEGRACAO PDV",
-		"idproduto" : 23.0,
-		"nomemodulo" : "KW",
-		"idmodulo" : 113.0,
-		"submodulo" : null,
-		"pdvs" : null,
-		"estacoes" : null
-	},
-	{
-		"nomeproduto" : "INTEGRACAO PDV",
-		"idproduto" : 23.0,
-		"nomemodulo" : "RJK",
-		"idmodulo" : 114.0,
-		"submodulo" : null,
-		"pdvs" : null,
-		"estacoes" : null
-	},
-	{
-		"nomeproduto" : "INTEGRACAO VSELL MOBILE",
-		"idproduto" : 35.0,
-		"nomemodulo" : null,
-		"idmodulo" : null,
-		"submodulo" : null,
-		"pdvs" : null,
-		"estacoes" : null
-	},
-	{
-		"nomeproduto" : "INTEGRACAO WMW",
-		"idproduto" : 36.0,
-		"nomemodulo" : null,
-		"idmodulo" : null,
 		"submodulo" : null,
 		"pdvs" : null,
 		"estacoes" : null
@@ -284,7 +239,7 @@
 		"idproduto" : 7.0,
 		"nomemodulo" : null,
 		"idmodulo" : null,
-		"submodulo" : 3320.0,
+		"submodulo" : null,
 		"pdvs" : null,
 		"estacoes" : null
 	},
@@ -298,20 +253,11 @@
 		"estacoes" : null
 	},
 	{
-		"nomeproduto" : "NFSE (SGCLOUD)",
-		"idproduto" : 58.0,
-		"nomemodulo" : null,
-		"idmodulo" : null,
-		"submodulo" : null,
-		"pdvs" : null,
-		"estacoes" : null
-	},
-	{
 		"nomeproduto" : "NFSE (TECNOSPEED)",
 		"idproduto" : 8.0,
 		"nomemodulo" : null,
 		"idmodulo" : null,
-		"submodulo" : 10.0,
+		"submodulo" : null,
 		"pdvs" : null,
 		"estacoes" : null
 	},
@@ -334,418 +280,1246 @@
 		"estacoes" : null
 	},
 	{
+		"nomeproduto" : "R-GOURMET",
+		"idproduto" : 3.0,
+		"nomemodulo" : "Produtos e Precos",
+		"idmodulo" : 1.0,
+		"submodulo" : 7634.0,
+		"pdvs" : 3718.0,
+		"estacoes" : 8325.0
+	},
+	{
+		"nomeproduto" : "R-GOURMET",
+		"idproduto" : 3.0,
+		"nomemodulo" : "Fornecedores",
+		"idmodulo" : 2.0,
+		"submodulo" : 7634.0,
+		"pdvs" : 3718.0,
+		"estacoes" : 8325.0
+	},
+	{
+		"nomeproduto" : "R-GOURMET",
+		"idproduto" : 3.0,
+		"nomemodulo" : "Clientes",
+		"idmodulo" : 3.0,
+		"submodulo" : 7634.0,
+		"pdvs" : 3718.0,
+		"estacoes" : 8325.0
+	},
+	{
+		"nomeproduto" : "R-GOURMET",
+		"idproduto" : 3.0,
+		"nomemodulo" : "Contas a Pagar",
+		"idmodulo" : 4.0,
+		"submodulo" : 7634.0,
+		"pdvs" : 3718.0,
+		"estacoes" : 8325.0
+	},
+	{
+		"nomeproduto" : "R-GOURMET",
+		"idproduto" : 3.0,
+		"nomemodulo" : "Contas a Receber",
+		"idmodulo" : 5.0,
+		"submodulo" : 7634.0,
+		"pdvs" : 3718.0,
+		"estacoes" : 8325.0
+	},
+	{
+		"nomeproduto" : "R-GOURMET",
+		"idproduto" : 3.0,
+		"nomemodulo" : "Resumo de Caixa",
+		"idmodulo" : 6.0,
+		"submodulo" : 7634.0,
+		"pdvs" : 3718.0,
+		"estacoes" : 8325.0
+	},
+	{
+		"nomeproduto" : "R-GOURMET",
+		"idproduto" : 3.0,
+		"nomemodulo" : "Controle de Loja",
+		"idmodulo" : 7.0,
+		"submodulo" : 7634.0,
+		"pdvs" : 3718.0,
+		"estacoes" : 8325.0
+	},
+	{
+		"nomeproduto" : "R-GOURMET",
+		"idproduto" : 3.0,
+		"nomemodulo" : "Controle de Cheques",
+		"idmodulo" : 12.0,
+		"submodulo" : 7634.0,
+		"pdvs" : 3718.0,
+		"estacoes" : 8325.0
+	},
+	{
+		"nomeproduto" : "R-GOURMET",
+		"idproduto" : 3.0,
+		"nomemodulo" : "Inventario Fisico ( Balanco)",
+		"idmodulo" : 13.0,
+		"submodulo" : 7634.0,
+		"pdvs" : 3718.0,
+		"estacoes" : 8325.0
+	},
+	{
+		"nomeproduto" : "R-GOURMET",
+		"idproduto" : 3.0,
+		"nomemodulo" : "Movimentacao de Produtos",
+		"idmodulo" : 14.0,
+		"submodulo" : 7634.0,
+		"pdvs" : 3718.0,
+		"estacoes" : 8325.0
+	},
+	{
+		"nomeproduto" : "R-GOURMET",
+		"idproduto" : 3.0,
+		"nomemodulo" : "Entrada de Notas",
+		"idmodulo" : 15.0,
+		"submodulo" : 7634.0,
+		"pdvs" : 3718.0,
+		"estacoes" : 8325.0
+	},
+	{
+		"nomeproduto" : "R-GOURMET",
+		"idproduto" : 3.0,
+		"nomemodulo" : "Controle de Producao",
+		"idmodulo" : 19.0,
+		"submodulo" : 7634.0,
+		"pdvs" : 3718.0,
+		"estacoes" : 8325.0
+	},
+	{
+		"nomeproduto" : "R-GOURMET",
+		"idproduto" : 3.0,
+		"nomemodulo" : "Contas Bancarias",
+		"idmodulo" : 20.0,
+		"submodulo" : 7634.0,
+		"pdvs" : 3718.0,
+		"estacoes" : 8325.0
+	},
+	{
+		"nomeproduto" : "R-GOURMET",
+		"idproduto" : 3.0,
+		"nomemodulo" : "Controle de Despesas",
+		"idmodulo" : 21.0,
+		"submodulo" : 7634.0,
+		"pdvs" : 3718.0,
+		"estacoes" : 8325.0
+	},
+	{
+		"nomeproduto" : "R-GOURMET",
+		"idproduto" : 3.0,
+		"nomemodulo" : "Controle de Ticket\/Cartao",
+		"idmodulo" : 22.0,
+		"submodulo" : 7634.0,
+		"pdvs" : 3718.0,
+		"estacoes" : 8325.0
+	},
+	{
+		"nomeproduto" : "R-GOURMET",
+		"idproduto" : 3.0,
+		"nomemodulo" : "Controle de Comissao",
+		"idmodulo" : 23.0,
+		"submodulo" : 7634.0,
+		"pdvs" : 3718.0,
+		"estacoes" : 8325.0
+	},
+	{
+		"nomeproduto" : "R-GOURMET",
+		"idproduto" : 3.0,
+		"nomemodulo" : "Compras de Industrias\/Distribuidoras",
+		"idmodulo" : 24.0,
+		"submodulo" : 7634.0,
+		"pdvs" : 3718.0,
+		"estacoes" : 8325.0
+	},
+	{
+		"nomeproduto" : "R-GOURMET",
+		"idproduto" : 3.0,
+		"nomemodulo" : "Inventario Fiscal",
+		"idmodulo" : 26.0,
+		"submodulo" : 7634.0,
+		"pdvs" : 3718.0,
+		"estacoes" : 8325.0
+	},
+	{
+		"nomeproduto" : "R-GOURMET",
+		"idproduto" : 3.0,
+		"nomemodulo" : "Levantamento Parcial de Estoque",
+		"idmodulo" : 29.0,
+		"submodulo" : 7634.0,
+		"pdvs" : 3718.0,
+		"estacoes" : 8325.0
+	},
+	{
+		"nomeproduto" : "R-GOURMET",
+		"idproduto" : 3.0,
+		"nomemodulo" : "Movimento de Caixa",
+		"idmodulo" : 30.0,
+		"submodulo" : 7634.0,
+		"pdvs" : 3718.0,
+		"estacoes" : 8325.0
+	},
+	{
+		"nomeproduto" : "R-GOURMET",
+		"idproduto" : 3.0,
+		"nomemodulo" : "Transferencia",
+		"idmodulo" : 33.0,
+		"submodulo" : 7634.0,
+		"pdvs" : 3718.0,
+		"estacoes" : 8325.0
+	},
+	{
+		"nomeproduto" : "R-GOURMET",
+		"idproduto" : 3.0,
+		"nomemodulo" : "Apoio Contabil",
+		"idmodulo" : 34.0,
+		"submodulo" : 7634.0,
+		"pdvs" : 3718.0,
+		"estacoes" : 8325.0
+	},
+	{
+		"nomeproduto" : "R-GOURMET",
+		"idproduto" : 3.0,
+		"nomemodulo" : "Escrita Fiscal",
+		"idmodulo" : 40.0,
+		"submodulo" : 7634.0,
+		"pdvs" : 3718.0,
+		"estacoes" : 8325.0
+	},
+	{
+		"nomeproduto" : "R-GOURMET",
+		"idproduto" : 3.0,
+		"nomemodulo" : "Fidelizacao",
+		"idmodulo" : 41.0,
+		"submodulo" : 7634.0,
+		"pdvs" : 3718.0,
+		"estacoes" : 8325.0
+	},
+	{
+		"nomeproduto" : "R-GOURMET",
+		"idproduto" : 3.0,
+		"nomemodulo" : "Fluxo de Caixa",
+		"idmodulo" : 42.0,
+		"submodulo" : 7634.0,
+		"pdvs" : 3718.0,
+		"estacoes" : 8325.0
+	},
+	{
+		"nomeproduto" : "R-GOURMET",
+		"idproduto" : 3.0,
+		"nomemodulo" : "Balcao",
+		"idmodulo" : 49.0,
+		"submodulo" : 7634.0,
+		"pdvs" : 3718.0,
+		"estacoes" : 8325.0
+	},
+	{
+		"nomeproduto" : "R-GOURMET",
+		"idproduto" : 3.0,
+		"nomemodulo" : "Pedidos",
+		"idmodulo" : 50.0,
+		"submodulo" : 7634.0,
+		"pdvs" : 3718.0,
+		"estacoes" : 8325.0
+	},
+	{
+		"nomeproduto" : "R-GOURMET",
+		"idproduto" : 3.0,
+		"nomemodulo" : "Mesa",
+		"idmodulo" : 51.0,
+		"submodulo" : 7634.0,
+		"pdvs" : 3718.0,
+		"estacoes" : 8325.0
+	},
+	{
+		"nomeproduto" : "R-GOURMET",
+		"idproduto" : 3.0,
+		"nomemodulo" : "Producao para entrega",
+		"idmodulo" : 52.0,
+		"submodulo" : 7634.0,
+		"pdvs" : 3718.0,
+		"estacoes" : 8325.0
+	},
+	{
+		"nomeproduto" : "R-GOURMET",
+		"idproduto" : 3.0,
+		"nomemodulo" : "Cartao",
+		"idmodulo" : 53.0,
+		"submodulo" : 7634.0,
+		"pdvs" : 3718.0,
+		"estacoes" : 8325.0
+	},
+	{
+		"nomeproduto" : "R-GOURMET",
+		"idproduto" : 3.0,
+		"nomemodulo" : "Pre-Pedido",
+		"idmodulo" : 54.0,
+		"submodulo" : 7634.0,
+		"pdvs" : 3718.0,
+		"estacoes" : 8325.0
+	},
+	{
+		"nomeproduto" : "R-GOURMET",
+		"idproduto" : 3.0,
+		"nomemodulo" : "Controle Gerencial",
+		"idmodulo" : 56.0,
+		"submodulo" : 7634.0,
+		"pdvs" : 3718.0,
+		"estacoes" : 8325.0
+	},
+	{
+		"nomeproduto" : "R-GOURMET",
+		"idproduto" : 3.0,
+		"nomemodulo" : "SAT",
+		"idmodulo" : 74.0,
+		"submodulo" : 7634.0,
+		"pdvs" : 3718.0,
+		"estacoes" : 8325.0
+	},
+	{
+		"nomeproduto" : "R-GOURMET",
+		"idproduto" : 3.0,
+		"nomemodulo" : "Autopagamento",
+		"idmodulo" : 103.0,
+		"submodulo" : 7634.0,
+		"pdvs" : 3718.0,
+		"estacoes" : 8325.0
+	},
+	{
+		"nomeproduto" : "R-GOURMET",
+		"idproduto" : 3.0,
+		"nomemodulo" : "Scanntech",
+		"idmodulo" : 104.0,
+		"submodulo" : 7634.0,
+		"pdvs" : 3718.0,
+		"estacoes" : 8325.0
+	},
+	{
+		"nomeproduto" : "R-GOURMET",
+		"idproduto" : 3.0,
+		"nomemodulo" : "Autopagamento - Demo",
+		"idmodulo" : 106.0,
+		"submodulo" : 7634.0,
+		"pdvs" : 3718.0,
+		"estacoes" : 8325.0
+	},
+	{
+		"nomeproduto" : "R-GOURMET",
+		"idproduto" : 3.0,
+		"nomemodulo" : "Contribuicao Solidaria",
+		"idmodulo" : 107.0,
+		"submodulo" : 7634.0,
+		"pdvs" : 3718.0,
+		"estacoes" : 8325.0
+	},
+	{
+		"nomeproduto" : "R-GOURMET",
+		"idproduto" : 3.0,
+		"nomemodulo" : "Conciliacao de cartoes - Conciflex",
+		"idmodulo" : 108.0,
+		"submodulo" : 7634.0,
+		"pdvs" : 3718.0,
+		"estacoes" : 8325.0
+	},
+	{
+		"nomeproduto" : "R-GOURMET",
+		"idproduto" : 3.0,
+		"nomemodulo" : "Mix Fiscal",
+		"idmodulo" : 117.0,
+		"submodulo" : 7634.0,
+		"pdvs" : 3718.0,
+		"estacoes" : 8325.0
+	},
+	{
+		"nomeproduto" : "R-GOURMET",
+		"idproduto" : 3.0,
+		"nomemodulo" : "PLAY VIEW",
+		"idmodulo" : 120.0,
+		"submodulo" : 7634.0,
+		"pdvs" : 3718.0,
+		"estacoes" : 8325.0
+	},
+	{
+		"nomeproduto" : "R-GOURMET",
+		"idproduto" : 3.0,
+		"nomemodulo" : "Fidelizi",
+		"idmodulo" : 125.0,
+		"submodulo" : 7634.0,
+		"pdvs" : 3718.0,
+		"estacoes" : 8325.0
+	},
+	{
+		"nomeproduto" : "R-GOURMET",
+		"idproduto" : 3.0,
+		"nomemodulo" : "Integracao Site Mercado",
+		"idmodulo" : 130.0,
+		"submodulo" : 7634.0,
+		"pdvs" : 3718.0,
+		"estacoes" : 8325.0
+	},
+	{
+		"nomeproduto" : "R-GOURMET",
+		"idproduto" : 3.0,
+		"nomemodulo" : "Integracao XML SetUP - SGDFE GETCARD",
+		"idmodulo" : 132.0,
+		"submodulo" : 7634.0,
+		"pdvs" : 3718.0,
+		"estacoes" : 8325.0
+	},
+	{
+		"nomeproduto" : "R-GOURMET",
+		"idproduto" : 3.0,
+		"nomemodulo" : "Google Maps",
+		"idmodulo" : 133.0,
+		"submodulo" : 7634.0,
+		"pdvs" : 3718.0,
+		"estacoes" : 8325.0
+	},
+	{
+		"nomeproduto" : "R-GOURMET",
+		"idproduto" : 3.0,
+		"nomemodulo" : "Donuz",
+		"idmodulo" : 135.0,
+		"submodulo" : 7634.0,
+		"pdvs" : 3718.0,
+		"estacoes" : 8325.0
+	},
+	{
+		"nomeproduto" : "R-GOURMET",
+		"idproduto" : 3.0,
+		"nomemodulo" : "Troco Simples",
+		"idmodulo" : 137.0,
+		"submodulo" : 7634.0,
+		"pdvs" : 3718.0,
+		"estacoes" : 8325.0
+	},
+	{
+		"nomeproduto" : "R-GOURMET",
+		"idproduto" : 3.0,
+		"nomemodulo" : "Emissao de Boletos",
+		"idmodulo" : 139.0,
+		"submodulo" : 7634.0,
+		"pdvs" : 3718.0,
+		"estacoes" : 8325.0
+	},
+	{
+		"nomeproduto" : "R-GOURMET",
+		"idproduto" : 3.0,
+		"nomemodulo" : "Integracao SIMPLUS",
+		"idmodulo" : 141.0,
+		"submodulo" : 7634.0,
+		"pdvs" : 3718.0,
+		"estacoes" : 8325.0
+	},
+	{
+		"nomeproduto" : "R-GOURMET",
+		"idproduto" : 3.0,
+		"nomemodulo" : "Integracao Area Central - REDE",
+		"idmodulo" : 146.0,
+		"submodulo" : 7634.0,
+		"pdvs" : 3718.0,
+		"estacoes" : 8325.0
+	},
+	{
+		"nomeproduto" : "R-GOURMET",
+		"idproduto" : 3.0,
+		"nomemodulo" : "Integracao Area Central - ASSOCIADO",
+		"idmodulo" : 147.0,
+		"submodulo" : 7634.0,
+		"pdvs" : 3718.0,
+		"estacoes" : 8325.0
+	},
+	{
+		"nomeproduto" : "R-GOURMET",
+		"idproduto" : 3.0,
+		"nomemodulo" : "Integracao Neemo",
+		"idmodulo" : 162.0,
+		"submodulo" : 7634.0,
+		"pdvs" : 3718.0,
+		"estacoes" : 8325.0
+	},
+	{
+		"nomeproduto" : "R-GOURMET",
+		"idproduto" : 3.0,
+		"nomemodulo" : "Integracao IFOOD",
+		"idmodulo" : 164.0,
+		"submodulo" : 7634.0,
+		"pdvs" : 3718.0,
+		"estacoes" : 8325.0
+	},
+	{
+		"nomeproduto" : "R-GOURMET",
+		"idproduto" : 3.0,
+		"nomemodulo" : "Conciliacao de cartoes - VIZZO",
+		"idmodulo" : 165.0,
+		"submodulo" : 7634.0,
+		"pdvs" : 3718.0,
+		"estacoes" : 8325.0
+	},
+	{
+		"nomeproduto" : "R-GOURMET",
+		"idproduto" : 3.0,
+		"nomemodulo" : "Integracao RAPPI",
+		"idmodulo" : 166.0,
+		"submodulo" : 7634.0,
+		"pdvs" : 3718.0,
+		"estacoes" : 8325.0
+	},
+	{
+		"nomeproduto" : "R-GOURMET",
+		"idproduto" : 3.0,
+		"nomemodulo" : "Integracao Nexfood",
+		"idmodulo" : 167.0,
+		"submodulo" : 7634.0,
+		"pdvs" : 3718.0,
+		"estacoes" : 8325.0
+	},
+	{
+		"nomeproduto" : "R-GOURMET",
+		"idproduto" : 3.0,
+		"nomemodulo" : "Integracao Tray",
+		"idmodulo" : 171.0,
+		"submodulo" : 7634.0,
+		"pdvs" : 3718.0,
+		"estacoes" : 8325.0
+	},
+	{
+		"nomeproduto" : "R-GOURMET",
+		"idproduto" : 3.0,
+		"nomemodulo" : "Integracao Auditto",
+		"idmodulo" : 172.0,
+		"submodulo" : 7634.0,
+		"pdvs" : 3718.0,
+		"estacoes" : 8325.0
+	},
+	{
+		"nomeproduto" : "R-GOURMET",
+		"idproduto" : 3.0,
+		"nomemodulo" : "Senha PDV por PINPAD - SITEF TUICCS",
+		"idmodulo" : 173.0,
+		"submodulo" : 7634.0,
+		"pdvs" : 3718.0,
+		"estacoes" : 8325.0
+	},
+	{
+		"nomeproduto" : "R-GOURMET",
+		"idproduto" : 3.0,
+		"nomemodulo" : "Integracao Cresce Vendas",
+		"idmodulo" : 174.0,
+		"submodulo" : 7634.0,
+		"pdvs" : 3718.0,
+		"estacoes" : 8325.0
+	},
+	{
+		"nomeproduto" : "R-GOURMET",
+		"idproduto" : 3.0,
+		"nomemodulo" : "Integracao SG SISTEMAS",
+		"idmodulo" : 176.0,
+		"submodulo" : 7634.0,
+		"pdvs" : 3718.0,
+		"estacoes" : 8325.0
+	},
+	{
+		"nomeproduto" : "R-GOURMET",
+		"idproduto" : 3.0,
+		"nomemodulo" : "Integracao Shipay",
+		"idmodulo" : 253.0,
+		"submodulo" : 7634.0,
+		"pdvs" : 3718.0,
+		"estacoes" : 8325.0
+	},
+	{
+		"nomeproduto" : "R-GOURMET",
+		"idproduto" : 3.0,
+		"nomemodulo" : "Integracao Dominio XML",
+		"idmodulo" : 294.0,
+		"submodulo" : 7634.0,
+		"pdvs" : 3718.0,
+		"estacoes" : 8325.0
+	},
+	{
+		"nomeproduto" : "R-GOURMET",
+		"idproduto" : 3.0,
+		"nomemodulo" : "Integracao PagPix",
+		"idmodulo" : 312.0,
+		"submodulo" : 7634.0,
+		"pdvs" : 3718.0,
+		"estacoes" : 8325.0
+	},
+	{
+		"nomeproduto" : "R-GOURMET",
+		"idproduto" : 3.0,
+		"nomemodulo" : "Integracao Anota Ai",
+		"idmodulo" : 326.0,
+		"submodulo" : 7634.0,
+		"pdvs" : 3718.0,
+		"estacoes" : 8325.0
+	},
+	{
+		"nomeproduto" : "RJK-PDV",
+		"idproduto" : 2.0,
+		"nomemodulo" : "Produtos e Precos",
+		"idmodulo" : 1.0,
+		"submodulo" : 10737.0,
+		"pdvs" : 7478.0,
+		"estacoes" : 11142.0
+	},
+	{
+		"nomeproduto" : "RJK-PDV",
+		"idproduto" : 2.0,
+		"nomemodulo" : "Fornecedores",
+		"idmodulo" : 2.0,
+		"submodulo" : 10737.0,
+		"pdvs" : 7478.0,
+		"estacoes" : 11142.0
+	},
+	{
+		"nomeproduto" : "RJK-PDV",
+		"idproduto" : 2.0,
+		"nomemodulo" : "Clientes",
+		"idmodulo" : 3.0,
+		"submodulo" : 10737.0,
+		"pdvs" : 7478.0,
+		"estacoes" : 11142.0
+	},
+	{
+		"nomeproduto" : "RJK-PDV",
+		"idproduto" : 2.0,
+		"nomemodulo" : "Contas a Pagar",
+		"idmodulo" : 4.0,
+		"submodulo" : 10737.0,
+		"pdvs" : 7478.0,
+		"estacoes" : 11142.0
+	},
+	{
+		"nomeproduto" : "RJK-PDV",
+		"idproduto" : 2.0,
+		"nomemodulo" : "Contas a Receber",
+		"idmodulo" : 5.0,
+		"submodulo" : 10737.0,
+		"pdvs" : 7478.0,
+		"estacoes" : 11142.0
+	},
+	{
+		"nomeproduto" : "RJK-PDV",
+		"idproduto" : 2.0,
+		"nomemodulo" : "Resumo de Caixa",
+		"idmodulo" : 6.0,
+		"submodulo" : 10737.0,
+		"pdvs" : 7478.0,
+		"estacoes" : 11142.0
+	},
+	{
+		"nomeproduto" : "RJK-PDV",
+		"idproduto" : 2.0,
+		"nomemodulo" : "Controle de Loja",
+		"idmodulo" : 7.0,
+		"submodulo" : 10737.0,
+		"pdvs" : 7478.0,
+		"estacoes" : 11142.0
+	},
+	{
+		"nomeproduto" : "RJK-PDV",
+		"idproduto" : 2.0,
+		"nomemodulo" : "Contra Vales",
+		"idmodulo" : 9.0,
+		"submodulo" : 10737.0,
+		"pdvs" : 7478.0,
+		"estacoes" : 11142.0
+	},
+	{
+		"nomeproduto" : "RJK-PDV",
+		"idproduto" : 2.0,
+		"nomemodulo" : "Controle de Vendas",
+		"idmodulo" : 11.0,
+		"submodulo" : 10737.0,
+		"pdvs" : 7478.0,
+		"estacoes" : 11142.0
+	},
+	{
+		"nomeproduto" : "RJK-PDV",
+		"idproduto" : 2.0,
+		"nomemodulo" : "Controle de Cheques",
+		"idmodulo" : 12.0,
+		"submodulo" : 10737.0,
+		"pdvs" : 7478.0,
+		"estacoes" : 11142.0
+	},
+	{
+		"nomeproduto" : "RJK-PDV",
+		"idproduto" : 2.0,
+		"nomemodulo" : "Inventario Fisico ( Balanco)",
+		"idmodulo" : 13.0,
+		"submodulo" : 10737.0,
+		"pdvs" : 7478.0,
+		"estacoes" : 11142.0
+	},
+	{
+		"nomeproduto" : "RJK-PDV",
+		"idproduto" : 2.0,
+		"nomemodulo" : "Movimentacao de Produtos",
+		"idmodulo" : 14.0,
+		"submodulo" : 10737.0,
+		"pdvs" : 7478.0,
+		"estacoes" : 11142.0
+	},
+	{
+		"nomeproduto" : "RJK-PDV",
+		"idproduto" : 2.0,
+		"nomemodulo" : "Entrada de Notas",
+		"idmodulo" : 15.0,
+		"submodulo" : 10737.0,
+		"pdvs" : 7478.0,
+		"estacoes" : 11142.0
+	},
+	{
+		"nomeproduto" : "RJK-PDV",
+		"idproduto" : 2.0,
+		"nomemodulo" : "Cotacao de Atacado",
+		"idmodulo" : 17.0,
+		"submodulo" : 10737.0,
+		"pdvs" : 7478.0,
+		"estacoes" : 11142.0
+	},
+	{
+		"nomeproduto" : "RJK-PDV",
+		"idproduto" : 2.0,
+		"nomemodulo" : "Controle de Producao",
+		"idmodulo" : 19.0,
+		"submodulo" : 10737.0,
+		"pdvs" : 7478.0,
+		"estacoes" : 11142.0
+	},
+	{
+		"nomeproduto" : "RJK-PDV",
+		"idproduto" : 2.0,
+		"nomemodulo" : "Contas Bancarias",
+		"idmodulo" : 20.0,
+		"submodulo" : 10737.0,
+		"pdvs" : 7478.0,
+		"estacoes" : 11142.0
+	},
+	{
+		"nomeproduto" : "RJK-PDV",
+		"idproduto" : 2.0,
+		"nomemodulo" : "Controle de Despesas",
+		"idmodulo" : 21.0,
+		"submodulo" : 10737.0,
+		"pdvs" : 7478.0,
+		"estacoes" : 11142.0
+	},
+	{
+		"nomeproduto" : "RJK-PDV",
+		"idproduto" : 2.0,
+		"nomemodulo" : "Controle de Ticket\/Cartao",
+		"idmodulo" : 22.0,
+		"submodulo" : 10737.0,
+		"pdvs" : 7478.0,
+		"estacoes" : 11142.0
+	},
+	{
+		"nomeproduto" : "RJK-PDV",
+		"idproduto" : 2.0,
+		"nomemodulo" : "Comissoes",
+		"idmodulo" : 23.0,
+		"submodulo" : 10737.0,
+		"pdvs" : 7478.0,
+		"estacoes" : 11142.0
+	},
+	{
+		"nomeproduto" : "RJK-PDV",
+		"idproduto" : 2.0,
+		"nomemodulo" : "Compras de Industrias\/Distribuidoras",
+		"idmodulo" : 24.0,
+		"submodulo" : 10737.0,
+		"pdvs" : 7478.0,
+		"estacoes" : 11142.0
+	},
+	{
+		"nomeproduto" : "RJK-PDV",
+		"idproduto" : 2.0,
+		"nomemodulo" : "Inventario Fiscal",
+		"idmodulo" : 26.0,
+		"submodulo" : 10737.0,
+		"pdvs" : 7478.0,
+		"estacoes" : 11142.0
+	},
+	{
+		"nomeproduto" : "RJK-PDV",
+		"idproduto" : 2.0,
+		"nomemodulo" : "Controle de Trocas",
+		"idmodulo" : 28.0,
+		"submodulo" : 10737.0,
+		"pdvs" : 7478.0,
+		"estacoes" : 11142.0
+	},
+	{
+		"nomeproduto" : "RJK-PDV",
+		"idproduto" : 2.0,
+		"nomemodulo" : "Levantamento Parcial de Estoque",
+		"idmodulo" : 29.0,
+		"submodulo" : 10737.0,
+		"pdvs" : 7478.0,
+		"estacoes" : 11142.0
+	},
+	{
+		"nomeproduto" : "RJK-PDV",
+		"idproduto" : 2.0,
+		"nomemodulo" : "Movimento de Caixa",
+		"idmodulo" : 30.0,
+		"submodulo" : 10737.0,
+		"pdvs" : 7478.0,
+		"estacoes" : 11142.0
+	},
+	{
+		"nomeproduto" : "RJK-PDV",
+		"idproduto" : 2.0,
+		"nomemodulo" : "Transferencia",
+		"idmodulo" : 33.0,
+		"submodulo" : 10737.0,
+		"pdvs" : 7478.0,
+		"estacoes" : 11142.0
+	},
+	{
+		"nomeproduto" : "RJK-PDV",
+		"idproduto" : 2.0,
+		"nomemodulo" : "Apoio Contabil",
+		"idmodulo" : 34.0,
+		"submodulo" : 10737.0,
+		"pdvs" : 7478.0,
+		"estacoes" : 11142.0
+	},
+	{
+		"nomeproduto" : "RJK-PDV",
+		"idproduto" : 2.0,
+		"nomemodulo" : "Escrita Fiscal",
+		"idmodulo" : 40.0,
+		"submodulo" : 10737.0,
+		"pdvs" : 7478.0,
+		"estacoes" : 11142.0
+	},
+	{
+		"nomeproduto" : "RJK-PDV",
+		"idproduto" : 2.0,
+		"nomemodulo" : "Fidelizacao",
+		"idmodulo" : 41.0,
+		"submodulo" : 10737.0,
+		"pdvs" : 7478.0,
+		"estacoes" : 11142.0
+	},
+	{
+		"nomeproduto" : "RJK-PDV",
+		"idproduto" : 2.0,
+		"nomemodulo" : "Fluxo de Caixa",
+		"idmodulo" : 42.0,
+		"submodulo" : 10737.0,
+		"pdvs" : 7478.0,
+		"estacoes" : 11142.0
+	},
+	{
+		"nomeproduto" : "RJK-PDV",
+		"idproduto" : 2.0,
+		"nomemodulo" : "Prestacao de Servico",
+		"idmodulo" : 55.0,
+		"submodulo" : 10737.0,
+		"pdvs" : 7478.0,
+		"estacoes" : 11142.0
+	},
+	{
+		"nomeproduto" : "RJK-PDV",
+		"idproduto" : 2.0,
+		"nomemodulo" : "Controle Gerencial",
+		"idmodulo" : 56.0,
+		"submodulo" : 10737.0,
+		"pdvs" : 7478.0,
+		"estacoes" : 11142.0
+	},
+	{
+		"nomeproduto" : "RJK-PDV",
+		"idproduto" : 2.0,
+		"nomemodulo" : "SGCotacao On-line",
+		"idmodulo" : 59.0,
+		"submodulo" : 10737.0,
+		"pdvs" : 7478.0,
+		"estacoes" : 11142.0
+	},
+	{
+		"nomeproduto" : "RJK-PDV",
+		"idproduto" : 2.0,
+		"nomemodulo" : "SAT",
+		"idmodulo" : 74.0,
+		"submodulo" : 10737.0,
+		"pdvs" : 7478.0,
+		"estacoes" : 11142.0
+	},
+	{
+		"nomeproduto" : "RJK-PDV",
+		"idproduto" : 2.0,
+		"nomemodulo" : "Scanntech",
+		"idmodulo" : 104.0,
+		"submodulo" : 10737.0,
+		"pdvs" : 7478.0,
+		"estacoes" : 11142.0
+	},
+	{
+		"nomeproduto" : "RJK-PDV",
+		"idproduto" : 2.0,
+		"nomemodulo" : "Contribuicao Solidaria",
+		"idmodulo" : 107.0,
+		"submodulo" : 10737.0,
+		"pdvs" : 7478.0,
+		"estacoes" : 11142.0
+	},
+	{
+		"nomeproduto" : "RJK-PDV",
+		"idproduto" : 2.0,
+		"nomemodulo" : "Conciliacao de cartoes - Conciflex",
+		"idmodulo" : 108.0,
+		"submodulo" : 10737.0,
+		"pdvs" : 7478.0,
+		"estacoes" : 11142.0
+	},
+	{
+		"nomeproduto" : "RJK-PDV",
+		"idproduto" : 2.0,
+		"nomemodulo" : "Mercafacil",
+		"idmodulo" : 111.0,
+		"submodulo" : 10737.0,
+		"pdvs" : 7478.0,
+		"estacoes" : 11142.0
+	},
+	{
+		"nomeproduto" : "RJK-PDV",
+		"idproduto" : 2.0,
+		"nomemodulo" : "Mix Fiscal",
+		"idmodulo" : 117.0,
+		"submodulo" : 10737.0,
+		"pdvs" : 7478.0,
+		"estacoes" : 11142.0
+	},
+	{
+		"nomeproduto" : "RJK-PDV",
+		"idproduto" : 2.0,
+		"nomemodulo" : "Integracao NovAmerica",
+		"idmodulo" : 118.0,
+		"submodulo" : 10737.0,
+		"pdvs" : 7478.0,
+		"estacoes" : 11142.0
+	},
+	{
+		"nomeproduto" : "RJK-PDV",
+		"idproduto" : 2.0,
+		"nomemodulo" : "Integracao Consignet",
+		"idmodulo" : 119.0,
+		"submodulo" : 10737.0,
+		"pdvs" : 7478.0,
+		"estacoes" : 11142.0
+	},
+	{
+		"nomeproduto" : "RJK-PDV",
+		"idproduto" : 2.0,
+		"nomemodulo" : "PLAY VIEW",
+		"idmodulo" : 120.0,
+		"submodulo" : 10737.0,
+		"pdvs" : 7478.0,
+		"estacoes" : 11142.0
+	},
+	{
+		"nomeproduto" : "RJK-PDV",
+		"idproduto" : 2.0,
+		"nomemodulo" : "Senha venda prazo - Software Express",
+		"idmodulo" : 121.0,
+		"submodulo" : 10737.0,
+		"pdvs" : 7478.0,
+		"estacoes" : 11142.0
+	},
+	{
+		"nomeproduto" : "RJK-PDV",
+		"idproduto" : 2.0,
+		"nomemodulo" : "Integracao Site Mercado",
+		"idmodulo" : 130.0,
+		"submodulo" : 10737.0,
+		"pdvs" : 7478.0,
+		"estacoes" : 11142.0
+	},
+	{
+		"nomeproduto" : "RJK-PDV",
+		"idproduto" : 2.0,
+		"nomemodulo" : "Integracao XML SetUP - SGDFE GETCARD",
+		"idmodulo" : 132.0,
+		"submodulo" : 10737.0,
+		"pdvs" : 7478.0,
+		"estacoes" : 11142.0
+	},
+	{
+		"nomeproduto" : "RJK-PDV",
+		"idproduto" : 2.0,
+		"nomemodulo" : "Donuz",
+		"idmodulo" : 135.0,
+		"submodulo" : 10737.0,
+		"pdvs" : 7478.0,
+		"estacoes" : 11142.0
+	},
+	{
+		"nomeproduto" : "RJK-PDV",
+		"idproduto" : 2.0,
+		"nomemodulo" : "Troco Simples",
+		"idmodulo" : 137.0,
+		"submodulo" : 10737.0,
+		"pdvs" : 7478.0,
+		"estacoes" : 11142.0
+	},
+	{
+		"nomeproduto" : "RJK-PDV",
+		"idproduto" : 2.0,
+		"nomemodulo" : "Emissao de Boletos",
+		"idmodulo" : 139.0,
+		"submodulo" : 10737.0,
+		"pdvs" : 7478.0,
+		"estacoes" : 11142.0
+	},
+	{
+		"nomeproduto" : "RJK-PDV",
+		"idproduto" : 2.0,
+		"nomemodulo" : "Integracao SIMPLUS",
+		"idmodulo" : 141.0,
+		"submodulo" : 10737.0,
+		"pdvs" : 7478.0,
+		"estacoes" : 11142.0
+	},
+	{
+		"nomeproduto" : "RJK-PDV",
+		"idproduto" : 2.0,
+		"nomemodulo" : "Integracao Area Central - REDE",
+		"idmodulo" : 146.0,
+		"submodulo" : 10737.0,
+		"pdvs" : 7478.0,
+		"estacoes" : 11142.0
+	},
+	{
+		"nomeproduto" : "RJK-PDV",
+		"idproduto" : 2.0,
+		"nomemodulo" : "Integracao Area Central - ASSOCIADO",
+		"idmodulo" : 147.0,
+		"submodulo" : 10737.0,
+		"pdvs" : 7478.0,
+		"estacoes" : 11142.0
+	},
+	{
+		"nomeproduto" : "RJK-PDV",
+		"idproduto" : 2.0,
+		"nomemodulo" : "Controle Flex",
+		"idmodulo" : 148.0,
+		"submodulo" : 10737.0,
+		"pdvs" : 7478.0,
+		"estacoes" : 11142.0
+	},
+	{
+		"nomeproduto" : "RJK-PDV",
+		"idproduto" : 2.0,
+		"nomemodulo" : "Integracao WL Assessoria e Contabilidade",
+		"idmodulo" : 152.0,
+		"submodulo" : 10737.0,
+		"pdvs" : 7478.0,
+		"estacoes" : 11142.0
+	},
+	{
+		"nomeproduto" : "RJK-PDV",
+		"idproduto" : 2.0,
+		"nomemodulo" : "Integracao Askyn",
+		"idmodulo" : 157.0,
+		"submodulo" : 10737.0,
+		"pdvs" : 7478.0,
+		"estacoes" : 11142.0
+	},
+	{
+		"nomeproduto" : "RJK-PDV",
+		"idproduto" : 2.0,
+		"nomemodulo" : "Integracao APPMercados",
+		"idmodulo" : 159.0,
+		"submodulo" : 10737.0,
+		"pdvs" : 7478.0,
+		"estacoes" : 11142.0
+	},
+	{
+		"nomeproduto" : "RJK-PDV",
+		"idproduto" : 2.0,
+		"nomemodulo" : "Integracao LOJAQUI",
+		"idmodulo" : 163.0,
+		"submodulo" : 10737.0,
+		"pdvs" : 7478.0,
+		"estacoes" : 11142.0
+	},
+	{
+		"nomeproduto" : "RJK-PDV",
+		"idproduto" : 2.0,
+		"nomemodulo" : "Conciliacao de cartoes - VIZZO",
+		"idmodulo" : 165.0,
+		"submodulo" : 10737.0,
+		"pdvs" : 7478.0,
+		"estacoes" : 11142.0
+	},
+	{
+		"nomeproduto" : "RJK-PDV",
+		"idproduto" : 2.0,
+		"nomemodulo" : "Integracao RAPPI",
+		"idmodulo" : 166.0,
+		"submodulo" : 10737.0,
+		"pdvs" : 7478.0,
+		"estacoes" : 11142.0
+	},
+	{
+		"nomeproduto" : "RJK-PDV",
+		"idproduto" : 2.0,
+		"nomemodulo" : "Integracao Nexfood",
+		"idmodulo" : 167.0,
+		"submodulo" : 10737.0,
+		"pdvs" : 7478.0,
+		"estacoes" : 11142.0
+	},
+	{
+		"nomeproduto" : "RJK-PDV",
+		"idproduto" : 2.0,
+		"nomemodulo" : "Integracao Tray",
+		"idmodulo" : 171.0,
+		"submodulo" : 10737.0,
+		"pdvs" : 7478.0,
+		"estacoes" : 11142.0
+	},
+	{
+		"nomeproduto" : "RJK-PDV",
+		"idproduto" : 2.0,
+		"nomemodulo" : "Integracao Auditto",
+		"idmodulo" : 172.0,
+		"submodulo" : 10737.0,
+		"pdvs" : 7478.0,
+		"estacoes" : 11142.0
+	},
+	{
+		"nomeproduto" : "RJK-PDV",
+		"idproduto" : 2.0,
+		"nomemodulo" : "Senha PDV por PINPAD - SITEF TUICCS",
+		"idmodulo" : 173.0,
+		"submodulo" : 10737.0,
+		"pdvs" : 7478.0,
+		"estacoes" : 11142.0
+	},
+	{
+		"nomeproduto" : "RJK-PDV",
+		"idproduto" : 2.0,
+		"nomemodulo" : "Integracao Cresce Vendas",
+		"idmodulo" : 174.0,
+		"submodulo" : 10737.0,
+		"pdvs" : 7478.0,
+		"estacoes" : 11142.0
+	},
+	{
+		"nomeproduto" : "RJK-PDV",
+		"idproduto" : 2.0,
+		"nomemodulo" : "Integracao SG SISTEMAS",
+		"idmodulo" : 176.0,
+		"submodulo" : 10737.0,
+		"pdvs" : 7478.0,
+		"estacoes" : 11142.0
+	},
+	{
+		"nomeproduto" : "RJK-PDV",
+		"idproduto" : 2.0,
+		"nomemodulo" : "Integracao Compre Facil",
+		"idmodulo" : 180.0,
+		"submodulo" : 10737.0,
+		"pdvs" : 7478.0,
+		"estacoes" : 11142.0
+	},
+	{
+		"nomeproduto" : "RJK-PDV",
+		"idproduto" : 2.0,
+		"nomemodulo" : "Integracao Insta Buy",
+		"idmodulo" : 181.0,
+		"submodulo" : 10737.0,
+		"pdvs" : 7478.0,
+		"estacoes" : 11142.0
+	},
+	{
+		"nomeproduto" : "RJK-PDV",
+		"idproduto" : 2.0,
+		"nomemodulo" : "Integracao Deju",
+		"idmodulo" : 182.0,
+		"submodulo" : 10737.0,
+		"pdvs" : 7478.0,
+		"estacoes" : 11142.0
+	},
+	{
+		"nomeproduto" : "RJK-PDV",
+		"idproduto" : 2.0,
+		"nomemodulo" : "Integracao Cupom Verde",
+		"idmodulo" : 211.0,
+		"submodulo" : 10737.0,
+		"pdvs" : 7478.0,
+		"estacoes" : 11142.0
+	},
+	{
+		"nomeproduto" : "RJK-PDV",
+		"idproduto" : 2.0,
+		"nomemodulo" : "Integracao Shipay",
+		"idmodulo" : 253.0,
+		"submodulo" : 10737.0,
+		"pdvs" : 7478.0,
+		"estacoes" : 11142.0
+	},
+	{
+		"nomeproduto" : "RJK-PDV",
+		"idproduto" : 2.0,
+		"nomemodulo" : "Integracao Dominio XML",
+		"idmodulo" : 294.0,
+		"submodulo" : 10737.0,
+		"pdvs" : 7478.0,
+		"estacoes" : 11142.0
+	},
+	{
+		"nomeproduto" : "RJK-PDV",
+		"idproduto" : 2.0,
+		"nomemodulo" : "Integracao Web Jasper API",
+		"idmodulo" : 310.0,
+		"submodulo" : 10737.0,
+		"pdvs" : 7478.0,
+		"estacoes" : 11142.0
+	},
+	{
+		"nomeproduto" : "RJK-PDV",
+		"idproduto" : 2.0,
+		"nomemodulo" : "Integracao PagPix",
+		"idmodulo" : 312.0,
+		"submodulo" : 10737.0,
+		"pdvs" : 7478.0,
+		"estacoes" : 11142.0
+	},
+	{
+		"nomeproduto" : "RJK-PDV",
+		"idproduto" : 2.0,
+		"nomemodulo" : "Integracao IMENDES",
+		"idmodulo" : 315.0,
+		"submodulo" : 10737.0,
+		"pdvs" : 7478.0,
+		"estacoes" : 11142.0
+	},
+	{
+		"nomeproduto" : "RJK-PDV",
+		"idproduto" : 2.0,
+		"nomemodulo" : "Integracao Mercafacil",
+		"idmodulo" : 334.0,
+		"submodulo" : 10737.0,
+		"pdvs" : 7478.0,
+		"estacoes" : 11142.0
+	},
+	{
 		"nomeproduto" : "SELF-CHECKOUT",
 		"idproduto" : 38.0,
 		"nomemodulo" : null,
 		"idmodulo" : null,
 		"submodulo" : null,
-		"pdvs" : 166.0,
+		"pdvs" : 17.0,
 		"estacoes" : null
-	},
-	{
-		"nomeproduto" : "SG ACESSO",
-		"idproduto" : 43.0,
-		"nomemodulo" : null,
-		"idmodulo" : null,
-		"submodulo" : null,
-		"pdvs" : null,
-		"estacoes" : null
-	},
-	{
-		"nomeproduto" : "SG ANALISE",
-		"idproduto" : 20.0,
-		"nomemodulo" : "Produtos",
-		"idmodulo" : 1.0,
-		"submodulo" : 2536.0,
-		"pdvs" : 626.0,
-		"estacoes" : 5483.0
-	},
-	{
-		"nomeproduto" : "SG ANALISE",
-		"idproduto" : 20.0,
-		"nomemodulo" : "Contas a pagar",
-		"idmodulo" : 4.0,
-		"submodulo" : 2536.0,
-		"pdvs" : 626.0,
-		"estacoes" : 5483.0
-	},
-	{
-		"nomeproduto" : "SG ANALISE",
-		"idproduto" : 20.0,
-		"nomemodulo" : "Contas a receber",
-		"idmodulo" : 5.0,
-		"submodulo" : 2536.0,
-		"pdvs" : 626.0,
-		"estacoes" : 5483.0
-	},
-	{
-		"nomeproduto" : "SG ANALISE",
-		"idproduto" : 20.0,
-		"nomemodulo" : "Contra Vales",
-		"idmodulo" : 9.0,
-		"submodulo" : 2536.0,
-		"pdvs" : 626.0,
-		"estacoes" : 5483.0
-	},
-	{
-		"nomeproduto" : "SG ANALISE",
-		"idproduto" : 20.0,
-		"nomemodulo" : "Vendas",
-		"idmodulo" : 11.0,
-		"submodulo" : 2536.0,
-		"pdvs" : 626.0,
-		"estacoes" : 5483.0
-	},
-	{
-		"nomeproduto" : "SG ANALISE",
-		"idproduto" : 20.0,
-		"nomemodulo" : "Balanco",
-		"idmodulo" : 13.0,
-		"submodulo" : 2536.0,
-		"pdvs" : 626.0,
-		"estacoes" : 5483.0
-	},
-	{
-		"nomeproduto" : "SG ANALISE",
-		"idproduto" : 20.0,
-		"nomemodulo" : "Compras",
-		"idmodulo" : 24.0,
-		"submodulo" : 2536.0,
-		"pdvs" : 626.0,
-		"estacoes" : 5483.0
-	},
-	{
-		"nomeproduto" : "SG ANALISE",
-		"idproduto" : 20.0,
-		"nomemodulo" : "Transferencia",
-		"idmodulo" : 33.0,
-		"submodulo" : 2536.0,
-		"pdvs" : 626.0,
-		"estacoes" : 5483.0
-	},
-	{
-		"nomeproduto" : "SG ANALISE",
-		"idproduto" : 20.0,
-		"nomemodulo" : "Controle Patrimonial",
-		"idmodulo" : 37.0,
-		"submodulo" : 2536.0,
-		"pdvs" : 626.0,
-		"estacoes" : 5483.0
-	},
-	{
-		"nomeproduto" : "SG ANALISE",
-		"idproduto" : 20.0,
-		"nomemodulo" : "Veiculos",
-		"idmodulo" : 39.0,
-		"submodulo" : 2536.0,
-		"pdvs" : 626.0,
-		"estacoes" : 5483.0
-	},
-	{
-		"nomeproduto" : "SG ANALISE",
-		"idproduto" : 20.0,
-		"nomemodulo" : "SAT",
-		"idmodulo" : 74.0,
-		"submodulo" : 2536.0,
-		"pdvs" : 626.0,
-		"estacoes" : 5483.0
-	},
-	{
-		"nomeproduto" : "SG ANALISE",
-		"idproduto" : 20.0,
-		"nomemodulo" : "Orcamentos",
-		"idmodulo" : 76.0,
-		"submodulo" : 2536.0,
-		"pdvs" : 626.0,
-		"estacoes" : 5483.0
-	},
-	{
-		"nomeproduto" : "SG ANALISE",
-		"idproduto" : 20.0,
-		"nomemodulo" : "Consignado",
-		"idmodulo" : 77.0,
-		"submodulo" : 2536.0,
-		"pdvs" : 626.0,
-		"estacoes" : 5483.0
-	},
-	{
-		"nomeproduto" : "SG ANALISE",
-		"idproduto" : 20.0,
-		"nomemodulo" : "Multipedido",
-		"idmodulo" : 78.0,
-		"submodulo" : 2536.0,
-		"pdvs" : 626.0,
-		"estacoes" : 5483.0
-	},
-	{
-		"nomeproduto" : "SG ANALISE",
-		"idproduto" : 20.0,
-		"nomemodulo" : "Ajuste de Estoque",
-		"idmodulo" : 79.0,
-		"submodulo" : 2536.0,
-		"pdvs" : 626.0,
-		"estacoes" : 5483.0
-	},
-	{
-		"nomeproduto" : "SG ANALISE",
-		"idproduto" : 20.0,
-		"nomemodulo" : "Pedido de compras",
-		"idmodulo" : 80.0,
-		"submodulo" : 2536.0,
-		"pdvs" : 626.0,
-		"estacoes" : 5483.0
-	},
-	{
-		"nomeproduto" : "SG ANALISE",
-		"idproduto" : 20.0,
-		"nomemodulo" : "Transformacao",
-		"idmodulo" : 81.0,
-		"submodulo" : 2536.0,
-		"pdvs" : 626.0,
-		"estacoes" : 5483.0
-	},
-	{
-		"nomeproduto" : "SG ANALISE",
-		"idproduto" : 20.0,
-		"nomemodulo" : "Caixas e bancos",
-		"idmodulo" : 82.0,
-		"submodulo" : 2536.0,
-		"pdvs" : 626.0,
-		"estacoes" : 5483.0
-	},
-	{
-		"nomeproduto" : "SG ANALISE",
-		"idproduto" : 20.0,
-		"nomemodulo" : "Cheques pr¢prio",
-		"idmodulo" : 83.0,
-		"submodulo" : 2536.0,
-		"pdvs" : 626.0,
-		"estacoes" : 5483.0
-	},
-	{
-		"nomeproduto" : "SG ANALISE",
-		"idproduto" : 20.0,
-		"nomemodulo" : "Cheques terceiros",
-		"idmodulo" : 84.0,
-		"submodulo" : 2536.0,
-		"pdvs" : 626.0,
-		"estacoes" : 5483.0
-	},
-	{
-		"nomeproduto" : "SG ANALISE",
-		"idproduto" : 20.0,
-		"nomemodulo" : "Bordero",
-		"idmodulo" : 85.0,
-		"submodulo" : 2536.0,
-		"pdvs" : 626.0,
-		"estacoes" : 5483.0
-	},
-	{
-		"nomeproduto" : "SG ANALISE",
-		"idproduto" : 20.0,
-		"nomemodulo" : "Clientes e fornecedores",
-		"idmodulo" : 86.0,
-		"submodulo" : 2536.0,
-		"pdvs" : 626.0,
-		"estacoes" : 5483.0
-	},
-	{
-		"nomeproduto" : "SG ANALISE",
-		"idproduto" : 20.0,
-		"nomemodulo" : "Fabricantes",
-		"idmodulo" : 87.0,
-		"submodulo" : 2536.0,
-		"pdvs" : 626.0,
-		"estacoes" : 5483.0
-	},
-	{
-		"nomeproduto" : "SG ANALISE",
-		"idproduto" : 20.0,
-		"nomemodulo" : "Vendedores-Usuario",
-		"idmodulo" : 88.0,
-		"submodulo" : 2536.0,
-		"pdvs" : 626.0,
-		"estacoes" : 5483.0
-	},
-	{
-		"nomeproduto" : "SG ANALISE",
-		"idproduto" : 20.0,
-		"nomemodulo" : "Transportadora",
-		"idmodulo" : 89.0,
-		"submodulo" : 2536.0,
-		"pdvs" : 626.0,
-		"estacoes" : 5483.0
-	},
-	{
-		"nomeproduto" : "SG ANALISE",
-		"idproduto" : 20.0,
-		"nomemodulo" : "Condicao de pagamento",
-		"idmodulo" : 90.0,
-		"submodulo" : 2536.0,
-		"pdvs" : 626.0,
-		"estacoes" : 5483.0
-	},
-	{
-		"nomeproduto" : "SG ANALISE",
-		"idproduto" : 20.0,
-		"nomemodulo" : "ICMS por estado",
-		"idmodulo" : 91.0,
-		"submodulo" : 2536.0,
-		"pdvs" : 626.0,
-		"estacoes" : 5483.0
-	},
-	{
-		"nomeproduto" : "SG ANALISE",
-		"idproduto" : 20.0,
-		"nomemodulo" : "Cadastros diversos",
-		"idmodulo" : 92.0,
-		"submodulo" : 2536.0,
-		"pdvs" : 626.0,
-		"estacoes" : 5483.0
-	},
-	{
-		"nomeproduto" : "SG ANALISE",
-		"idproduto" : 20.0,
-		"nomemodulo" : "Vencimento",
-		"idmodulo" : 93.0,
-		"submodulo" : 2536.0,
-		"pdvs" : 626.0,
-		"estacoes" : 5483.0
-	},
-	{
-		"nomeproduto" : "SG ANALISE",
-		"idproduto" : 20.0,
-		"nomemodulo" : "CFOP",
-		"idmodulo" : 94.0,
-		"submodulo" : 2536.0,
-		"pdvs" : 626.0,
-		"estacoes" : 5483.0
-	},
-	{
-		"nomeproduto" : "SG ANALISE",
-		"idproduto" : 20.0,
-		"nomemodulo" : "Contabilista",
-		"idmodulo" : 95.0,
-		"submodulo" : 2536.0,
-		"pdvs" : 626.0,
-		"estacoes" : 5483.0
-	},
-	{
-		"nomeproduto" : "SG ANALISE",
-		"idproduto" : 20.0,
-		"nomemodulo" : "Impressora fiscal",
-		"idmodulo" : 96.0,
-		"submodulo" : 2536.0,
-		"pdvs" : 626.0,
-		"estacoes" : 5483.0
-	},
-	{
-		"nomeproduto" : "SG ANALISE",
-		"idproduto" : 20.0,
-		"nomemodulo" : "Tabela de precos",
-		"idmodulo" : 97.0,
-		"submodulo" : 2536.0,
-		"pdvs" : 626.0,
-		"estacoes" : 5483.0
-	},
-	{
-		"nomeproduto" : "SG ANALISE",
-		"idproduto" : 20.0,
-		"nomemodulo" : "Cartao de credito",
-		"idmodulo" : 98.0,
-		"submodulo" : 2536.0,
-		"pdvs" : 626.0,
-		"estacoes" : 5483.0
-	},
-	{
-		"nomeproduto" : "SG ANALISE",
-		"idproduto" : 20.0,
-		"nomemodulo" : "Grupo de imposto",
-		"idmodulo" : 99.0,
-		"submodulo" : 2536.0,
-		"pdvs" : 626.0,
-		"estacoes" : 5483.0
-	},
-	{
-		"nomeproduto" : "SG ANALISE",
-		"idproduto" : 20.0,
-		"nomemodulo" : "Plano de contas",
-		"idmodulo" : 100.0,
-		"submodulo" : 2536.0,
-		"pdvs" : 626.0,
-		"estacoes" : 5483.0
-	},
-	{
-		"nomeproduto" : "SG ANALISE",
-		"idproduto" : 20.0,
-		"nomemodulo" : "Ordem de servico",
-		"idmodulo" : 101.0,
-		"submodulo" : 2536.0,
-		"pdvs" : 626.0,
-		"estacoes" : 5483.0
-	},
-	{
-		"nomeproduto" : "SG ANALISE",
-		"idproduto" : 20.0,
-		"nomemodulo" : "Locacao",
-		"idmodulo" : 102.0,
-		"submodulo" : 2536.0,
-		"pdvs" : 626.0,
-		"estacoes" : 5483.0
-	},
-	{
-		"nomeproduto" : "SG ANALISE",
-		"idproduto" : 20.0,
-		"nomemodulo" : "Equipamentos",
-		"idmodulo" : 105.0,
-		"submodulo" : 2536.0,
-		"pdvs" : 626.0,
-		"estacoes" : 5483.0
-	},
-	{
-		"nomeproduto" : "SG ANALISE",
-		"idproduto" : 20.0,
-		"nomemodulo" : "MonitoraNFE",
-		"idmodulo" : 112.0,
-		"submodulo" : 2536.0,
-		"pdvs" : 626.0,
-		"estacoes" : 5483.0
-	},
-	{
-		"nomeproduto" : "SG ANALISE",
-		"idproduto" : 20.0,
-		"nomemodulo" : "Integracao TEF Scope",
-		"idmodulo" : 123.0,
-		"submodulo" : 2536.0,
-		"pdvs" : 626.0,
-		"estacoes" : 5483.0
-	},
-	{
-		"nomeproduto" : "SG ANALISE",
-		"idproduto" : 20.0,
-		"nomemodulo" : "Controle de perdas",
-		"idmodulo" : 209.0,
-		"submodulo" : 2536.0,
-		"pdvs" : 626.0,
-		"estacoes" : 5483.0
-	},
-	{
-		"nomeproduto" : "SG ANALISE",
-		"idproduto" : 20.0,
-		"nomemodulo" : "Controle de despesas",
-		"idmodulo" : 251.0,
-		"submodulo" : 2536.0,
-		"pdvs" : 626.0,
-		"estacoes" : 5483.0
-	},
-	{
-		"nomeproduto" : "SG ANALISE",
-		"idproduto" : 20.0,
-		"nomemodulo" : "Arquivos Fiscais",
-		"idmodulo" : 252.0,
-		"submodulo" : 2536.0,
-		"pdvs" : 626.0,
-		"estacoes" : 5483.0
 	},
 	{
 		"nomeproduto" : "SG CARTAZ",
@@ -753,24 +1527,6 @@
 		"nomemodulo" : null,
 		"idmodulo" : null,
 		"submodulo" : null,
-		"pdvs" : null,
-		"estacoes" : null
-	},
-	{
-		"nomeproduto" : "SG COMANDA",
-		"idproduto" : 47.0,
-		"nomemodulo" : null,
-		"idmodulo" : null,
-		"submodulo" : null,
-		"pdvs" : null,
-		"estacoes" : null
-	},
-	{
-		"nomeproduto" : "SG MAPA FISCAL",
-		"idproduto" : 28.0,
-		"nomemodulo" : null,
-		"idmodulo" : null,
-		"submodulo" : 113.0,
 		"pdvs" : null,
 		"estacoes" : null
 	},
@@ -786,7 +1542,7 @@
 	{
 		"nomeproduto" : "SG-NFCE",
 		"idproduto" : 22.0,
-		"nomemodulo" : "SGDFe Central (sgdfe.sgsistemas.com.br \/ sgdfe.sgh",
+		"nomemodulo" : "SGDFE SG GETCARD",
 		"idmodulo" : 290.0,
 		"submodulo" : null,
 		"pdvs" : null,
@@ -795,7 +1551,7 @@
 	{
 		"nomeproduto" : "SG-NFE",
 		"idproduto" : 21.0,
-		"nomemodulo" : "SGDFe Central (sgdfe.sgsistemas.com.br \/ sgdfe.sgh",
+		"nomemodulo" : "SGDFE SG GETCARD",
 		"idmodulo" : 290.0,
 		"submodulo" : null,
 		"pdvs" : null,
@@ -811,750 +1567,714 @@
 		"estacoes" : null
 	},
 	{
-		"nomeproduto" : "SGBLUE EYE",
-		"idproduto" : 17.0,
-		"nomemodulo" : null,
-		"idmodulo" : null,
-		"submodulo" : null,
-		"pdvs" : null,
-		"estacoes" : null
-	},
-	{
 		"nomeproduto" : "SGCLOUD",
 		"idproduto" : 39.0,
 		"nomemodulo" : "Ordem de Servico",
 		"idmodulo" : 101.0,
-		"submodulo" : 2619.0,
-		"pdvs" : 1174.0,
-		"estacoes" : 3196.0
+		"submodulo" : 376.0,
+		"pdvs" : 347.0,
+		"estacoes" : 347.0
 	},
 	{
 		"nomeproduto" : "SGCLOUD",
 		"idproduto" : 39.0,
 		"nomemodulo" : "Contribuicao Solidaria",
 		"idmodulo" : 107.0,
-		"submodulo" : 2619.0,
-		"pdvs" : 1174.0,
-		"estacoes" : 3196.0
+		"submodulo" : 376.0,
+		"pdvs" : 347.0,
+		"estacoes" : 347.0
 	},
 	{
 		"nomeproduto" : "SGCLOUD",
 		"idproduto" : 39.0,
 		"nomemodulo" : "Conciliacao de cartoes - Conciflex",
 		"idmodulo" : 108.0,
-		"submodulo" : 2619.0,
-		"pdvs" : 1174.0,
-		"estacoes" : 3196.0
+		"submodulo" : 376.0,
+		"pdvs" : 347.0,
+		"estacoes" : 347.0
 	},
 	{
 		"nomeproduto" : "SGCLOUD",
 		"idproduto" : 39.0,
 		"nomemodulo" : "Integracao APPMercados",
 		"idmodulo" : 159.0,
-		"submodulo" : 2619.0,
-		"pdvs" : 1174.0,
-		"estacoes" : 3196.0
+		"submodulo" : 376.0,
+		"pdvs" : 347.0,
+		"estacoes" : 347.0
 	},
 	{
 		"nomeproduto" : "SGCLOUD",
 		"idproduto" : 39.0,
 		"nomemodulo" : "Integracao LOJAQUI",
 		"idmodulo" : 163.0,
-		"submodulo" : 2619.0,
-		"pdvs" : 1174.0,
-		"estacoes" : 3196.0
+		"submodulo" : 376.0,
+		"pdvs" : 347.0,
+		"estacoes" : 347.0
 	},
 	{
 		"nomeproduto" : "SGCLOUD",
 		"idproduto" : 39.0,
 		"nomemodulo" : "Integracao Tray",
 		"idmodulo" : 171.0,
-		"submodulo" : 2619.0,
-		"pdvs" : 1174.0,
-		"estacoes" : 3196.0
+		"submodulo" : 376.0,
+		"pdvs" : 347.0,
+		"estacoes" : 347.0
 	},
 	{
 		"nomeproduto" : "SGCLOUD",
 		"idproduto" : 39.0,
 		"nomemodulo" : "Integracao Cresce Vendas",
 		"idmodulo" : 174.0,
-		"submodulo" : 2619.0,
-		"pdvs" : 1174.0,
-		"estacoes" : 3196.0
+		"submodulo" : 376.0,
+		"pdvs" : 347.0,
+		"estacoes" : 347.0
 	},
 	{
 		"nomeproduto" : "SGCLOUD",
 		"idproduto" : 39.0,
 		"nomemodulo" : "Integracao Compre Facil",
 		"idmodulo" : 180.0,
-		"submodulo" : 2619.0,
-		"pdvs" : 1174.0,
-		"estacoes" : 3196.0
+		"submodulo" : 376.0,
+		"pdvs" : 347.0,
+		"estacoes" : 347.0
 	},
 	{
 		"nomeproduto" : "SGCLOUD",
 		"idproduto" : 39.0,
 		"nomemodulo" : "Integracao Insta Buy",
 		"idmodulo" : 181.0,
-		"submodulo" : 2619.0,
-		"pdvs" : 1174.0,
-		"estacoes" : 3196.0
+		"submodulo" : 376.0,
+		"pdvs" : 347.0,
+		"estacoes" : 347.0
 	},
 	{
 		"nomeproduto" : "SGCLOUD",
 		"idproduto" : 39.0,
 		"nomemodulo" : "Integracao Deju",
 		"idmodulo" : 182.0,
-		"submodulo" : 2619.0,
-		"pdvs" : 1174.0,
-		"estacoes" : 3196.0
+		"submodulo" : 376.0,
+		"pdvs" : 347.0,
+		"estacoes" : 347.0
 	},
 	{
 		"nomeproduto" : "SGCLOUD",
 		"idproduto" : 39.0,
 		"nomemodulo" : "DashBoards",
 		"idmodulo" : 183.0,
-		"submodulo" : 2619.0,
-		"pdvs" : 1174.0,
-		"estacoes" : 3196.0
+		"submodulo" : 376.0,
+		"pdvs" : 347.0,
+		"estacoes" : 347.0
 	},
 	{
 		"nomeproduto" : "SGCLOUD",
 		"idproduto" : 39.0,
 		"nomemodulo" : "Cadastro de Produtos",
 		"idmodulo" : 184.0,
-		"submodulo" : 2619.0,
-		"pdvs" : 1174.0,
-		"estacoes" : 3196.0
+		"submodulo" : 376.0,
+		"pdvs" : 347.0,
+		"estacoes" : 347.0
 	},
 	{
 		"nomeproduto" : "SGCLOUD",
 		"idproduto" : 39.0,
 		"nomemodulo" : "Cadastro de Fornecedores",
 		"idmodulo" : 186.0,
-		"submodulo" : 2619.0,
-		"pdvs" : 1174.0,
-		"estacoes" : 3196.0
+		"submodulo" : 376.0,
+		"pdvs" : 347.0,
+		"estacoes" : 347.0
 	},
 	{
 		"nomeproduto" : "SGCLOUD",
 		"idproduto" : 39.0,
 		"nomemodulo" : "Controle Caixa",
 		"idmodulo" : 187.0,
-		"submodulo" : 2619.0,
-		"pdvs" : 1174.0,
-		"estacoes" : 3196.0
+		"submodulo" : 376.0,
+		"pdvs" : 347.0,
+		"estacoes" : 347.0
 	},
 	{
 		"nomeproduto" : "SGCLOUD",
 		"idproduto" : 39.0,
 		"nomemodulo" : "Controle de Estoque-Quantidade\/Grade\/Cor",
 		"idmodulo" : 188.0,
-		"submodulo" : 2619.0,
-		"pdvs" : 1174.0,
-		"estacoes" : 3196.0
+		"submodulo" : 376.0,
+		"pdvs" : 347.0,
+		"estacoes" : 347.0
 	},
 	{
 		"nomeproduto" : "SGCLOUD",
 		"idproduto" : 39.0,
 		"nomemodulo" : "Etiquetas",
 		"idmodulo" : 189.0,
-		"submodulo" : 2619.0,
-		"pdvs" : 1174.0,
-		"estacoes" : 3196.0
+		"submodulo" : 376.0,
+		"pdvs" : 347.0,
+		"estacoes" : 347.0
 	},
 	{
 		"nomeproduto" : "SGCLOUD",
 		"idproduto" : 39.0,
 		"nomemodulo" : "Entrada de notas por XML",
 		"idmodulo" : 190.0,
-		"submodulo" : 2619.0,
-		"pdvs" : 1174.0,
-		"estacoes" : 3196.0
+		"submodulo" : 376.0,
+		"pdvs" : 347.0,
+		"estacoes" : 347.0
 	},
 	{
 		"nomeproduto" : "SGCLOUD",
 		"idproduto" : 39.0,
 		"nomemodulo" : "Crediario",
 		"idmodulo" : 191.0,
-		"submodulo" : 2619.0,
-		"pdvs" : 1174.0,
-		"estacoes" : 3196.0
+		"submodulo" : 376.0,
+		"pdvs" : 347.0,
+		"estacoes" : 347.0
 	},
 	{
 		"nomeproduto" : "SGCLOUD",
 		"idproduto" : 39.0,
 		"nomemodulo" : "Controle de Manequim",
 		"idmodulo" : 192.0,
-		"submodulo" : 2619.0,
-		"pdvs" : 1174.0,
-		"estacoes" : 3196.0
+		"submodulo" : 376.0,
+		"pdvs" : 347.0,
+		"estacoes" : 347.0
 	},
 	{
 		"nomeproduto" : "SGCLOUD",
 		"idproduto" : 39.0,
 		"nomemodulo" : "Clube de fidelizacao (Pontos)",
 		"idmodulo" : 193.0,
-		"submodulo" : 2619.0,
-		"pdvs" : 1174.0,
-		"estacoes" : 3196.0
+		"submodulo" : 376.0,
+		"pdvs" : 347.0,
+		"estacoes" : 347.0
 	},
 	{
 		"nomeproduto" : "SGCLOUD",
 		"idproduto" : 39.0,
 		"nomemodulo" : "Controle de Metas",
 		"idmodulo" : 194.0,
-		"submodulo" : 2619.0,
-		"pdvs" : 1174.0,
-		"estacoes" : 3196.0
+		"submodulo" : 376.0,
+		"pdvs" : 347.0,
+		"estacoes" : 347.0
 	},
 	{
 		"nomeproduto" : "SGCLOUD",
 		"idproduto" : 39.0,
 		"nomemodulo" : "Comissao: Por Valor,Produto e Escalonado",
 		"idmodulo" : 195.0,
-		"submodulo" : 2619.0,
-		"pdvs" : 1174.0,
-		"estacoes" : 3196.0
+		"submodulo" : 376.0,
+		"pdvs" : 347.0,
+		"estacoes" : 347.0
 	},
 	{
 		"nomeproduto" : "SGCLOUD",
 		"idproduto" : 39.0,
 		"nomemodulo" : "Consignado",
 		"idmodulo" : 196.0,
-		"submodulo" : 2619.0,
-		"pdvs" : 1174.0,
-		"estacoes" : 3196.0
+		"submodulo" : 376.0,
+		"pdvs" : 347.0,
+		"estacoes" : 347.0
 	},
 	{
 		"nomeproduto" : "SGCLOUD",
 		"idproduto" : 39.0,
 		"nomemodulo" : "Contas a Pagar",
 		"idmodulo" : 199.0,
-		"submodulo" : 2619.0,
-		"pdvs" : 1174.0,
-		"estacoes" : 3196.0
+		"submodulo" : 376.0,
+		"pdvs" : 347.0,
+		"estacoes" : 347.0
 	},
 	{
 		"nomeproduto" : "SGCLOUD",
 		"idproduto" : 39.0,
 		"nomemodulo" : "Contas a Receber",
 		"idmodulo" : 200.0,
-		"submodulo" : 2619.0,
-		"pdvs" : 1174.0,
-		"estacoes" : 3196.0
+		"submodulo" : 376.0,
+		"pdvs" : 347.0,
+		"estacoes" : 347.0
 	},
 	{
 		"nomeproduto" : "SGCLOUD",
 		"idproduto" : 39.0,
 		"nomemodulo" : "Cartao Presente",
 		"idmodulo" : 202.0,
-		"submodulo" : 2619.0,
-		"pdvs" : 1174.0,
-		"estacoes" : 3196.0
+		"submodulo" : 376.0,
+		"pdvs" : 347.0,
+		"estacoes" : 347.0
 	},
 	{
 		"nomeproduto" : "SGCLOUD",
 		"idproduto" : 39.0,
 		"nomemodulo" : "Venda Ambulante\/Sacoleiras",
 		"idmodulo" : 203.0,
-		"submodulo" : 2619.0,
-		"pdvs" : 1174.0,
-		"estacoes" : 3196.0
+		"submodulo" : 376.0,
+		"pdvs" : 347.0,
+		"estacoes" : 347.0
 	},
 	{
 		"nomeproduto" : "SGCLOUD",
 		"idproduto" : 39.0,
 		"nomemodulo" : "Promocoes",
 		"idmodulo" : 204.0,
-		"submodulo" : 2619.0,
-		"pdvs" : 1174.0,
-		"estacoes" : 3196.0
+		"submodulo" : 376.0,
+		"pdvs" : 347.0,
+		"estacoes" : 347.0
 	},
 	{
 		"nomeproduto" : "SGCLOUD",
 		"idproduto" : 39.0,
-		"nomemodulo" : "Relat¢rios Dinƒmicos",
+		"nomemodulo" : "Relatorios Dinamicos",
 		"idmodulo" : 205.0,
-		"submodulo" : 2619.0,
-		"pdvs" : 1174.0,
-		"estacoes" : 3196.0
+		"submodulo" : 376.0,
+		"pdvs" : 347.0,
+		"estacoes" : 347.0
 	},
 	{
 		"nomeproduto" : "SGCLOUD",
 		"idproduto" : 39.0,
 		"nomemodulo" : "D.R.E",
 		"idmodulo" : 206.0,
-		"submodulo" : 2619.0,
-		"pdvs" : 1174.0,
-		"estacoes" : 3196.0
+		"submodulo" : 376.0,
+		"pdvs" : 347.0,
+		"estacoes" : 347.0
 	},
 	{
 		"nomeproduto" : "SGCLOUD",
 		"idproduto" : 39.0,
 		"nomemodulo" : "Cadastro de Tabela de Precos",
 		"idmodulo" : 216.0,
-		"submodulo" : 2619.0,
-		"pdvs" : 1174.0,
-		"estacoes" : 3196.0
+		"submodulo" : 376.0,
+		"pdvs" : 347.0,
+		"estacoes" : 347.0
 	},
 	{
 		"nomeproduto" : "SGCLOUD",
 		"idproduto" : 39.0,
 		"nomemodulo" : "Emissao de Boletos",
 		"idmodulo" : 218.0,
-		"submodulo" : 2619.0,
-		"pdvs" : 1174.0,
-		"estacoes" : 3196.0
+		"submodulo" : 376.0,
+		"pdvs" : 347.0,
+		"estacoes" : 347.0
 	},
 	{
 		"nomeproduto" : "SGCLOUD",
 		"idproduto" : 39.0,
 		"nomemodulo" : "PDV OFFLINE",
 		"idmodulo" : 221.0,
-		"submodulo" : 2619.0,
-		"pdvs" : 1174.0,
-		"estacoes" : 3196.0
+		"submodulo" : 376.0,
+		"pdvs" : 347.0,
+		"estacoes" : 347.0
 	},
 	{
 		"nomeproduto" : "SGCLOUD",
 		"idproduto" : 39.0,
 		"nomemodulo" : "Alteracoes",
 		"idmodulo" : 223.0,
-		"submodulo" : 2619.0,
-		"pdvs" : 1174.0,
-		"estacoes" : 3196.0
+		"submodulo" : 376.0,
+		"pdvs" : 347.0,
+		"estacoes" : 347.0
 	},
 	{
 		"nomeproduto" : "SGCLOUD",
 		"idproduto" : 39.0,
 		"nomemodulo" : "Recibo Avulso",
 		"idmodulo" : 224.0,
-		"submodulo" : 2619.0,
-		"pdvs" : 1174.0,
-		"estacoes" : 3196.0
+		"submodulo" : 376.0,
+		"pdvs" : 347.0,
+		"estacoes" : 347.0
 	},
 	{
 		"nomeproduto" : "SGCLOUD",
 		"idproduto" : 39.0,
 		"nomemodulo" : "Vale para Funcionario",
 		"idmodulo" : 235.0,
-		"submodulo" : 2619.0,
-		"pdvs" : 1174.0,
-		"estacoes" : 3196.0
+		"submodulo" : 376.0,
+		"pdvs" : 347.0,
+		"estacoes" : 347.0
 	},
 	{
 		"nomeproduto" : "SGCLOUD",
 		"idproduto" : 39.0,
 		"nomemodulo" : "Contrato de Cartao de Credito",
 		"idmodulo" : 244.0,
-		"submodulo" : 2619.0,
-		"pdvs" : 1174.0,
-		"estacoes" : 3196.0
+		"submodulo" : 376.0,
+		"pdvs" : 347.0,
+		"estacoes" : 347.0
 	},
 	{
 		"nomeproduto" : "SGCLOUD",
 		"idproduto" : 39.0,
 		"nomemodulo" : "Movimentacao de Cheques",
 		"idmodulo" : 245.0,
-		"submodulo" : 2619.0,
-		"pdvs" : 1174.0,
-		"estacoes" : 3196.0
+		"submodulo" : 376.0,
+		"pdvs" : 347.0,
+		"estacoes" : 347.0
 	},
 	{
 		"nomeproduto" : "SGCLOUD",
 		"idproduto" : 39.0,
 		"nomemodulo" : "Nota Avulsa",
 		"idmodulo" : 248.0,
-		"submodulo" : 2619.0,
-		"pdvs" : 1174.0,
-		"estacoes" : 3196.0
+		"submodulo" : 376.0,
+		"pdvs" : 347.0,
+		"estacoes" : 347.0
 	},
 	{
 		"nomeproduto" : "SGCLOUD",
 		"idproduto" : 39.0,
 		"nomemodulo" : "Integracao Shipay",
 		"idmodulo" : 253.0,
-		"submodulo" : 2619.0,
-		"pdvs" : 1174.0,
-		"estacoes" : 3196.0
+		"submodulo" : 376.0,
+		"pdvs" : 347.0,
+		"estacoes" : 347.0
 	},
 	{
 		"nomeproduto" : "SGCLOUD",
 		"idproduto" : 39.0,
 		"nomemodulo" : "Integracao Smart",
 		"idmodulo" : 254.0,
-		"submodulo" : 2619.0,
-		"pdvs" : 1174.0,
-		"estacoes" : 3196.0
+		"submodulo" : 376.0,
+		"pdvs" : 347.0,
+		"estacoes" : 347.0
 	},
 	{
 		"nomeproduto" : "SGCLOUD",
 		"idproduto" : 39.0,
 		"nomemodulo" : "Integracao Web Jasper",
 		"idmodulo" : 256.0,
-		"submodulo" : 2619.0,
-		"pdvs" : 1174.0,
-		"estacoes" : 3196.0
+		"submodulo" : 376.0,
+		"pdvs" : 347.0,
+		"estacoes" : 347.0
 	},
 	{
 		"nomeproduto" : "SGCLOUD",
 		"idproduto" : 39.0,
 		"nomemodulo" : "Cadastro de Clientes e Funcionarios",
 		"idmodulo" : 274.0,
-		"submodulo" : 2619.0,
-		"pdvs" : 1174.0,
-		"estacoes" : 3196.0
+		"submodulo" : 376.0,
+		"pdvs" : 347.0,
+		"estacoes" : 347.0
 	},
 	{
 		"nomeproduto" : "SGCLOUD",
 		"idproduto" : 39.0,
 		"nomemodulo" : "Emissao de SAT \/ MFE",
 		"idmodulo" : 275.0,
-		"submodulo" : 2619.0,
-		"pdvs" : 1174.0,
-		"estacoes" : 3196.0
+		"submodulo" : 376.0,
+		"pdvs" : 347.0,
+		"estacoes" : 347.0
 	},
 	{
 		"nomeproduto" : "SGCLOUD",
 		"idproduto" : 39.0,
 		"nomemodulo" : "Controle de Trocas",
 		"idmodulo" : 277.0,
-		"submodulo" : 2619.0,
-		"pdvs" : 1174.0,
-		"estacoes" : 3196.0
+		"submodulo" : 376.0,
+		"pdvs" : 347.0,
+		"estacoes" : 347.0
 	},
 	{
 		"nomeproduto" : "SGCLOUD",
 		"idproduto" : 39.0,
 		"nomemodulo" : "Devolucoes de venda",
 		"idmodulo" : 278.0,
-		"submodulo" : 2619.0,
-		"pdvs" : 1174.0,
-		"estacoes" : 3196.0
+		"submodulo" : 376.0,
+		"pdvs" : 347.0,
+		"estacoes" : 347.0
 	},
 	{
 		"nomeproduto" : "SGCLOUD",
 		"idproduto" : 39.0,
 		"nomemodulo" : "Inventario de Estoque (Parcial ou Total)",
 		"idmodulo" : 280.0,
-		"submodulo" : 2619.0,
-		"pdvs" : 1174.0,
-		"estacoes" : 3196.0
+		"submodulo" : 376.0,
+		"pdvs" : 347.0,
+		"estacoes" : 347.0
 	},
 	{
 		"nomeproduto" : "SGCLOUD",
 		"idproduto" : 39.0,
 		"nomemodulo" : "Bancario",
 		"idmodulo" : 281.0,
-		"submodulo" : 2619.0,
-		"pdvs" : 1174.0,
-		"estacoes" : 3196.0
+		"submodulo" : 376.0,
+		"pdvs" : 347.0,
+		"estacoes" : 347.0
 	},
 	{
 		"nomeproduto" : "SGCLOUD",
 		"idproduto" : 39.0,
 		"nomemodulo" : "Despesas",
 		"idmodulo" : 282.0,
-		"submodulo" : 2619.0,
-		"pdvs" : 1174.0,
-		"estacoes" : 3196.0
+		"submodulo" : 376.0,
+		"pdvs" : 347.0,
+		"estacoes" : 347.0
 	},
 	{
 		"nomeproduto" : "SGCLOUD",
 		"idproduto" : 39.0,
 		"nomemodulo" : "Multilojas - Requisicao\/Transferencia",
 		"idmodulo" : 283.0,
-		"submodulo" : 2619.0,
-		"pdvs" : 1174.0,
-		"estacoes" : 3196.0
+		"submodulo" : 376.0,
+		"pdvs" : 347.0,
+		"estacoes" : 347.0
 	},
 	{
 		"nomeproduto" : "SGCLOUD",
 		"idproduto" : 39.0,
 		"nomemodulo" : "Gerenciamento",
 		"idmodulo" : 284.0,
-		"submodulo" : 2619.0,
-		"pdvs" : 1174.0,
-		"estacoes" : 3196.0
+		"submodulo" : 376.0,
+		"pdvs" : 347.0,
+		"estacoes" : 347.0
 	},
 	{
 		"nomeproduto" : "SGCLOUD",
 		"idproduto" : 39.0,
 		"nomemodulo" : "Catalogo",
 		"idmodulo" : 289.0,
-		"submodulo" : 2619.0,
-		"pdvs" : 1174.0,
-		"estacoes" : 3196.0
+		"submodulo" : 376.0,
+		"pdvs" : 347.0,
+		"estacoes" : 347.0
 	},
 	{
 		"nomeproduto" : "SGCLOUD",
 		"idproduto" : 39.0,
 		"nomemodulo" : "Producao",
 		"idmodulo" : 297.0,
-		"submodulo" : 2619.0,
-		"pdvs" : 1174.0,
-		"estacoes" : 3196.0
+		"submodulo" : 376.0,
+		"pdvs" : 347.0,
+		"estacoes" : 347.0
 	},
 	{
 		"nomeproduto" : "SGCLOUD",
 		"idproduto" : 39.0,
 		"nomemodulo" : "Fracionamento",
 		"idmodulo" : 298.0,
-		"submodulo" : 2619.0,
-		"pdvs" : 1174.0,
-		"estacoes" : 3196.0
+		"submodulo" : 376.0,
+		"pdvs" : 347.0,
+		"estacoes" : 347.0
 	},
 	{
 		"nomeproduto" : "SGCLOUD",
 		"idproduto" : 39.0,
 		"nomemodulo" : "Homologacao Integradores",
 		"idmodulo" : 301.0,
-		"submodulo" : 2619.0,
-		"pdvs" : 1174.0,
-		"estacoes" : 3196.0
+		"submodulo" : 376.0,
+		"pdvs" : 347.0,
+		"estacoes" : 347.0
 	},
 	{
 		"nomeproduto" : "SGCLOUD",
 		"idproduto" : 39.0,
 		"nomemodulo" : "Integracao Minus",
 		"idmodulo" : 308.0,
-		"submodulo" : 2619.0,
-		"pdvs" : 1174.0,
-		"estacoes" : 3196.0
+		"submodulo" : 376.0,
+		"pdvs" : 347.0,
+		"estacoes" : 347.0
 	},
 	{
 		"nomeproduto" : "SGCLOUD",
 		"idproduto" : 39.0,
 		"nomemodulo" : "Integracao Supermercado Esperanca",
 		"idmodulo" : 311.0,
-		"submodulo" : 2619.0,
-		"pdvs" : 1174.0,
-		"estacoes" : 3196.0
+		"submodulo" : 376.0,
+		"pdvs" : 347.0,
+		"estacoes" : 347.0
 	},
 	{
 		"nomeproduto" : "SGCLOUD",
 		"idproduto" : 39.0,
 		"nomemodulo" : "Integracao PagPix",
 		"idmodulo" : 312.0,
-		"submodulo" : 2619.0,
-		"pdvs" : 1174.0,
-		"estacoes" : 3196.0
+		"submodulo" : 376.0,
+		"pdvs" : 347.0,
+		"estacoes" : 347.0
 	},
 	{
 		"nomeproduto" : "SGCLOUD",
 		"idproduto" : 39.0,
 		"nomemodulo" : "Integracao Ad Rocket",
 		"idmodulo" : 313.0,
-		"submodulo" : 2619.0,
-		"pdvs" : 1174.0,
-		"estacoes" : 3196.0
+		"submodulo" : 376.0,
+		"pdvs" : 347.0,
+		"estacoes" : 347.0
 	},
 	{
 		"nomeproduto" : "SGCLOUD",
 		"idproduto" : 39.0,
 		"nomemodulo" : "Integracao PlugLead",
 		"idmodulo" : 317.0,
-		"submodulo" : 2619.0,
-		"pdvs" : 1174.0,
-		"estacoes" : 3196.0
+		"submodulo" : 376.0,
+		"pdvs" : 347.0,
+		"estacoes" : 347.0
 	},
 	{
 		"nomeproduto" : "SGCLOUD",
 		"idproduto" : 39.0,
 		"nomemodulo" : "Integracao Magazord",
 		"idmodulo" : 318.0,
-		"submodulo" : 2619.0,
-		"pdvs" : 1174.0,
-		"estacoes" : 3196.0
+		"submodulo" : 376.0,
+		"pdvs" : 347.0,
+		"estacoes" : 347.0
 	},
 	{
 		"nomeproduto" : "SGCLOUD",
 		"idproduto" : 39.0,
 		"nomemodulo" : "Integracao Nuvem Shop",
 		"idmodulo" : 319.0,
-		"submodulo" : 2619.0,
-		"pdvs" : 1174.0,
-		"estacoes" : 3196.0
+		"submodulo" : 376.0,
+		"pdvs" : 347.0,
+		"estacoes" : 347.0
 	},
 	{
 		"nomeproduto" : "SGCLOUD",
 		"idproduto" : 39.0,
 		"nomemodulo" : "Integracao Area Central - API",
 		"idmodulo" : 320.0,
-		"submodulo" : 2619.0,
-		"pdvs" : 1174.0,
-		"estacoes" : 3196.0
+		"submodulo" : 376.0,
+		"pdvs" : 347.0,
+		"estacoes" : 347.0
 	},
 	{
 		"nomeproduto" : "SGCLOUD",
 		"idproduto" : 39.0,
 		"nomemodulo" : "Integracao Shopify",
 		"idmodulo" : 321.0,
-		"submodulo" : 2619.0,
-		"pdvs" : 1174.0,
-		"estacoes" : 3196.0
+		"submodulo" : 376.0,
+		"pdvs" : 347.0,
+		"estacoes" : 347.0
 	},
 	{
 		"nomeproduto" : "SGCLOUD",
 		"idproduto" : 39.0,
 		"nomemodulo" : "Integracao TI Soluti",
 		"idmodulo" : 322.0,
-		"submodulo" : 2619.0,
-		"pdvs" : 1174.0,
-		"estacoes" : 3196.0
+		"submodulo" : 376.0,
+		"pdvs" : 347.0,
+		"estacoes" : 347.0
 	},
 	{
 		"nomeproduto" : "SGCLOUD",
 		"idproduto" : 39.0,
 		"nomemodulo" : "Integracao Loja Integrada",
 		"idmodulo" : 323.0,
-		"submodulo" : 2619.0,
-		"pdvs" : 1174.0,
-		"estacoes" : 3196.0
+		"submodulo" : 376.0,
+		"pdvs" : 347.0,
+		"estacoes" : 347.0
 	},
 	{
 		"nomeproduto" : "SGCLOUD",
 		"idproduto" : 39.0,
 		"nomemodulo" : "Inventario fiscal",
 		"idmodulo" : 324.0,
-		"submodulo" : 2619.0,
-		"pdvs" : 1174.0,
-		"estacoes" : 3196.0
+		"submodulo" : 376.0,
+		"pdvs" : 347.0,
+		"estacoes" : 347.0
 	},
 	{
 		"nomeproduto" : "SGCLOUD",
 		"idproduto" : 39.0,
 		"nomemodulo" : "Escrita fiscal",
 		"idmodulo" : 325.0,
-		"submodulo" : 2619.0,
-		"pdvs" : 1174.0,
-		"estacoes" : 3196.0
+		"submodulo" : 376.0,
+		"pdvs" : 347.0,
+		"estacoes" : 347.0
 	},
 	{
 		"nomeproduto" : "SGCLOUD",
 		"idproduto" : 39.0,
 		"nomemodulo" : "Integracao Correios",
 		"idmodulo" : 327.0,
-		"submodulo" : 2619.0,
-		"pdvs" : 1174.0,
-		"estacoes" : 3196.0
+		"submodulo" : 376.0,
+		"pdvs" : 347.0,
+		"estacoes" : 347.0
 	},
 	{
 		"nomeproduto" : "SGCLOUD",
 		"idproduto" : 39.0,
 		"nomemodulo" : "Emissao de MDF-e",
 		"idmodulo" : 328.0,
-		"submodulo" : 2619.0,
-		"pdvs" : 1174.0,
-		"estacoes" : 3196.0
+		"submodulo" : 376.0,
+		"pdvs" : 347.0,
+		"estacoes" : 347.0
 	},
 	{
 		"nomeproduto" : "SGCLOUD",
 		"idproduto" : 39.0,
 		"nomemodulo" : "Emissao de NFS-e",
 		"idmodulo" : 329.0,
-		"submodulo" : 2619.0,
-		"pdvs" : 1174.0,
-		"estacoes" : 3196.0
+		"submodulo" : 376.0,
+		"pdvs" : 347.0,
+		"estacoes" : 347.0
 	},
 	{
 		"nomeproduto" : "SGCLOUD",
 		"idproduto" : 39.0,
 		"nomemodulo" : "Compras",
 		"idmodulo" : 330.0,
-		"submodulo" : 2619.0,
-		"pdvs" : 1174.0,
-		"estacoes" : 3196.0
+		"submodulo" : 376.0,
+		"pdvs" : 347.0,
+		"estacoes" : 347.0
 	},
 	{
 		"nomeproduto" : "SGCLOUD",
 		"idproduto" : 39.0,
 		"nomemodulo" : "Cotacao",
 		"idmodulo" : 331.0,
-		"submodulo" : 2619.0,
-		"pdvs" : 1174.0,
-		"estacoes" : 3196.0
+		"submodulo" : 376.0,
+		"pdvs" : 347.0,
+		"estacoes" : 347.0
 	},
 	{
 		"nomeproduto" : "SGCLOUD",
 		"idproduto" : 39.0,
 		"nomemodulo" : "Cotacao Online",
 		"idmodulo" : 332.0,
-		"submodulo" : 2619.0,
-		"pdvs" : 1174.0,
-		"estacoes" : 3196.0
+		"submodulo" : 376.0,
+		"pdvs" : 347.0,
+		"estacoes" : 347.0
 	},
 	{
 		"nomeproduto" : "SGCLOUD",
 		"idproduto" : 39.0,
 		"nomemodulo" : "Integracao Izi App",
 		"idmodulo" : 333.0,
-		"submodulo" : 2619.0,
-		"pdvs" : 1174.0,
-		"estacoes" : 3196.0
-	},
-	{
-		"nomeproduto" : "SGCLOUD",
-		"idproduto" : 39.0,
-		"nomemodulo" : "Integracao Mercafacil",
-		"idmodulo" : 334.0,
-		"submodulo" : 2619.0,
-		"pdvs" : 1174.0,
-		"estacoes" : 3196.0
+		"submodulo" : 376.0,
+		"pdvs" : 347.0,
+		"estacoes" : 347.0
 	},
 	{
 		"nomeproduto" : "SGCLOUD",
 		"idproduto" : 39.0,
 		"nomemodulo" : "Integracao Cartaz Facil",
 		"idmodulo" : 343.0,
-		"submodulo" : 2619.0,
-		"pdvs" : 1174.0,
-		"estacoes" : 3196.0
+		"submodulo" : 376.0,
+		"pdvs" : 347.0,
+		"estacoes" : 347.0
 	},
 	{
 		"nomeproduto" : "SGCLOUD",
 		"idproduto" : 39.0,
 		"nomemodulo" : "Integracao Dattion",
 		"idmodulo" : 344.0,
-		"submodulo" : 2619.0,
-		"pdvs" : 1174.0,
-		"estacoes" : 3196.0
+		"submodulo" : 376.0,
+		"pdvs" : 347.0,
+		"estacoes" : 347.0
 	},
 	{
 		"nomeproduto" : "SGCLOUD",
 		"idproduto" : 39.0,
 		"nomemodulo" : "Integracao Codevops",
 		"idmodulo" : 345.0,
-		"submodulo" : 2619.0,
-		"pdvs" : 1174.0,
-		"estacoes" : 3196.0
-	},
-	{
-		"nomeproduto" : "SGCONCILIADOR",
-		"idproduto" : 33.0,
-		"nomemodulo" : null,
-		"idmodulo" : null,
-		"submodulo" : null,
-		"pdvs" : null,
-		"estacoes" : null
-	},
-	{
-		"nomeproduto" : "SGCONTABIL",
-		"idproduto" : 15.0,
-		"nomemodulo" : null,
-		"idmodulo" : null,
-		"submodulo" : null,
-		"pdvs" : null,
-		"estacoes" : 102.0
+		"submodulo" : 376.0,
+		"pdvs" : 347.0,
+		"estacoes" : 347.0
 	},
 	{
 		"nomeproduto" : "SGERP LINUX",
 		"idproduto" : 1.0,
 		"nomemodulo" : "Produtos e Precos",
 		"idmodulo" : 1.0,
-		"submodulo" : 19343.0,
-		"pdvs" : 19982.0,
+		"submodulo" : 221.0,
+		"pdvs" : 296.0,
 		"estacoes" : null
 	},
 	{
@@ -1562,8 +2282,8 @@
 		"idproduto" : 1.0,
 		"nomemodulo" : "Fornecedores",
 		"idmodulo" : 2.0,
-		"submodulo" : 19343.0,
-		"pdvs" : 19982.0,
+		"submodulo" : 221.0,
+		"pdvs" : 296.0,
 		"estacoes" : null
 	},
 	{
@@ -1571,8 +2291,8 @@
 		"idproduto" : 1.0,
 		"nomemodulo" : "Clientes",
 		"idmodulo" : 3.0,
-		"submodulo" : 19343.0,
-		"pdvs" : 19982.0,
+		"submodulo" : 221.0,
+		"pdvs" : 296.0,
 		"estacoes" : null
 	},
 	{
@@ -1580,8 +2300,8 @@
 		"idproduto" : 1.0,
 		"nomemodulo" : "Contas a Pagar",
 		"idmodulo" : 4.0,
-		"submodulo" : 19343.0,
-		"pdvs" : 19982.0,
+		"submodulo" : 221.0,
+		"pdvs" : 296.0,
 		"estacoes" : null
 	},
 	{
@@ -1589,8 +2309,8 @@
 		"idproduto" : 1.0,
 		"nomemodulo" : "Contas a Receber",
 		"idmodulo" : 5.0,
-		"submodulo" : 19343.0,
-		"pdvs" : 19982.0,
+		"submodulo" : 221.0,
+		"pdvs" : 296.0,
 		"estacoes" : null
 	},
 	{
@@ -1598,8 +2318,8 @@
 		"idproduto" : 1.0,
 		"nomemodulo" : "Resumo de Caixa",
 		"idmodulo" : 6.0,
-		"submodulo" : 19343.0,
-		"pdvs" : 19982.0,
+		"submodulo" : 221.0,
+		"pdvs" : 296.0,
 		"estacoes" : null
 	},
 	{
@@ -1607,8 +2327,8 @@
 		"idproduto" : 1.0,
 		"nomemodulo" : "Controle de Loja",
 		"idmodulo" : 7.0,
-		"submodulo" : 19343.0,
-		"pdvs" : 19982.0,
+		"submodulo" : 221.0,
+		"pdvs" : 296.0,
 		"estacoes" : null
 	},
 	{
@@ -1616,8 +2336,8 @@
 		"idproduto" : 1.0,
 		"nomemodulo" : "Cartao Ponto",
 		"idmodulo" : 8.0,
-		"submodulo" : 19343.0,
-		"pdvs" : 19982.0,
+		"submodulo" : 221.0,
+		"pdvs" : 296.0,
 		"estacoes" : null
 	},
 	{
@@ -1625,17 +2345,17 @@
 		"idproduto" : 1.0,
 		"nomemodulo" : "Contra Vales para Clientes",
 		"idmodulo" : 9.0,
-		"submodulo" : 19343.0,
-		"pdvs" : 19982.0,
+		"submodulo" : 221.0,
+		"pdvs" : 296.0,
 		"estacoes" : null
 	},
 	{
 		"nomeproduto" : "SGERP LINUX",
 		"idproduto" : 1.0,
-		"nomemodulo" : "M¢dulos de Consulta de Loja",
+		"nomemodulo" : "Modulos de Consulta de Loja",
 		"idmodulo" : 10.0,
-		"submodulo" : 19343.0,
-		"pdvs" : 19982.0,
+		"submodulo" : 221.0,
+		"pdvs" : 296.0,
 		"estacoes" : null
 	},
 	{
@@ -1643,8 +2363,8 @@
 		"idproduto" : 1.0,
 		"nomemodulo" : "Faturamento de Vendas",
 		"idmodulo" : 11.0,
-		"submodulo" : 19343.0,
-		"pdvs" : 19982.0,
+		"submodulo" : 221.0,
+		"pdvs" : 296.0,
 		"estacoes" : null
 	},
 	{
@@ -1652,8 +2372,8 @@
 		"idproduto" : 1.0,
 		"nomemodulo" : "Cheque Pre Datados",
 		"idmodulo" : 12.0,
-		"submodulo" : 19343.0,
-		"pdvs" : 19982.0,
+		"submodulo" : 221.0,
+		"pdvs" : 296.0,
 		"estacoes" : null
 	},
 	{
@@ -1661,8 +2381,8 @@
 		"idproduto" : 1.0,
 		"nomemodulo" : "Inventario Fisico ( Balanco)",
 		"idmodulo" : 13.0,
-		"submodulo" : 19343.0,
-		"pdvs" : 19982.0,
+		"submodulo" : 221.0,
+		"pdvs" : 296.0,
 		"estacoes" : null
 	},
 	{
@@ -1670,8 +2390,8 @@
 		"idproduto" : 1.0,
 		"nomemodulo" : "Movimentacao de Produtos",
 		"idmodulo" : 14.0,
-		"submodulo" : 19343.0,
-		"pdvs" : 19982.0,
+		"submodulo" : 221.0,
+		"pdvs" : 296.0,
 		"estacoes" : null
 	},
 	{
@@ -1679,8 +2399,8 @@
 		"idproduto" : 1.0,
 		"nomemodulo" : "Entrada de Notas\/Calculo de Precos",
 		"idmodulo" : 15.0,
-		"submodulo" : 19343.0,
-		"pdvs" : 19982.0,
+		"submodulo" : 221.0,
+		"pdvs" : 296.0,
 		"estacoes" : null
 	},
 	{
@@ -1688,8 +2408,8 @@
 		"idproduto" : 1.0,
 		"nomemodulo" : "Vendas de PDV's\/Rentabilidade",
 		"idmodulo" : 16.0,
-		"submodulo" : 19343.0,
-		"pdvs" : 19982.0,
+		"submodulo" : 221.0,
+		"pdvs" : 296.0,
 		"estacoes" : null
 	},
 	{
@@ -1697,8 +2417,8 @@
 		"idproduto" : 1.0,
 		"nomemodulo" : "Cotacao de Atacado",
 		"idmodulo" : 17.0,
-		"submodulo" : 19343.0,
-		"pdvs" : 19982.0,
+		"submodulo" : 221.0,
+		"pdvs" : 296.0,
 		"estacoes" : null
 	},
 	{
@@ -1706,8 +2426,8 @@
 		"idproduto" : 1.0,
 		"nomemodulo" : "Cheques Devolvidos",
 		"idmodulo" : 18.0,
-		"submodulo" : 19343.0,
-		"pdvs" : 19982.0,
+		"submodulo" : 221.0,
+		"pdvs" : 296.0,
 		"estacoes" : null
 	},
 	{
@@ -1715,8 +2435,8 @@
 		"idproduto" : 1.0,
 		"nomemodulo" : "Producao ( Padaria , Acougue)",
 		"idmodulo" : 19.0,
-		"submodulo" : 19343.0,
-		"pdvs" : 19982.0,
+		"submodulo" : 221.0,
+		"pdvs" : 296.0,
 		"estacoes" : null
 	},
 	{
@@ -1724,8 +2444,8 @@
 		"idproduto" : 1.0,
 		"nomemodulo" : "Contas Bancarias",
 		"idmodulo" : 20.0,
-		"submodulo" : 19343.0,
-		"pdvs" : 19982.0,
+		"submodulo" : 221.0,
+		"pdvs" : 296.0,
 		"estacoes" : null
 	},
 	{
@@ -1733,8 +2453,8 @@
 		"idproduto" : 1.0,
 		"nomemodulo" : "Controle de Despesas",
 		"idmodulo" : 21.0,
-		"submodulo" : 19343.0,
-		"pdvs" : 19982.0,
+		"submodulo" : 221.0,
+		"pdvs" : 296.0,
 		"estacoes" : null
 	},
 	{
@@ -1742,8 +2462,8 @@
 		"idproduto" : 1.0,
 		"nomemodulo" : "Controle de Convenios\/Ticket\/Cartao",
 		"idmodulo" : 22.0,
-		"submodulo" : 19343.0,
-		"pdvs" : 19982.0,
+		"submodulo" : 221.0,
+		"pdvs" : 296.0,
 		"estacoes" : null
 	},
 	{
@@ -1751,17 +2471,17 @@
 		"idproduto" : 1.0,
 		"nomemodulo" : "Comissao de Vendedores",
 		"idmodulo" : 23.0,
-		"submodulo" : 19343.0,
-		"pdvs" : 19982.0,
+		"submodulo" : 221.0,
+		"pdvs" : 296.0,
 		"estacoes" : null
 	},
 	{
 		"nomeproduto" : "SGERP LINUX",
 		"idproduto" : 1.0,
-		"nomemodulo" : "Compras de Ind£strias\/Distribuidoras",
+		"nomemodulo" : "Compras de Industrias\/Distribuidoras",
 		"idmodulo" : 24.0,
-		"submodulo" : 19343.0,
-		"pdvs" : 19982.0,
+		"submodulo" : 221.0,
+		"pdvs" : 296.0,
 		"estacoes" : null
 	},
 	{
@@ -1769,8 +2489,8 @@
 		"idproduto" : 1.0,
 		"nomemodulo" : "Indices Financeiros",
 		"idmodulo" : 25.0,
-		"submodulo" : 19343.0,
-		"pdvs" : 19982.0,
+		"submodulo" : 221.0,
+		"pdvs" : 296.0,
 		"estacoes" : null
 	},
 	{
@@ -1778,8 +2498,8 @@
 		"idproduto" : 1.0,
 		"nomemodulo" : "Inventario Fiscal",
 		"idmodulo" : 26.0,
-		"submodulo" : 19343.0,
-		"pdvs" : 19982.0,
+		"submodulo" : 221.0,
+		"pdvs" : 296.0,
 		"estacoes" : null
 	},
 	{
@@ -1787,8 +2507,8 @@
 		"idproduto" : 1.0,
 		"nomemodulo" : "Importacao\/Exportacao",
 		"idmodulo" : 27.0,
-		"submodulo" : 19343.0,
-		"pdvs" : 19982.0,
+		"submodulo" : 221.0,
+		"pdvs" : 296.0,
 		"estacoes" : null
 	},
 	{
@@ -1796,8 +2516,8 @@
 		"idproduto" : 1.0,
 		"nomemodulo" : "Controle de Trocas",
 		"idmodulo" : 28.0,
-		"submodulo" : 19343.0,
-		"pdvs" : 19982.0,
+		"submodulo" : 221.0,
+		"pdvs" : 296.0,
 		"estacoes" : null
 	},
 	{
@@ -1805,8 +2525,8 @@
 		"idproduto" : 1.0,
 		"nomemodulo" : "Levantamento Parcial de Estoque",
 		"idmodulo" : 29.0,
-		"submodulo" : 19343.0,
-		"pdvs" : 19982.0,
+		"submodulo" : 221.0,
+		"pdvs" : 296.0,
 		"estacoes" : null
 	},
 	{
@@ -1814,8 +2534,8 @@
 		"idproduto" : 1.0,
 		"nomemodulo" : "Movimento de Caixa",
 		"idmodulo" : 30.0,
-		"submodulo" : 19343.0,
-		"pdvs" : 19982.0,
+		"submodulo" : 221.0,
+		"pdvs" : 296.0,
 		"estacoes" : null
 	},
 	{
@@ -1823,8 +2543,8 @@
 		"idproduto" : 1.0,
 		"nomemodulo" : "Pesquisa de Precos",
 		"idmodulo" : 31.0,
-		"submodulo" : 19343.0,
-		"pdvs" : 19982.0,
+		"submodulo" : 221.0,
+		"pdvs" : 296.0,
 		"estacoes" : null
 	},
 	{
@@ -1832,8 +2552,8 @@
 		"idproduto" : 1.0,
 		"nomemodulo" : "Controle de Verbas",
 		"idmodulo" : 32.0,
-		"submodulo" : 19343.0,
-		"pdvs" : 19982.0,
+		"submodulo" : 221.0,
+		"pdvs" : 296.0,
 		"estacoes" : null
 	},
 	{
@@ -1841,8 +2561,8 @@
 		"idproduto" : 1.0,
 		"nomemodulo" : "Transferencia",
 		"idmodulo" : 33.0,
-		"submodulo" : 19343.0,
-		"pdvs" : 19982.0,
+		"submodulo" : 221.0,
+		"pdvs" : 296.0,
 		"estacoes" : null
 	},
 	{
@@ -1850,8 +2570,8 @@
 		"idproduto" : 1.0,
 		"nomemodulo" : "Apoio Contabil",
 		"idmodulo" : 34.0,
-		"submodulo" : 19343.0,
-		"pdvs" : 19982.0,
+		"submodulo" : 221.0,
+		"pdvs" : 296.0,
 		"estacoes" : null
 	},
 	{
@@ -1859,8 +2579,8 @@
 		"idproduto" : 1.0,
 		"nomemodulo" : "Balanco Setorial",
 		"idmodulo" : 35.0,
-		"submodulo" : 19343.0,
-		"pdvs" : 19982.0,
+		"submodulo" : 221.0,
+		"pdvs" : 296.0,
 		"estacoes" : null
 	},
 	{
@@ -1868,8 +2588,8 @@
 		"idproduto" : 1.0,
 		"nomemodulo" : "Controle de Promocoes",
 		"idmodulo" : 36.0,
-		"submodulo" : 19343.0,
-		"pdvs" : 19982.0,
+		"submodulo" : 221.0,
+		"pdvs" : 296.0,
 		"estacoes" : null
 	},
 	{
@@ -1877,8 +2597,8 @@
 		"idproduto" : 1.0,
 		"nomemodulo" : "Controle Patrimonial",
 		"idmodulo" : 37.0,
-		"submodulo" : 19343.0,
-		"pdvs" : 19982.0,
+		"submodulo" : 221.0,
+		"pdvs" : 296.0,
 		"estacoes" : null
 	},
 	{
@@ -1886,8 +2606,8 @@
 		"idproduto" : 1.0,
 		"nomemodulo" : "Controle de Veiculos",
 		"idmodulo" : 39.0,
-		"submodulo" : 19343.0,
-		"pdvs" : 19982.0,
+		"submodulo" : 221.0,
+		"pdvs" : 296.0,
 		"estacoes" : null
 	},
 	{
@@ -1895,8 +2615,8 @@
 		"idproduto" : 1.0,
 		"nomemodulo" : "Escrita Fiscal",
 		"idmodulo" : 40.0,
-		"submodulo" : 19343.0,
-		"pdvs" : 19982.0,
+		"submodulo" : 221.0,
+		"pdvs" : 296.0,
 		"estacoes" : null
 	},
 	{
@@ -1904,8 +2624,8 @@
 		"idproduto" : 1.0,
 		"nomemodulo" : "Fidelizacao",
 		"idmodulo" : 41.0,
-		"submodulo" : 19343.0,
-		"pdvs" : 19982.0,
+		"submodulo" : 221.0,
+		"pdvs" : 296.0,
 		"estacoes" : null
 	},
 	{
@@ -1913,8 +2633,8 @@
 		"idproduto" : 1.0,
 		"nomemodulo" : "Fluxo de Caixa",
 		"idmodulo" : 42.0,
-		"submodulo" : 19343.0,
-		"pdvs" : 19982.0,
+		"submodulo" : 221.0,
+		"pdvs" : 296.0,
 		"estacoes" : null
 	},
 	{
@@ -1922,8 +2642,8 @@
 		"idproduto" : 1.0,
 		"nomemodulo" : "Fechamento de Caixa de Lojas",
 		"idmodulo" : 43.0,
-		"submodulo" : 19343.0,
-		"pdvs" : 19982.0,
+		"submodulo" : 221.0,
+		"pdvs" : 296.0,
 		"estacoes" : null
 	},
 	{
@@ -1931,8 +2651,8 @@
 		"idproduto" : 1.0,
 		"nomemodulo" : "Gerenciamento de Gondolas",
 		"idmodulo" : 44.0,
-		"submodulo" : 19343.0,
-		"pdvs" : 19982.0,
+		"submodulo" : 221.0,
+		"pdvs" : 296.0,
 		"estacoes" : null
 	},
 	{
@@ -1940,8 +2660,8 @@
 		"idproduto" : 1.0,
 		"nomemodulo" : "Servico de Atendimento ao Cliente",
 		"idmodulo" : 46.0,
-		"submodulo" : 19343.0,
-		"pdvs" : 19982.0,
+		"submodulo" : 221.0,
+		"pdvs" : 296.0,
 		"estacoes" : null
 	},
 	{
@@ -1949,8 +2669,8 @@
 		"idproduto" : 1.0,
 		"nomemodulo" : "Consulta de Apoio Gerencial",
 		"idmodulo" : 47.0,
-		"submodulo" : 19343.0,
-		"pdvs" : 19982.0,
+		"submodulo" : 221.0,
+		"pdvs" : 296.0,
 		"estacoes" : null
 	},
 	{
@@ -1958,8 +2678,8 @@
 		"idproduto" : 1.0,
 		"nomemodulo" : "Vendas Cooperados\/Associados",
 		"idmodulo" : 48.0,
-		"submodulo" : 19343.0,
-		"pdvs" : 19982.0,
+		"submodulo" : 221.0,
+		"pdvs" : 296.0,
 		"estacoes" : null
 	},
 	{
@@ -1967,8 +2687,8 @@
 		"idproduto" : 1.0,
 		"nomemodulo" : "Mapa Fiscal",
 		"idmodulo" : 58.0,
-		"submodulo" : 19343.0,
-		"pdvs" : 19982.0,
+		"submodulo" : 221.0,
+		"pdvs" : 296.0,
 		"estacoes" : null
 	},
 	{
@@ -1976,8 +2696,8 @@
 		"idproduto" : 1.0,
 		"nomemodulo" : "SGCotacao On-line",
 		"idmodulo" : 59.0,
-		"submodulo" : 19343.0,
-		"pdvs" : 19982.0,
+		"submodulo" : 221.0,
+		"pdvs" : 296.0,
 		"estacoes" : null
 	},
 	{
@@ -1985,8 +2705,8 @@
 		"idproduto" : 1.0,
 		"nomemodulo" : "SGPESQ",
 		"idmodulo" : 60.0,
-		"submodulo" : 19343.0,
-		"pdvs" : 19982.0,
+		"submodulo" : 221.0,
+		"pdvs" : 296.0,
 		"estacoes" : null
 	},
 	{
@@ -1994,8 +2714,8 @@
 		"idproduto" : 1.0,
 		"nomemodulo" : "AT&M",
 		"idmodulo" : 61.0,
-		"submodulo" : 19343.0,
-		"pdvs" : 19982.0,
+		"submodulo" : 221.0,
+		"pdvs" : 296.0,
 		"estacoes" : null
 	},
 	{
@@ -2003,8 +2723,8 @@
 		"idproduto" : 1.0,
 		"nomemodulo" : "Controle Financeiro",
 		"idmodulo" : 71.0,
-		"submodulo" : 19343.0,
-		"pdvs" : 19982.0,
+		"submodulo" : 221.0,
+		"pdvs" : 296.0,
 		"estacoes" : null
 	},
 	{
@@ -2012,8 +2732,8 @@
 		"idproduto" : 1.0,
 		"nomemodulo" : "Modulo Gestao",
 		"idmodulo" : 72.0,
-		"submodulo" : 19343.0,
-		"pdvs" : 19982.0,
+		"submodulo" : 221.0,
+		"pdvs" : 296.0,
 		"estacoes" : null
 	},
 	{
@@ -2021,8 +2741,8 @@
 		"idproduto" : 1.0,
 		"nomemodulo" : "PAF ECF",
 		"idmodulo" : 73.0,
-		"submodulo" : 19343.0,
-		"pdvs" : 19982.0,
+		"submodulo" : 221.0,
+		"pdvs" : 296.0,
 		"estacoes" : null
 	},
 	{
@@ -2030,8 +2750,8 @@
 		"idproduto" : 1.0,
 		"nomemodulo" : "SAT",
 		"idmodulo" : 74.0,
-		"submodulo" : 19343.0,
-		"pdvs" : 19982.0,
+		"submodulo" : 221.0,
+		"pdvs" : 296.0,
 		"estacoes" : null
 	},
 	{
@@ -2039,8 +2759,8 @@
 		"idproduto" : 1.0,
 		"nomemodulo" : "Proposta",
 		"idmodulo" : 75.0,
-		"submodulo" : 19343.0,
-		"pdvs" : 19982.0,
+		"submodulo" : 221.0,
+		"pdvs" : 296.0,
 		"estacoes" : null
 	},
 	{
@@ -2048,8 +2768,8 @@
 		"idproduto" : 1.0,
 		"nomemodulo" : "Scanntech",
 		"idmodulo" : 104.0,
-		"submodulo" : 19343.0,
-		"pdvs" : 19982.0,
+		"submodulo" : 221.0,
+		"pdvs" : 296.0,
 		"estacoes" : null
 	},
 	{
@@ -2057,8 +2777,8 @@
 		"idproduto" : 1.0,
 		"nomemodulo" : "Contribuicao Solidaria",
 		"idmodulo" : 107.0,
-		"submodulo" : 19343.0,
-		"pdvs" : 19982.0,
+		"submodulo" : 221.0,
+		"pdvs" : 296.0,
 		"estacoes" : null
 	},
 	{
@@ -2066,8 +2786,8 @@
 		"idproduto" : 1.0,
 		"nomemodulo" : "Conciliacao de cartoes - Conciflex",
 		"idmodulo" : 108.0,
-		"submodulo" : 19343.0,
-		"pdvs" : 19982.0,
+		"submodulo" : 221.0,
+		"pdvs" : 296.0,
 		"estacoes" : null
 	},
 	{
@@ -2075,8 +2795,8 @@
 		"idproduto" : 1.0,
 		"nomemodulo" : "Conciliacao de cartoes - Procard",
 		"idmodulo" : 109.0,
-		"submodulo" : 19343.0,
-		"pdvs" : 19982.0,
+		"submodulo" : 221.0,
+		"pdvs" : 296.0,
 		"estacoes" : null
 	},
 	{
@@ -2084,8 +2804,8 @@
 		"idproduto" : 1.0,
 		"nomemodulo" : "Atualizacao tributaria - Virtual",
 		"idmodulo" : 110.0,
-		"submodulo" : 19343.0,
-		"pdvs" : 19982.0,
+		"submodulo" : 221.0,
+		"pdvs" : 296.0,
 		"estacoes" : null
 	},
 	{
@@ -2093,8 +2813,8 @@
 		"idproduto" : 1.0,
 		"nomemodulo" : "Integracao Cerprosoft Sav",
 		"idmodulo" : 115.0,
-		"submodulo" : 19343.0,
-		"pdvs" : 19982.0,
+		"submodulo" : 221.0,
+		"pdvs" : 296.0,
 		"estacoes" : null
 	},
 	{
@@ -2102,8 +2822,8 @@
 		"idproduto" : 1.0,
 		"nomemodulo" : "Conciliacao de cartoes - TeiaCard",
 		"idmodulo" : 116.0,
-		"submodulo" : 19343.0,
-		"pdvs" : 19982.0,
+		"submodulo" : 221.0,
+		"pdvs" : 296.0,
 		"estacoes" : null
 	},
 	{
@@ -2111,8 +2831,8 @@
 		"idproduto" : 1.0,
 		"nomemodulo" : "Mix Fiscal",
 		"idmodulo" : 117.0,
-		"submodulo" : 19343.0,
-		"pdvs" : 19982.0,
+		"submodulo" : 221.0,
+		"pdvs" : 296.0,
 		"estacoes" : null
 	},
 	{
@@ -2120,8 +2840,8 @@
 		"idproduto" : 1.0,
 		"nomemodulo" : "Integracao NovAmerica",
 		"idmodulo" : 118.0,
-		"submodulo" : 19343.0,
-		"pdvs" : 19982.0,
+		"submodulo" : 221.0,
+		"pdvs" : 296.0,
 		"estacoes" : null
 	},
 	{
@@ -2129,8 +2849,8 @@
 		"idproduto" : 1.0,
 		"nomemodulo" : "Integracao Consignet",
 		"idmodulo" : 119.0,
-		"submodulo" : 19343.0,
-		"pdvs" : 19982.0,
+		"submodulo" : 221.0,
+		"pdvs" : 296.0,
 		"estacoes" : null
 	},
 	{
@@ -2138,8 +2858,8 @@
 		"idproduto" : 1.0,
 		"nomemodulo" : "PLAY VIEW",
 		"idmodulo" : 120.0,
-		"submodulo" : 19343.0,
-		"pdvs" : 19982.0,
+		"submodulo" : 221.0,
+		"pdvs" : 296.0,
 		"estacoes" : null
 	},
 	{
@@ -2147,8 +2867,8 @@
 		"idproduto" : 1.0,
 		"nomemodulo" : "Senha venda prazo - Software Express",
 		"idmodulo" : 121.0,
-		"submodulo" : 19343.0,
-		"pdvs" : 19982.0,
+		"submodulo" : 221.0,
+		"pdvs" : 296.0,
 		"estacoes" : null
 	},
 	{
@@ -2156,8 +2876,8 @@
 		"idproduto" : 1.0,
 		"nomemodulo" : "DMCard - Integracao Soumais",
 		"idmodulo" : 122.0,
-		"submodulo" : 19343.0,
-		"pdvs" : 19982.0,
+		"submodulo" : 221.0,
+		"pdvs" : 296.0,
 		"estacoes" : null
 	},
 	{
@@ -2165,8 +2885,8 @@
 		"idproduto" : 1.0,
 		"nomemodulo" : "Integracao cartoes Cocalcard",
 		"idmodulo" : 124.0,
-		"submodulo" : 19343.0,
-		"pdvs" : 19982.0,
+		"submodulo" : 221.0,
+		"pdvs" : 296.0,
 		"estacoes" : null
 	},
 	{
@@ -2174,8 +2894,8 @@
 		"idproduto" : 1.0,
 		"nomemodulo" : "Conciliacao de cartoes - PJM",
 		"idmodulo" : 126.0,
-		"submodulo" : 19343.0,
-		"pdvs" : 19982.0,
+		"submodulo" : 221.0,
+		"pdvs" : 296.0,
 		"estacoes" : null
 	},
 	{
@@ -2183,8 +2903,8 @@
 		"idproduto" : 1.0,
 		"nomemodulo" : "Integracao Mercadex",
 		"idmodulo" : 129.0,
-		"submodulo" : 19343.0,
-		"pdvs" : 19982.0,
+		"submodulo" : 221.0,
+		"pdvs" : 296.0,
 		"estacoes" : null
 	},
 	{
@@ -2192,8 +2912,8 @@
 		"idproduto" : 1.0,
 		"nomemodulo" : "Integracao Site Mercado",
 		"idmodulo" : 130.0,
-		"submodulo" : 19343.0,
-		"pdvs" : 19982.0,
+		"submodulo" : 221.0,
+		"pdvs" : 296.0,
 		"estacoes" : null
 	},
 	{
@@ -2201,8 +2921,8 @@
 		"idproduto" : 1.0,
 		"nomemodulo" : "Integracao XML SetUP - SGDFE LOCAL",
 		"idmodulo" : 131.0,
-		"submodulo" : 19343.0,
-		"pdvs" : 19982.0,
+		"submodulo" : 221.0,
+		"pdvs" : 296.0,
 		"estacoes" : null
 	},
 	{
@@ -2210,8 +2930,8 @@
 		"idproduto" : 1.0,
 		"nomemodulo" : "Integracao XML SetUP - SGDFE GETCARD",
 		"idmodulo" : 132.0,
-		"submodulo" : 19343.0,
-		"pdvs" : 19982.0,
+		"submodulo" : 221.0,
+		"pdvs" : 296.0,
 		"estacoes" : null
 	},
 	{
@@ -2219,8 +2939,8 @@
 		"idproduto" : 1.0,
 		"nomemodulo" : "Integracao Fiscal FGF",
 		"idmodulo" : 134.0,
-		"submodulo" : 19343.0,
-		"pdvs" : 19982.0,
+		"submodulo" : 221.0,
+		"pdvs" : 296.0,
 		"estacoes" : null
 	},
 	{
@@ -2228,8 +2948,8 @@
 		"idproduto" : 1.0,
 		"nomemodulo" : "Grava Logs Externamente",
 		"idmodulo" : 136.0,
-		"submodulo" : 19343.0,
-		"pdvs" : 19982.0,
+		"submodulo" : 221.0,
+		"pdvs" : 296.0,
 		"estacoes" : null
 	},
 	{
@@ -2237,8 +2957,8 @@
 		"idproduto" : 1.0,
 		"nomemodulo" : "Troco Simples",
 		"idmodulo" : 137.0,
-		"submodulo" : 19343.0,
-		"pdvs" : 19982.0,
+		"submodulo" : 221.0,
+		"pdvs" : 296.0,
 		"estacoes" : null
 	},
 	{
@@ -2246,8 +2966,8 @@
 		"idproduto" : 1.0,
 		"nomemodulo" : "Emissao de Boletos",
 		"idmodulo" : 139.0,
-		"submodulo" : 19343.0,
-		"pdvs" : 19982.0,
+		"submodulo" : 221.0,
+		"pdvs" : 296.0,
 		"estacoes" : null
 	},
 	{
@@ -2255,8 +2975,8 @@
 		"idproduto" : 1.0,
 		"nomemodulo" : "Emissao NFCe Retaguarda",
 		"idmodulo" : 140.0,
-		"submodulo" : 19343.0,
-		"pdvs" : 19982.0,
+		"submodulo" : 221.0,
+		"pdvs" : 296.0,
 		"estacoes" : null
 	},
 	{
@@ -2264,8 +2984,8 @@
 		"idproduto" : 1.0,
 		"nomemodulo" : "Integracao SIMPLUS",
 		"idmodulo" : 141.0,
-		"submodulo" : 19343.0,
-		"pdvs" : 19982.0,
+		"submodulo" : 221.0,
+		"pdvs" : 296.0,
 		"estacoes" : null
 	},
 	{
@@ -2273,8 +2993,8 @@
 		"idproduto" : 1.0,
 		"nomemodulo" : "Integracao controle de catraca CloudPark",
 		"idmodulo" : 143.0,
-		"submodulo" : 19343.0,
-		"pdvs" : 19982.0,
+		"submodulo" : 221.0,
+		"pdvs" : 296.0,
 		"estacoes" : null
 	},
 	{
@@ -2282,8 +3002,8 @@
 		"idproduto" : 1.0,
 		"nomemodulo" : "Integracao Area Central - REDE",
 		"idmodulo" : 146.0,
-		"submodulo" : 19343.0,
-		"pdvs" : 19982.0,
+		"submodulo" : 221.0,
+		"pdvs" : 296.0,
 		"estacoes" : null
 	},
 	{
@@ -2291,8 +3011,8 @@
 		"idproduto" : 1.0,
 		"nomemodulo" : "Integracao Area Central - ASSOCIADO",
 		"idmodulo" : 147.0,
-		"submodulo" : 19343.0,
-		"pdvs" : 19982.0,
+		"submodulo" : 221.0,
+		"pdvs" : 296.0,
 		"estacoes" : null
 	},
 	{
@@ -2300,8 +3020,8 @@
 		"idproduto" : 1.0,
 		"nomemodulo" : "Controle Flex",
 		"idmodulo" : 148.0,
-		"submodulo" : 19343.0,
-		"pdvs" : 19982.0,
+		"submodulo" : 221.0,
+		"pdvs" : 296.0,
 		"estacoes" : null
 	},
 	{
@@ -2309,8 +3029,8 @@
 		"idproduto" : 1.0,
 		"nomemodulo" : "Integracao Alfred",
 		"idmodulo" : 150.0,
-		"submodulo" : 19343.0,
-		"pdvs" : 19982.0,
+		"submodulo" : 221.0,
+		"pdvs" : 296.0,
 		"estacoes" : null
 	},
 	{
@@ -2318,8 +3038,8 @@
 		"idproduto" : 1.0,
 		"nomemodulo" : "Integracao WL Assessoria e Contabilidade",
 		"idmodulo" : 152.0,
-		"submodulo" : 19343.0,
-		"pdvs" : 19982.0,
+		"submodulo" : 221.0,
+		"pdvs" : 296.0,
 		"estacoes" : null
 	},
 	{
@@ -2327,8 +3047,8 @@
 		"idproduto" : 1.0,
 		"nomemodulo" : "Solucoes Fiscais",
 		"idmodulo" : 153.0,
-		"submodulo" : 19343.0,
-		"pdvs" : 19982.0,
+		"submodulo" : 221.0,
+		"pdvs" : 296.0,
 		"estacoes" : null
 	},
 	{
@@ -2336,8 +3056,8 @@
 		"idproduto" : 1.0,
 		"nomemodulo" : "Integracao Cyberlog - WMS",
 		"idmodulo" : 155.0,
-		"submodulo" : 19343.0,
-		"pdvs" : 19982.0,
+		"submodulo" : 221.0,
+		"pdvs" : 296.0,
 		"estacoes" : null
 	},
 	{
@@ -2345,8 +3065,8 @@
 		"idproduto" : 1.0,
 		"nomemodulo" : "Integracao Askyn",
 		"idmodulo" : 157.0,
-		"submodulo" : 19343.0,
-		"pdvs" : 19982.0,
+		"submodulo" : 221.0,
+		"pdvs" : 296.0,
 		"estacoes" : null
 	},
 	{
@@ -2354,8 +3074,8 @@
 		"idproduto" : 1.0,
 		"nomemodulo" : "Integracao Beblue",
 		"idmodulo" : 158.0,
-		"submodulo" : 19343.0,
-		"pdvs" : 19982.0,
+		"submodulo" : 221.0,
+		"pdvs" : 296.0,
 		"estacoes" : null
 	},
 	{
@@ -2363,8 +3083,8 @@
 		"idproduto" : 1.0,
 		"nomemodulo" : "Integracao APPMercados",
 		"idmodulo" : 159.0,
-		"submodulo" : 19343.0,
-		"pdvs" : 19982.0,
+		"submodulo" : 221.0,
+		"pdvs" : 296.0,
 		"estacoes" : null
 	},
 	{
@@ -2372,8 +3092,8 @@
 		"idproduto" : 1.0,
 		"nomemodulo" : "Integracao arMHAzena",
 		"idmodulo" : 160.0,
-		"submodulo" : 19343.0,
-		"pdvs" : 19982.0,
+		"submodulo" : 221.0,
+		"pdvs" : 296.0,
 		"estacoes" : null
 	},
 	{
@@ -2381,8 +3101,8 @@
 		"idproduto" : 1.0,
 		"nomemodulo" : "Contabilidade - Regras Fiscais",
 		"idmodulo" : 161.0,
-		"submodulo" : 19343.0,
-		"pdvs" : 19982.0,
+		"submodulo" : 221.0,
+		"pdvs" : 296.0,
 		"estacoes" : null
 	},
 	{
@@ -2390,8 +3110,8 @@
 		"idproduto" : 1.0,
 		"nomemodulo" : "Integracao LOJAQUI",
 		"idmodulo" : 163.0,
-		"submodulo" : 19343.0,
-		"pdvs" : 19982.0,
+		"submodulo" : 221.0,
+		"pdvs" : 296.0,
 		"estacoes" : null
 	},
 	{
@@ -2399,8 +3119,8 @@
 		"idproduto" : 1.0,
 		"nomemodulo" : "Conciliacao de cartoes - VIZZO",
 		"idmodulo" : 165.0,
-		"submodulo" : 19343.0,
-		"pdvs" : 19982.0,
+		"submodulo" : 221.0,
+		"pdvs" : 296.0,
 		"estacoes" : null
 	},
 	{
@@ -2408,8 +3128,8 @@
 		"idproduto" : 1.0,
 		"nomemodulo" : "Integracao Nexfood",
 		"idmodulo" : 167.0,
-		"submodulo" : 19343.0,
-		"pdvs" : 19982.0,
+		"submodulo" : 221.0,
+		"pdvs" : 296.0,
 		"estacoes" : null
 	},
 	{
@@ -2417,8 +3137,8 @@
 		"idproduto" : 1.0,
 		"nomemodulo" : "Integracao IANDEV",
 		"idmodulo" : 168.0,
-		"submodulo" : 19343.0,
-		"pdvs" : 19982.0,
+		"submodulo" : 221.0,
+		"pdvs" : 296.0,
 		"estacoes" : null
 	},
 	{
@@ -2426,8 +3146,8 @@
 		"idproduto" : 1.0,
 		"nomemodulo" : "Integracao KIKKER",
 		"idmodulo" : 169.0,
-		"submodulo" : 19343.0,
-		"pdvs" : 19982.0,
+		"submodulo" : 221.0,
+		"pdvs" : 296.0,
 		"estacoes" : null
 	},
 	{
@@ -2435,8 +3155,8 @@
 		"idproduto" : 1.0,
 		"nomemodulo" : "Integracao Amo Delivery",
 		"idmodulo" : 170.0,
-		"submodulo" : 19343.0,
-		"pdvs" : 19982.0,
+		"submodulo" : 221.0,
+		"pdvs" : 296.0,
 		"estacoes" : null
 	},
 	{
@@ -2444,8 +3164,8 @@
 		"idproduto" : 1.0,
 		"nomemodulo" : "Integracao Tray",
 		"idmodulo" : 171.0,
-		"submodulo" : 19343.0,
-		"pdvs" : 19982.0,
+		"submodulo" : 221.0,
+		"pdvs" : 296.0,
 		"estacoes" : null
 	},
 	{
@@ -2453,8 +3173,8 @@
 		"idproduto" : 1.0,
 		"nomemodulo" : "Integracao Auditto",
 		"idmodulo" : 172.0,
-		"submodulo" : 19343.0,
-		"pdvs" : 19982.0,
+		"submodulo" : 221.0,
+		"pdvs" : 296.0,
 		"estacoes" : null
 	},
 	{
@@ -2462,8 +3182,8 @@
 		"idproduto" : 1.0,
 		"nomemodulo" : "Senha PDV por PINPAD - SITEF TUICCS",
 		"idmodulo" : 173.0,
-		"submodulo" : 19343.0,
-		"pdvs" : 19982.0,
+		"submodulo" : 221.0,
+		"pdvs" : 296.0,
 		"estacoes" : null
 	},
 	{
@@ -2471,8 +3191,8 @@
 		"idproduto" : 1.0,
 		"nomemodulo" : "Integracao Cresce Vendas",
 		"idmodulo" : 174.0,
-		"submodulo" : 19343.0,
-		"pdvs" : 19982.0,
+		"submodulo" : 221.0,
+		"pdvs" : 296.0,
 		"estacoes" : null
 	},
 	{
@@ -2480,8 +3200,8 @@
 		"idproduto" : 1.0,
 		"nomemodulo" : "Integracao NappSync",
 		"idmodulo" : 175.0,
-		"submodulo" : 19343.0,
-		"pdvs" : 19982.0,
+		"submodulo" : 221.0,
+		"pdvs" : 296.0,
 		"estacoes" : null
 	},
 	{
@@ -2489,8 +3209,8 @@
 		"idproduto" : 1.0,
 		"nomemodulo" : "Integracao SG SISTEMAS",
 		"idmodulo" : 176.0,
-		"submodulo" : 19343.0,
-		"pdvs" : 19982.0,
+		"submodulo" : 221.0,
+		"pdvs" : 296.0,
 		"estacoes" : null
 	},
 	{
@@ -2498,8 +3218,8 @@
 		"idproduto" : 1.0,
 		"nomemodulo" : "Integracao de Associacao (Menu)",
 		"idmodulo" : 177.0,
-		"submodulo" : 19343.0,
-		"pdvs" : 19982.0,
+		"submodulo" : 221.0,
+		"pdvs" : 296.0,
 		"estacoes" : null
 	},
 	{
@@ -2507,8 +3227,8 @@
 		"idproduto" : 1.0,
 		"nomemodulo" : "Controle de licitacoes",
 		"idmodulo" : 178.0,
-		"submodulo" : 19343.0,
-		"pdvs" : 19982.0,
+		"submodulo" : 221.0,
+		"pdvs" : 296.0,
 		"estacoes" : null
 	},
 	{
@@ -2516,8 +3236,8 @@
 		"idproduto" : 1.0,
 		"nomemodulo" : "Integracao Site Mercado API",
 		"idmodulo" : 179.0,
-		"submodulo" : 19343.0,
-		"pdvs" : 19982.0,
+		"submodulo" : 221.0,
+		"pdvs" : 296.0,
 		"estacoes" : null
 	},
 	{
@@ -2525,8 +3245,8 @@
 		"idproduto" : 1.0,
 		"nomemodulo" : "Integracao Compre Facil",
 		"idmodulo" : 180.0,
-		"submodulo" : 19343.0,
-		"pdvs" : 19982.0,
+		"submodulo" : 221.0,
+		"pdvs" : 296.0,
 		"estacoes" : null
 	},
 	{
@@ -2534,8 +3254,8 @@
 		"idproduto" : 1.0,
 		"nomemodulo" : "Integracao Insta Buy",
 		"idmodulo" : 181.0,
-		"submodulo" : 19343.0,
-		"pdvs" : 19982.0,
+		"submodulo" : 221.0,
+		"pdvs" : 296.0,
 		"estacoes" : null
 	},
 	{
@@ -2543,8 +3263,8 @@
 		"idproduto" : 1.0,
 		"nomemodulo" : "Integracao Deju",
 		"idmodulo" : 182.0,
-		"submodulo" : 19343.0,
-		"pdvs" : 19982.0,
+		"submodulo" : 221.0,
+		"pdvs" : 296.0,
 		"estacoes" : null
 	},
 	{
@@ -2552,8 +3272,8 @@
 		"idproduto" : 1.0,
 		"nomemodulo" : "Integracao Cupom Verde",
 		"idmodulo" : 211.0,
-		"submodulo" : 19343.0,
-		"pdvs" : 19982.0,
+		"submodulo" : 221.0,
+		"pdvs" : 296.0,
 		"estacoes" : null
 	},
 	{
@@ -2561,8 +3281,8 @@
 		"idproduto" : 1.0,
 		"nomemodulo" : "Integracao Shipay",
 		"idmodulo" : 253.0,
-		"submodulo" : 19343.0,
-		"pdvs" : 19982.0,
+		"submodulo" : 221.0,
+		"pdvs" : 296.0,
 		"estacoes" : null
 	},
 	{
@@ -2570,8 +3290,8 @@
 		"idproduto" : 1.0,
 		"nomemodulo" : "Integracao Smart",
 		"idmodulo" : 254.0,
-		"submodulo" : 19343.0,
-		"pdvs" : 19982.0,
+		"submodulo" : 221.0,
+		"pdvs" : 296.0,
 		"estacoes" : null
 	},
 	{
@@ -2579,8 +3299,8 @@
 		"idproduto" : 1.0,
 		"nomemodulo" : "Integracao Web Jasper",
 		"idmodulo" : 256.0,
-		"submodulo" : 19343.0,
-		"pdvs" : 19982.0,
+		"submodulo" : 221.0,
+		"pdvs" : 296.0,
 		"estacoes" : null
 	},
 	{
@@ -2588,8 +3308,8 @@
 		"idproduto" : 1.0,
 		"nomemodulo" : "Integracao Go Find",
 		"idmodulo" : 291.0,
-		"submodulo" : 19343.0,
-		"pdvs" : 19982.0,
+		"submodulo" : 221.0,
+		"pdvs" : 296.0,
 		"estacoes" : null
 	},
 	{
@@ -2597,8 +3317,8 @@
 		"idproduto" : 1.0,
 		"nomemodulo" : "Integracao Dominio XML",
 		"idmodulo" : 294.0,
-		"submodulo" : 19343.0,
-		"pdvs" : 19982.0,
+		"submodulo" : 221.0,
+		"pdvs" : 296.0,
 		"estacoes" : null
 	},
 	{
@@ -2606,8 +3326,8 @@
 		"idproduto" : 1.0,
 		"nomemodulo" : "Integracao Matera",
 		"idmodulo" : 295.0,
-		"submodulo" : 19343.0,
-		"pdvs" : 19982.0,
+		"submodulo" : 221.0,
+		"pdvs" : 296.0,
 		"estacoes" : null
 	},
 	{
@@ -2615,8 +3335,8 @@
 		"idproduto" : 1.0,
 		"nomemodulo" : "Homologacao Integradores",
 		"idmodulo" : 301.0,
-		"submodulo" : 19343.0,
-		"pdvs" : 19982.0,
+		"submodulo" : 221.0,
+		"pdvs" : 296.0,
 		"estacoes" : null
 	},
 	{
@@ -2624,8 +3344,8 @@
 		"idproduto" : 1.0,
 		"nomemodulo" : "Integracao Ideris",
 		"idmodulo" : 302.0,
-		"submodulo" : 19343.0,
-		"pdvs" : 19982.0,
+		"submodulo" : 221.0,
+		"pdvs" : 296.0,
 		"estacoes" : null
 	},
 	{
@@ -2633,8 +3353,8 @@
 		"idproduto" : 1.0,
 		"nomemodulo" : "Integracao Minus",
 		"idmodulo" : 308.0,
-		"submodulo" : 19343.0,
-		"pdvs" : 19982.0,
+		"submodulo" : 221.0,
+		"pdvs" : 296.0,
 		"estacoes" : null
 	},
 	{
@@ -2642,8 +3362,8 @@
 		"idproduto" : 1.0,
 		"nomemodulo" : "Integracao InfoPrice",
 		"idmodulo" : 309.0,
-		"submodulo" : 19343.0,
-		"pdvs" : 19982.0,
+		"submodulo" : 221.0,
+		"pdvs" : 296.0,
 		"estacoes" : null
 	},
 	{
@@ -2651,8 +3371,8 @@
 		"idproduto" : 1.0,
 		"nomemodulo" : "Integracao Supermercado Esperanca",
 		"idmodulo" : 311.0,
-		"submodulo" : 19343.0,
-		"pdvs" : 19982.0,
+		"submodulo" : 221.0,
+		"pdvs" : 296.0,
 		"estacoes" : null
 	},
 	{
@@ -2660,8 +3380,8 @@
 		"idproduto" : 1.0,
 		"nomemodulo" : "Integracao PagPix",
 		"idmodulo" : 312.0,
-		"submodulo" : 19343.0,
-		"pdvs" : 19982.0,
+		"submodulo" : 221.0,
+		"pdvs" : 296.0,
 		"estacoes" : null
 	},
 	{
@@ -2669,8 +3389,8 @@
 		"idproduto" : 1.0,
 		"nomemodulo" : "Integracao Ad Rocket",
 		"idmodulo" : 313.0,
-		"submodulo" : 19343.0,
-		"pdvs" : 19982.0,
+		"submodulo" : 221.0,
+		"pdvs" : 296.0,
 		"estacoes" : null
 	},
 	{
@@ -2678,8 +3398,8 @@
 		"idproduto" : 1.0,
 		"nomemodulo" : "Conciliacao cartoes - Valida Solucoes",
 		"idmodulo" : 314.0,
-		"submodulo" : 19343.0,
-		"pdvs" : 19982.0,
+		"submodulo" : 221.0,
+		"pdvs" : 296.0,
 		"estacoes" : null
 	},
 	{
@@ -2687,8 +3407,8 @@
 		"idproduto" : 1.0,
 		"nomemodulo" : "Integracao IMENDES",
 		"idmodulo" : 315.0,
-		"submodulo" : 19343.0,
-		"pdvs" : 19982.0,
+		"submodulo" : 221.0,
+		"pdvs" : 296.0,
 		"estacoes" : null
 	},
 	{
@@ -2696,8 +3416,8 @@
 		"idproduto" : 1.0,
 		"nomemodulo" : "Integracao Area Central - API",
 		"idmodulo" : 320.0,
-		"submodulo" : 19343.0,
-		"pdvs" : 19982.0,
+		"submodulo" : 221.0,
+		"pdvs" : 296.0,
 		"estacoes" : null
 	},
 	{
@@ -2705,8 +3425,8 @@
 		"idproduto" : 1.0,
 		"nomemodulo" : "Integracao TI Soluti",
 		"idmodulo" : 322.0,
-		"submodulo" : 19343.0,
-		"pdvs" : 19982.0,
+		"submodulo" : 221.0,
+		"pdvs" : 296.0,
 		"estacoes" : null
 	},
 	{
@@ -2714,8 +3434,8 @@
 		"idproduto" : 1.0,
 		"nomemodulo" : "Integracao Loja Integrada",
 		"idmodulo" : 323.0,
-		"submodulo" : 19343.0,
-		"pdvs" : 19982.0,
+		"submodulo" : 221.0,
+		"pdvs" : 296.0,
 		"estacoes" : null
 	},
 	{
@@ -2723,8 +3443,8 @@
 		"idproduto" : 1.0,
 		"nomemodulo" : "Integracao Izi App",
 		"idmodulo" : 333.0,
-		"submodulo" : 19343.0,
-		"pdvs" : 19982.0,
+		"submodulo" : 221.0,
+		"pdvs" : 296.0,
 		"estacoes" : null
 	},
 	{
@@ -2732,8 +3452,8 @@
 		"idproduto" : 1.0,
 		"nomemodulo" : "Integracao Mercafacil",
 		"idmodulo" : 334.0,
-		"submodulo" : 19343.0,
-		"pdvs" : 19982.0,
+		"submodulo" : 221.0,
+		"pdvs" : 296.0,
 		"estacoes" : null
 	},
 	{
@@ -2741,8 +3461,8 @@
 		"idproduto" : 1.0,
 		"nomemodulo" : "Integracao Cartaz Facil",
 		"idmodulo" : 343.0,
-		"submodulo" : 19343.0,
-		"pdvs" : 19982.0,
+		"submodulo" : 221.0,
+		"pdvs" : 296.0,
 		"estacoes" : null
 	},
 	{
@@ -2750,8 +3470,8 @@
 		"idproduto" : 1.0,
 		"nomemodulo" : "Integracao Dattion",
 		"idmodulo" : 344.0,
-		"submodulo" : 19343.0,
-		"pdvs" : 19982.0,
+		"submodulo" : 221.0,
+		"pdvs" : 296.0,
 		"estacoes" : null
 	},
 	{
@@ -2759,8 +3479,8 @@
 		"idproduto" : 1.0,
 		"nomemodulo" : "Integracao Codevops",
 		"idmodulo" : 345.0,
-		"submodulo" : 19343.0,
-		"pdvs" : 19982.0,
+		"submodulo" : 221.0,
+		"pdvs" : 296.0,
 		"estacoes" : null
 	},
 	{
@@ -2768,8 +3488,8 @@
 		"idproduto" : 1.0,
 		"nomemodulo" : "Integracao Docerrano",
 		"idmodulo" : 346.0,
-		"submodulo" : 19343.0,
-		"pdvs" : 19982.0,
+		"submodulo" : 221.0,
+		"pdvs" : 296.0,
 		"estacoes" : null
 	},
 	{
@@ -2777,8 +3497,8 @@
 		"idproduto" : 1.0,
 		"nomemodulo" : "Integracao Moria Consultoria",
 		"idmodulo" : 347.0,
-		"submodulo" : 19343.0,
-		"pdvs" : 19982.0,
+		"submodulo" : 221.0,
+		"pdvs" : 296.0,
 		"estacoes" : null
 	},
 	{
@@ -2786,1656 +3506,9 @@
 		"idproduto" : 1.0,
 		"nomemodulo" : "Integracao Simpletask",
 		"idmodulo" : 348.0,
-		"submodulo" : 19343.0,
-		"pdvs" : 19982.0,
+		"submodulo" : 221.0,
+		"pdvs" : 296.0,
 		"estacoes" : null
-	},
-	{
-		"nomeproduto" : "SGERP LINUX",
-		"idproduto" : 1.0,
-		"nomemodulo" : "Integracao One BI",
-		"idmodulo" : 353.0,
-		"submodulo" : 19343.0,
-		"pdvs" : 19982.0,
-		"estacoes" : null
-	},
-	{
-		"nomeproduto" : "SGERP LINUX",
-		"idproduto" : 1.0,
-		"nomemodulo" : "ICMS Centralizado",
-		"idmodulo" : 355.0,
-		"submodulo" : 19343.0,
-		"pdvs" : 19982.0,
-		"estacoes" : null
-	},
-	{
-		"nomeproduto" : "SGERP LINUX",
-		"idproduto" : 1.0,
-		"nomemodulo" : "Integracao Apice",
-		"idmodulo" : 356.0,
-		"submodulo" : 19343.0,
-		"pdvs" : 19982.0,
-		"estacoes" : null
-	},
-	{
-		"nomeproduto" : "SGERP LINUX",
-		"idproduto" : 1.0,
-		"nomemodulo" : "Integracao Proffer",
-		"idmodulo" : 359.0,
-		"submodulo" : 19343.0,
-		"pdvs" : 19982.0,
-		"estacoes" : null
-	},
-	{
-		"nomeproduto" : "SGERP LINUX",
-		"idproduto" : 1.0,
-		"nomemodulo" : "Integracao Nexello",
-		"idmodulo" : 360.0,
-		"submodulo" : 19343.0,
-		"pdvs" : 19982.0,
-		"estacoes" : null
-	},
-	{
-		"nomeproduto" : "SGERP WINDOWS",
-		"idproduto" : 2.0,
-		"nomemodulo" : "Produtos e Precos",
-		"idmodulo" : 1.0,
-		"submodulo" : 6921.0,
-		"pdvs" : 2292.0,
-		"estacoes" : 573003.0
-	},
-	{
-		"nomeproduto" : "SGERP WINDOWS",
-		"idproduto" : 2.0,
-		"nomemodulo" : "Fornecedores",
-		"idmodulo" : 2.0,
-		"submodulo" : 6921.0,
-		"pdvs" : 2292.0,
-		"estacoes" : 573003.0
-	},
-	{
-		"nomeproduto" : "SGERP WINDOWS",
-		"idproduto" : 2.0,
-		"nomemodulo" : "Clientes",
-		"idmodulo" : 3.0,
-		"submodulo" : 6921.0,
-		"pdvs" : 2292.0,
-		"estacoes" : 573003.0
-	},
-	{
-		"nomeproduto" : "SGERP WINDOWS",
-		"idproduto" : 2.0,
-		"nomemodulo" : "Contas a Pagar",
-		"idmodulo" : 4.0,
-		"submodulo" : 6921.0,
-		"pdvs" : 2292.0,
-		"estacoes" : 573003.0
-	},
-	{
-		"nomeproduto" : "SGERP WINDOWS",
-		"idproduto" : 2.0,
-		"nomemodulo" : "Contas a Receber",
-		"idmodulo" : 5.0,
-		"submodulo" : 6921.0,
-		"pdvs" : 2292.0,
-		"estacoes" : 573003.0
-	},
-	{
-		"nomeproduto" : "SGERP WINDOWS",
-		"idproduto" : 2.0,
-		"nomemodulo" : "Resumo de Caixa",
-		"idmodulo" : 6.0,
-		"submodulo" : 6921.0,
-		"pdvs" : 2292.0,
-		"estacoes" : 573003.0
-	},
-	{
-		"nomeproduto" : "SGERP WINDOWS",
-		"idproduto" : 2.0,
-		"nomemodulo" : "Controle de Loja",
-		"idmodulo" : 7.0,
-		"submodulo" : 6921.0,
-		"pdvs" : 2292.0,
-		"estacoes" : 573003.0
-	},
-	{
-		"nomeproduto" : "SGERP WINDOWS",
-		"idproduto" : 2.0,
-		"nomemodulo" : "Contra Vales",
-		"idmodulo" : 9.0,
-		"submodulo" : 6921.0,
-		"pdvs" : 2292.0,
-		"estacoes" : 573003.0
-	},
-	{
-		"nomeproduto" : "SGERP WINDOWS",
-		"idproduto" : 2.0,
-		"nomemodulo" : "Controle de Vendas",
-		"idmodulo" : 11.0,
-		"submodulo" : 6921.0,
-		"pdvs" : 2292.0,
-		"estacoes" : 573003.0
-	},
-	{
-		"nomeproduto" : "SGERP WINDOWS",
-		"idproduto" : 2.0,
-		"nomemodulo" : "Controle de Cheques",
-		"idmodulo" : 12.0,
-		"submodulo" : 6921.0,
-		"pdvs" : 2292.0,
-		"estacoes" : 573003.0
-	},
-	{
-		"nomeproduto" : "SGERP WINDOWS",
-		"idproduto" : 2.0,
-		"nomemodulo" : "Inventario Fisico ( Balanco)",
-		"idmodulo" : 13.0,
-		"submodulo" : 6921.0,
-		"pdvs" : 2292.0,
-		"estacoes" : 573003.0
-	},
-	{
-		"nomeproduto" : "SGERP WINDOWS",
-		"idproduto" : 2.0,
-		"nomemodulo" : "Movimentacao de Produtos",
-		"idmodulo" : 14.0,
-		"submodulo" : 6921.0,
-		"pdvs" : 2292.0,
-		"estacoes" : 573003.0
-	},
-	{
-		"nomeproduto" : "SGERP WINDOWS",
-		"idproduto" : 2.0,
-		"nomemodulo" : "Entrada de Notas",
-		"idmodulo" : 15.0,
-		"submodulo" : 6921.0,
-		"pdvs" : 2292.0,
-		"estacoes" : 573003.0
-	},
-	{
-		"nomeproduto" : "SGERP WINDOWS",
-		"idproduto" : 2.0,
-		"nomemodulo" : "Cotacao de Atacado",
-		"idmodulo" : 17.0,
-		"submodulo" : 6921.0,
-		"pdvs" : 2292.0,
-		"estacoes" : 573003.0
-	},
-	{
-		"nomeproduto" : "SGERP WINDOWS",
-		"idproduto" : 2.0,
-		"nomemodulo" : "Controle de Producao",
-		"idmodulo" : 19.0,
-		"submodulo" : 6921.0,
-		"pdvs" : 2292.0,
-		"estacoes" : 573003.0
-	},
-	{
-		"nomeproduto" : "SGERP WINDOWS",
-		"idproduto" : 2.0,
-		"nomemodulo" : "Contas Bancarias",
-		"idmodulo" : 20.0,
-		"submodulo" : 6921.0,
-		"pdvs" : 2292.0,
-		"estacoes" : 573003.0
-	},
-	{
-		"nomeproduto" : "SGERP WINDOWS",
-		"idproduto" : 2.0,
-		"nomemodulo" : "Controle de Despesas",
-		"idmodulo" : 21.0,
-		"submodulo" : 6921.0,
-		"pdvs" : 2292.0,
-		"estacoes" : 573003.0
-	},
-	{
-		"nomeproduto" : "SGERP WINDOWS",
-		"idproduto" : 2.0,
-		"nomemodulo" : "Controle de Ticket\/Cartao",
-		"idmodulo" : 22.0,
-		"submodulo" : 6921.0,
-		"pdvs" : 2292.0,
-		"estacoes" : 573003.0
-	},
-	{
-		"nomeproduto" : "SGERP WINDOWS",
-		"idproduto" : 2.0,
-		"nomemodulo" : "Comissoes",
-		"idmodulo" : 23.0,
-		"submodulo" : 6921.0,
-		"pdvs" : 2292.0,
-		"estacoes" : 573003.0
-	},
-	{
-		"nomeproduto" : "SGERP WINDOWS",
-		"idproduto" : 2.0,
-		"nomemodulo" : "Compras de Ind£strias\/Distribuidoras",
-		"idmodulo" : 24.0,
-		"submodulo" : 6921.0,
-		"pdvs" : 2292.0,
-		"estacoes" : 573003.0
-	},
-	{
-		"nomeproduto" : "SGERP WINDOWS",
-		"idproduto" : 2.0,
-		"nomemodulo" : "Inventario Fiscal",
-		"idmodulo" : 26.0,
-		"submodulo" : 6921.0,
-		"pdvs" : 2292.0,
-		"estacoes" : 573003.0
-	},
-	{
-		"nomeproduto" : "SGERP WINDOWS",
-		"idproduto" : 2.0,
-		"nomemodulo" : "Controle de Trocas",
-		"idmodulo" : 28.0,
-		"submodulo" : 6921.0,
-		"pdvs" : 2292.0,
-		"estacoes" : 573003.0
-	},
-	{
-		"nomeproduto" : "SGERP WINDOWS",
-		"idproduto" : 2.0,
-		"nomemodulo" : "Levantamento Parcial de Estoque",
-		"idmodulo" : 29.0,
-		"submodulo" : 6921.0,
-		"pdvs" : 2292.0,
-		"estacoes" : 573003.0
-	},
-	{
-		"nomeproduto" : "SGERP WINDOWS",
-		"idproduto" : 2.0,
-		"nomemodulo" : "Movimento de Caixa",
-		"idmodulo" : 30.0,
-		"submodulo" : 6921.0,
-		"pdvs" : 2292.0,
-		"estacoes" : 573003.0
-	},
-	{
-		"nomeproduto" : "SGERP WINDOWS",
-		"idproduto" : 2.0,
-		"nomemodulo" : "Transferencia",
-		"idmodulo" : 33.0,
-		"submodulo" : 6921.0,
-		"pdvs" : 2292.0,
-		"estacoes" : 573003.0
-	},
-	{
-		"nomeproduto" : "SGERP WINDOWS",
-		"idproduto" : 2.0,
-		"nomemodulo" : "Apoio Contabil",
-		"idmodulo" : 34.0,
-		"submodulo" : 6921.0,
-		"pdvs" : 2292.0,
-		"estacoes" : 573003.0
-	},
-	{
-		"nomeproduto" : "SGERP WINDOWS",
-		"idproduto" : 2.0,
-		"nomemodulo" : "Escrita Fiscal",
-		"idmodulo" : 40.0,
-		"submodulo" : 6921.0,
-		"pdvs" : 2292.0,
-		"estacoes" : 573003.0
-	},
-	{
-		"nomeproduto" : "SGERP WINDOWS",
-		"idproduto" : 2.0,
-		"nomemodulo" : "Fidelizacao",
-		"idmodulo" : 41.0,
-		"submodulo" : 6921.0,
-		"pdvs" : 2292.0,
-		"estacoes" : 573003.0
-	},
-	{
-		"nomeproduto" : "SGERP WINDOWS",
-		"idproduto" : 2.0,
-		"nomemodulo" : "Fluxo de Caixa",
-		"idmodulo" : 42.0,
-		"submodulo" : 6921.0,
-		"pdvs" : 2292.0,
-		"estacoes" : 573003.0
-	},
-	{
-		"nomeproduto" : "SGERP WINDOWS",
-		"idproduto" : 2.0,
-		"nomemodulo" : "Prestacao de Servico",
-		"idmodulo" : 55.0,
-		"submodulo" : 6921.0,
-		"pdvs" : 2292.0,
-		"estacoes" : 573003.0
-	},
-	{
-		"nomeproduto" : "SGERP WINDOWS",
-		"idproduto" : 2.0,
-		"nomemodulo" : "Controle Gerencial",
-		"idmodulo" : 56.0,
-		"submodulo" : 6921.0,
-		"pdvs" : 2292.0,
-		"estacoes" : 573003.0
-	},
-	{
-		"nomeproduto" : "SGERP WINDOWS",
-		"idproduto" : 2.0,
-		"nomemodulo" : "SGCotacao On-line",
-		"idmodulo" : 59.0,
-		"submodulo" : 6921.0,
-		"pdvs" : 2292.0,
-		"estacoes" : 573003.0
-	},
-	{
-		"nomeproduto" : "SGERP WINDOWS",
-		"idproduto" : 2.0,
-		"nomemodulo" : "SAT",
-		"idmodulo" : 74.0,
-		"submodulo" : 6921.0,
-		"pdvs" : 2292.0,
-		"estacoes" : 573003.0
-	},
-	{
-		"nomeproduto" : "SGERP WINDOWS",
-		"idproduto" : 2.0,
-		"nomemodulo" : "Scanntech",
-		"idmodulo" : 104.0,
-		"submodulo" : 6921.0,
-		"pdvs" : 2292.0,
-		"estacoes" : 573003.0
-	},
-	{
-		"nomeproduto" : "SGERP WINDOWS",
-		"idproduto" : 2.0,
-		"nomemodulo" : "Contribuicao Solidaria",
-		"idmodulo" : 107.0,
-		"submodulo" : 6921.0,
-		"pdvs" : 2292.0,
-		"estacoes" : 573003.0
-	},
-	{
-		"nomeproduto" : "SGERP WINDOWS",
-		"idproduto" : 2.0,
-		"nomemodulo" : "Conciliacao de cartoes - Conciflex",
-		"idmodulo" : 108.0,
-		"submodulo" : 6921.0,
-		"pdvs" : 2292.0,
-		"estacoes" : 573003.0
-	},
-	{
-		"nomeproduto" : "SGERP WINDOWS",
-		"idproduto" : 2.0,
-		"nomemodulo" : "Mercafacil",
-		"idmodulo" : 111.0,
-		"submodulo" : 6921.0,
-		"pdvs" : 2292.0,
-		"estacoes" : 573003.0
-	},
-	{
-		"nomeproduto" : "SGERP WINDOWS",
-		"idproduto" : 2.0,
-		"nomemodulo" : "Mix Fiscal",
-		"idmodulo" : 117.0,
-		"submodulo" : 6921.0,
-		"pdvs" : 2292.0,
-		"estacoes" : 573003.0
-	},
-	{
-		"nomeproduto" : "SGERP WINDOWS",
-		"idproduto" : 2.0,
-		"nomemodulo" : "Integracao NovAmerica",
-		"idmodulo" : 118.0,
-		"submodulo" : 6921.0,
-		"pdvs" : 2292.0,
-		"estacoes" : 573003.0
-	},
-	{
-		"nomeproduto" : "SGERP WINDOWS",
-		"idproduto" : 2.0,
-		"nomemodulo" : "Integracao Consignet",
-		"idmodulo" : 119.0,
-		"submodulo" : 6921.0,
-		"pdvs" : 2292.0,
-		"estacoes" : 573003.0
-	},
-	{
-		"nomeproduto" : "SGERP WINDOWS",
-		"idproduto" : 2.0,
-		"nomemodulo" : "PLAY VIEW",
-		"idmodulo" : 120.0,
-		"submodulo" : 6921.0,
-		"pdvs" : 2292.0,
-		"estacoes" : 573003.0
-	},
-	{
-		"nomeproduto" : "SGERP WINDOWS",
-		"idproduto" : 2.0,
-		"nomemodulo" : "Senha venda prazo - Software Express",
-		"idmodulo" : 121.0,
-		"submodulo" : 6921.0,
-		"pdvs" : 2292.0,
-		"estacoes" : 573003.0
-	},
-	{
-		"nomeproduto" : "SGERP WINDOWS",
-		"idproduto" : 2.0,
-		"nomemodulo" : "Integracao Site Mercado",
-		"idmodulo" : 130.0,
-		"submodulo" : 6921.0,
-		"pdvs" : 2292.0,
-		"estacoes" : 573003.0
-	},
-	{
-		"nomeproduto" : "SGERP WINDOWS",
-		"idproduto" : 2.0,
-		"nomemodulo" : "Integracao XML SetUP - SGDFE GETCARD",
-		"idmodulo" : 132.0,
-		"submodulo" : 6921.0,
-		"pdvs" : 2292.0,
-		"estacoes" : 573003.0
-	},
-	{
-		"nomeproduto" : "SGERP WINDOWS",
-		"idproduto" : 2.0,
-		"nomemodulo" : "Donuz",
-		"idmodulo" : 135.0,
-		"submodulo" : 6921.0,
-		"pdvs" : 2292.0,
-		"estacoes" : 573003.0
-	},
-	{
-		"nomeproduto" : "SGERP WINDOWS",
-		"idproduto" : 2.0,
-		"nomemodulo" : "Troco Simples",
-		"idmodulo" : 137.0,
-		"submodulo" : 6921.0,
-		"pdvs" : 2292.0,
-		"estacoes" : 573003.0
-	},
-	{
-		"nomeproduto" : "SGERP WINDOWS",
-		"idproduto" : 2.0,
-		"nomemodulo" : "Emissao de Boletos",
-		"idmodulo" : 139.0,
-		"submodulo" : 6921.0,
-		"pdvs" : 2292.0,
-		"estacoes" : 573003.0
-	},
-	{
-		"nomeproduto" : "SGERP WINDOWS",
-		"idproduto" : 2.0,
-		"nomemodulo" : "Integracao SIMPLUS",
-		"idmodulo" : 141.0,
-		"submodulo" : 6921.0,
-		"pdvs" : 2292.0,
-		"estacoes" : 573003.0
-	},
-	{
-		"nomeproduto" : "SGERP WINDOWS",
-		"idproduto" : 2.0,
-		"nomemodulo" : "Integracao Area Central - REDE",
-		"idmodulo" : 146.0,
-		"submodulo" : 6921.0,
-		"pdvs" : 2292.0,
-		"estacoes" : 573003.0
-	},
-	{
-		"nomeproduto" : "SGERP WINDOWS",
-		"idproduto" : 2.0,
-		"nomemodulo" : "Integracao Area Central - ASSOCIADO",
-		"idmodulo" : 147.0,
-		"submodulo" : 6921.0,
-		"pdvs" : 2292.0,
-		"estacoes" : 573003.0
-	},
-	{
-		"nomeproduto" : "SGERP WINDOWS",
-		"idproduto" : 2.0,
-		"nomemodulo" : "Controle Flex",
-		"idmodulo" : 148.0,
-		"submodulo" : 6921.0,
-		"pdvs" : 2292.0,
-		"estacoes" : 573003.0
-	},
-	{
-		"nomeproduto" : "SGERP WINDOWS",
-		"idproduto" : 2.0,
-		"nomemodulo" : "Integracao WL Assessoria e Contabilidade",
-		"idmodulo" : 152.0,
-		"submodulo" : 6921.0,
-		"pdvs" : 2292.0,
-		"estacoes" : 573003.0
-	},
-	{
-		"nomeproduto" : "SGERP WINDOWS",
-		"idproduto" : 2.0,
-		"nomemodulo" : "Integracao Askyn",
-		"idmodulo" : 157.0,
-		"submodulo" : 6921.0,
-		"pdvs" : 2292.0,
-		"estacoes" : 573003.0
-	},
-	{
-		"nomeproduto" : "SGERP WINDOWS",
-		"idproduto" : 2.0,
-		"nomemodulo" : "Integracao APPMercados",
-		"idmodulo" : 159.0,
-		"submodulo" : 6921.0,
-		"pdvs" : 2292.0,
-		"estacoes" : 573003.0
-	},
-	{
-		"nomeproduto" : "SGERP WINDOWS",
-		"idproduto" : 2.0,
-		"nomemodulo" : "Integracao LOJAQUI",
-		"idmodulo" : 163.0,
-		"submodulo" : 6921.0,
-		"pdvs" : 2292.0,
-		"estacoes" : 573003.0
-	},
-	{
-		"nomeproduto" : "SGERP WINDOWS",
-		"idproduto" : 2.0,
-		"nomemodulo" : "Conciliacao de cartoes - VIZZO",
-		"idmodulo" : 165.0,
-		"submodulo" : 6921.0,
-		"pdvs" : 2292.0,
-		"estacoes" : 573003.0
-	},
-	{
-		"nomeproduto" : "SGERP WINDOWS",
-		"idproduto" : 2.0,
-		"nomemodulo" : "Integracao RAPPI",
-		"idmodulo" : 166.0,
-		"submodulo" : 6921.0,
-		"pdvs" : 2292.0,
-		"estacoes" : 573003.0
-	},
-	{
-		"nomeproduto" : "SGERP WINDOWS",
-		"idproduto" : 2.0,
-		"nomemodulo" : "Integracao Nexfood",
-		"idmodulo" : 167.0,
-		"submodulo" : 6921.0,
-		"pdvs" : 2292.0,
-		"estacoes" : 573003.0
-	},
-	{
-		"nomeproduto" : "SGERP WINDOWS",
-		"idproduto" : 2.0,
-		"nomemodulo" : "Integracao Tray",
-		"idmodulo" : 171.0,
-		"submodulo" : 6921.0,
-		"pdvs" : 2292.0,
-		"estacoes" : 573003.0
-	},
-	{
-		"nomeproduto" : "SGERP WINDOWS",
-		"idproduto" : 2.0,
-		"nomemodulo" : "Integracao Auditto",
-		"idmodulo" : 172.0,
-		"submodulo" : 6921.0,
-		"pdvs" : 2292.0,
-		"estacoes" : 573003.0
-	},
-	{
-		"nomeproduto" : "SGERP WINDOWS",
-		"idproduto" : 2.0,
-		"nomemodulo" : "Senha PDV por PINPAD - SITEF TUICCS",
-		"idmodulo" : 173.0,
-		"submodulo" : 6921.0,
-		"pdvs" : 2292.0,
-		"estacoes" : 573003.0
-	},
-	{
-		"nomeproduto" : "SGERP WINDOWS",
-		"idproduto" : 2.0,
-		"nomemodulo" : "Integracao Cresce Vendas",
-		"idmodulo" : 174.0,
-		"submodulo" : 6921.0,
-		"pdvs" : 2292.0,
-		"estacoes" : 573003.0
-	},
-	{
-		"nomeproduto" : "SGERP WINDOWS",
-		"idproduto" : 2.0,
-		"nomemodulo" : "Integracao SG SISTEMAS",
-		"idmodulo" : 176.0,
-		"submodulo" : 6921.0,
-		"pdvs" : 2292.0,
-		"estacoes" : 573003.0
-	},
-	{
-		"nomeproduto" : "SGERP WINDOWS",
-		"idproduto" : 2.0,
-		"nomemodulo" : "Integracao Compre Facil",
-		"idmodulo" : 180.0,
-		"submodulo" : 6921.0,
-		"pdvs" : 2292.0,
-		"estacoes" : 573003.0
-	},
-	{
-		"nomeproduto" : "SGERP WINDOWS",
-		"idproduto" : 2.0,
-		"nomemodulo" : "Integracao Insta Buy",
-		"idmodulo" : 181.0,
-		"submodulo" : 6921.0,
-		"pdvs" : 2292.0,
-		"estacoes" : 573003.0
-	},
-	{
-		"nomeproduto" : "SGERP WINDOWS",
-		"idproduto" : 2.0,
-		"nomemodulo" : "Integracao Deju",
-		"idmodulo" : 182.0,
-		"submodulo" : 6921.0,
-		"pdvs" : 2292.0,
-		"estacoes" : 573003.0
-	},
-	{
-		"nomeproduto" : "SGERP WINDOWS",
-		"idproduto" : 2.0,
-		"nomemodulo" : "Integracao Cupom Verde",
-		"idmodulo" : 211.0,
-		"submodulo" : 6921.0,
-		"pdvs" : 2292.0,
-		"estacoes" : 573003.0
-	},
-	{
-		"nomeproduto" : "SGERP WINDOWS",
-		"idproduto" : 2.0,
-		"nomemodulo" : "Integracao Shipay",
-		"idmodulo" : 253.0,
-		"submodulo" : 6921.0,
-		"pdvs" : 2292.0,
-		"estacoes" : 573003.0
-	},
-	{
-		"nomeproduto" : "SGERP WINDOWS",
-		"idproduto" : 2.0,
-		"nomemodulo" : "Integracao Smart",
-		"idmodulo" : 254.0,
-		"submodulo" : 6921.0,
-		"pdvs" : 2292.0,
-		"estacoes" : 573003.0
-	},
-	{
-		"nomeproduto" : "SGERP WINDOWS",
-		"idproduto" : 2.0,
-		"nomemodulo" : "Integracao Web Jasper",
-		"idmodulo" : 256.0,
-		"submodulo" : 6921.0,
-		"pdvs" : 2292.0,
-		"estacoes" : 573003.0
-	},
-	{
-		"nomeproduto" : "SGERP WINDOWS",
-		"idproduto" : 2.0,
-		"nomemodulo" : "Integracao Go Find",
-		"idmodulo" : 291.0,
-		"submodulo" : 6921.0,
-		"pdvs" : 2292.0,
-		"estacoes" : 573003.0
-	},
-	{
-		"nomeproduto" : "SGERP WINDOWS",
-		"idproduto" : 2.0,
-		"nomemodulo" : "Integracao Dominio XML",
-		"idmodulo" : 294.0,
-		"submodulo" : 6921.0,
-		"pdvs" : 2292.0,
-		"estacoes" : 573003.0
-	},
-	{
-		"nomeproduto" : "SGERP WINDOWS",
-		"idproduto" : 2.0,
-		"nomemodulo" : "Homologacao Integradores",
-		"idmodulo" : 301.0,
-		"submodulo" : 6921.0,
-		"pdvs" : 2292.0,
-		"estacoes" : 573003.0
-	},
-	{
-		"nomeproduto" : "SGERP WINDOWS",
-		"idproduto" : 2.0,
-		"nomemodulo" : "Integracao Minus",
-		"idmodulo" : 308.0,
-		"submodulo" : 6921.0,
-		"pdvs" : 2292.0,
-		"estacoes" : 573003.0
-	},
-	{
-		"nomeproduto" : "SGERP WINDOWS",
-		"idproduto" : 2.0,
-		"nomemodulo" : "Integracao Web Jasper API",
-		"idmodulo" : 310.0,
-		"submodulo" : 6921.0,
-		"pdvs" : 2292.0,
-		"estacoes" : 573003.0
-	},
-	{
-		"nomeproduto" : "SGERP WINDOWS",
-		"idproduto" : 2.0,
-		"nomemodulo" : "Integracao Supermercado Esperanca",
-		"idmodulo" : 311.0,
-		"submodulo" : 6921.0,
-		"pdvs" : 2292.0,
-		"estacoes" : 573003.0
-	},
-	{
-		"nomeproduto" : "SGERP WINDOWS",
-		"idproduto" : 2.0,
-		"nomemodulo" : "Integracao PagPix",
-		"idmodulo" : 312.0,
-		"submodulo" : 6921.0,
-		"pdvs" : 2292.0,
-		"estacoes" : 573003.0
-	},
-	{
-		"nomeproduto" : "SGERP WINDOWS",
-		"idproduto" : 2.0,
-		"nomemodulo" : "Integracao Ad Rocket",
-		"idmodulo" : 313.0,
-		"submodulo" : 6921.0,
-		"pdvs" : 2292.0,
-		"estacoes" : 573003.0
-	},
-	{
-		"nomeproduto" : "SGERP WINDOWS",
-		"idproduto" : 2.0,
-		"nomemodulo" : "Integracao IMENDES",
-		"idmodulo" : 315.0,
-		"submodulo" : 6921.0,
-		"pdvs" : 2292.0,
-		"estacoes" : 573003.0
-	},
-	{
-		"nomeproduto" : "SGERP WINDOWS",
-		"idproduto" : 2.0,
-		"nomemodulo" : "Integracao Area Central - API",
-		"idmodulo" : 320.0,
-		"submodulo" : 6921.0,
-		"pdvs" : 2292.0,
-		"estacoes" : 573003.0
-	},
-	{
-		"nomeproduto" : "SGERP WINDOWS",
-		"idproduto" : 2.0,
-		"nomemodulo" : "Integracao TI Soluti",
-		"idmodulo" : 322.0,
-		"submodulo" : 6921.0,
-		"pdvs" : 2292.0,
-		"estacoes" : 573003.0
-	},
-	{
-		"nomeproduto" : "SGERP WINDOWS",
-		"idproduto" : 2.0,
-		"nomemodulo" : "Integracao Anota Ai",
-		"idmodulo" : 326.0,
-		"submodulo" : 6921.0,
-		"pdvs" : 2292.0,
-		"estacoes" : 573003.0
-	},
-	{
-		"nomeproduto" : "SGERP WINDOWS",
-		"idproduto" : 2.0,
-		"nomemodulo" : "Integracao Izi App",
-		"idmodulo" : 333.0,
-		"submodulo" : 6921.0,
-		"pdvs" : 2292.0,
-		"estacoes" : 573003.0
-	},
-	{
-		"nomeproduto" : "SGERP WINDOWS",
-		"idproduto" : 2.0,
-		"nomemodulo" : "Integracao Mercafacil",
-		"idmodulo" : 334.0,
-		"submodulo" : 6921.0,
-		"pdvs" : 2292.0,
-		"estacoes" : 573003.0
-	},
-	{
-		"nomeproduto" : "SGERP WINDOWS",
-		"idproduto" : 2.0,
-		"nomemodulo" : "Integracao Cartaz Facil",
-		"idmodulo" : 343.0,
-		"submodulo" : 6921.0,
-		"pdvs" : 2292.0,
-		"estacoes" : 573003.0
-	},
-	{
-		"nomeproduto" : "SGERP WINDOWS",
-		"idproduto" : 2.0,
-		"nomemodulo" : "Integracao Dattion",
-		"idmodulo" : 344.0,
-		"submodulo" : 6921.0,
-		"pdvs" : 2292.0,
-		"estacoes" : 573003.0
-	},
-	{
-		"nomeproduto" : "SGERP WINDOWS",
-		"idproduto" : 2.0,
-		"nomemodulo" : "Integracao Codevops",
-		"idmodulo" : 345.0,
-		"submodulo" : 6921.0,
-		"pdvs" : 2292.0,
-		"estacoes" : 573003.0
-	},
-	{
-		"nomeproduto" : "SGERP WINDOWS",
-		"idproduto" : 2.0,
-		"nomemodulo" : "Integracao Docerrano",
-		"idmodulo" : 346.0,
-		"submodulo" : 6921.0,
-		"pdvs" : 2292.0,
-		"estacoes" : 573003.0
-	},
-	{
-		"nomeproduto" : "SGERP WINDOWS",
-		"idproduto" : 2.0,
-		"nomemodulo" : "Integracao Moria Consultoria",
-		"idmodulo" : 347.0,
-		"submodulo" : 6921.0,
-		"pdvs" : 2292.0,
-		"estacoes" : 573003.0
-	},
-	{
-		"nomeproduto" : "SGERP WINDOWS",
-		"idproduto" : 2.0,
-		"nomemodulo" : "Integracao Simpletask",
-		"idmodulo" : 348.0,
-		"submodulo" : 6921.0,
-		"pdvs" : 2292.0,
-		"estacoes" : 573003.0
-	},
-	{
-		"nomeproduto" : "SGERP WINDOWS",
-		"idproduto" : 2.0,
-		"nomemodulo" : "Integracao Apice",
-		"idmodulo" : 356.0,
-		"submodulo" : 6921.0,
-		"pdvs" : 2292.0,
-		"estacoes" : 573003.0
-	},
-	{
-		"nomeproduto" : "SGERP WINDOWS",
-		"idproduto" : 2.0,
-		"nomemodulo" : "Integracao Proffer",
-		"idmodulo" : 359.0,
-		"submodulo" : 6921.0,
-		"pdvs" : 2292.0,
-		"estacoes" : 573003.0
-	},
-	{
-		"nomeproduto" : "SGESTAR",
-		"idproduto" : 16.0,
-		"nomemodulo" : null,
-		"idmodulo" : null,
-		"submodulo" : null,
-		"pdvs" : null,
-		"estacoes" : null
-	},
-	{
-		"nomeproduto" : "SGFOODS",
-		"idproduto" : 3.0,
-		"nomemodulo" : "Produtos e Precos",
-		"idmodulo" : 1.0,
-		"submodulo" : 7399.0,
-		"pdvs" : 2123.0,
-		"estacoes" : 896258.0
-	},
-	{
-		"nomeproduto" : "SGFOODS",
-		"idproduto" : 3.0,
-		"nomemodulo" : "Fornecedores",
-		"idmodulo" : 2.0,
-		"submodulo" : 7399.0,
-		"pdvs" : 2123.0,
-		"estacoes" : 896258.0
-	},
-	{
-		"nomeproduto" : "SGFOODS",
-		"idproduto" : 3.0,
-		"nomemodulo" : "Clientes",
-		"idmodulo" : 3.0,
-		"submodulo" : 7399.0,
-		"pdvs" : 2123.0,
-		"estacoes" : 896258.0
-	},
-	{
-		"nomeproduto" : "SGFOODS",
-		"idproduto" : 3.0,
-		"nomemodulo" : "Contas a Pagar",
-		"idmodulo" : 4.0,
-		"submodulo" : 7399.0,
-		"pdvs" : 2123.0,
-		"estacoes" : 896258.0
-	},
-	{
-		"nomeproduto" : "SGFOODS",
-		"idproduto" : 3.0,
-		"nomemodulo" : "Contas a Receber",
-		"idmodulo" : 5.0,
-		"submodulo" : 7399.0,
-		"pdvs" : 2123.0,
-		"estacoes" : 896258.0
-	},
-	{
-		"nomeproduto" : "SGFOODS",
-		"idproduto" : 3.0,
-		"nomemodulo" : "Resumo de Caixa",
-		"idmodulo" : 6.0,
-		"submodulo" : 7399.0,
-		"pdvs" : 2123.0,
-		"estacoes" : 896258.0
-	},
-	{
-		"nomeproduto" : "SGFOODS",
-		"idproduto" : 3.0,
-		"nomemodulo" : "Controle de Loja",
-		"idmodulo" : 7.0,
-		"submodulo" : 7399.0,
-		"pdvs" : 2123.0,
-		"estacoes" : 896258.0
-	},
-	{
-		"nomeproduto" : "SGFOODS",
-		"idproduto" : 3.0,
-		"nomemodulo" : "Controle de Cheques",
-		"idmodulo" : 12.0,
-		"submodulo" : 7399.0,
-		"pdvs" : 2123.0,
-		"estacoes" : 896258.0
-	},
-	{
-		"nomeproduto" : "SGFOODS",
-		"idproduto" : 3.0,
-		"nomemodulo" : "Inventario Fisico ( Balanco)",
-		"idmodulo" : 13.0,
-		"submodulo" : 7399.0,
-		"pdvs" : 2123.0,
-		"estacoes" : 896258.0
-	},
-	{
-		"nomeproduto" : "SGFOODS",
-		"idproduto" : 3.0,
-		"nomemodulo" : "Movimentacao de Produtos",
-		"idmodulo" : 14.0,
-		"submodulo" : 7399.0,
-		"pdvs" : 2123.0,
-		"estacoes" : 896258.0
-	},
-	{
-		"nomeproduto" : "SGFOODS",
-		"idproduto" : 3.0,
-		"nomemodulo" : "Entrada de Notas",
-		"idmodulo" : 15.0,
-		"submodulo" : 7399.0,
-		"pdvs" : 2123.0,
-		"estacoes" : 896258.0
-	},
-	{
-		"nomeproduto" : "SGFOODS",
-		"idproduto" : 3.0,
-		"nomemodulo" : "Controle de Producao",
-		"idmodulo" : 19.0,
-		"submodulo" : 7399.0,
-		"pdvs" : 2123.0,
-		"estacoes" : 896258.0
-	},
-	{
-		"nomeproduto" : "SGFOODS",
-		"idproduto" : 3.0,
-		"nomemodulo" : "Contas Bancarias",
-		"idmodulo" : 20.0,
-		"submodulo" : 7399.0,
-		"pdvs" : 2123.0,
-		"estacoes" : 896258.0
-	},
-	{
-		"nomeproduto" : "SGFOODS",
-		"idproduto" : 3.0,
-		"nomemodulo" : "Controle de Despesas",
-		"idmodulo" : 21.0,
-		"submodulo" : 7399.0,
-		"pdvs" : 2123.0,
-		"estacoes" : 896258.0
-	},
-	{
-		"nomeproduto" : "SGFOODS",
-		"idproduto" : 3.0,
-		"nomemodulo" : "Controle de Ticket\/Cartao",
-		"idmodulo" : 22.0,
-		"submodulo" : 7399.0,
-		"pdvs" : 2123.0,
-		"estacoes" : 896258.0
-	},
-	{
-		"nomeproduto" : "SGFOODS",
-		"idproduto" : 3.0,
-		"nomemodulo" : "Controle de Comissao",
-		"idmodulo" : 23.0,
-		"submodulo" : 7399.0,
-		"pdvs" : 2123.0,
-		"estacoes" : 896258.0
-	},
-	{
-		"nomeproduto" : "SGFOODS",
-		"idproduto" : 3.0,
-		"nomemodulo" : "Compras de Ind£strias\/Distribuidoras",
-		"idmodulo" : 24.0,
-		"submodulo" : 7399.0,
-		"pdvs" : 2123.0,
-		"estacoes" : 896258.0
-	},
-	{
-		"nomeproduto" : "SGFOODS",
-		"idproduto" : 3.0,
-		"nomemodulo" : "Inventario Fiscal",
-		"idmodulo" : 26.0,
-		"submodulo" : 7399.0,
-		"pdvs" : 2123.0,
-		"estacoes" : 896258.0
-	},
-	{
-		"nomeproduto" : "SGFOODS",
-		"idproduto" : 3.0,
-		"nomemodulo" : "Levantamento Parcial de Estoque",
-		"idmodulo" : 29.0,
-		"submodulo" : 7399.0,
-		"pdvs" : 2123.0,
-		"estacoes" : 896258.0
-	},
-	{
-		"nomeproduto" : "SGFOODS",
-		"idproduto" : 3.0,
-		"nomemodulo" : "Movimento de Caixa",
-		"idmodulo" : 30.0,
-		"submodulo" : 7399.0,
-		"pdvs" : 2123.0,
-		"estacoes" : 896258.0
-	},
-	{
-		"nomeproduto" : "SGFOODS",
-		"idproduto" : 3.0,
-		"nomemodulo" : "Transferencia",
-		"idmodulo" : 33.0,
-		"submodulo" : 7399.0,
-		"pdvs" : 2123.0,
-		"estacoes" : 896258.0
-	},
-	{
-		"nomeproduto" : "SGFOODS",
-		"idproduto" : 3.0,
-		"nomemodulo" : "Apoio Contabil",
-		"idmodulo" : 34.0,
-		"submodulo" : 7399.0,
-		"pdvs" : 2123.0,
-		"estacoes" : 896258.0
-	},
-	{
-		"nomeproduto" : "SGFOODS",
-		"idproduto" : 3.0,
-		"nomemodulo" : "Escrita Fiscal",
-		"idmodulo" : 40.0,
-		"submodulo" : 7399.0,
-		"pdvs" : 2123.0,
-		"estacoes" : 896258.0
-	},
-	{
-		"nomeproduto" : "SGFOODS",
-		"idproduto" : 3.0,
-		"nomemodulo" : "Fidelizacao",
-		"idmodulo" : 41.0,
-		"submodulo" : 7399.0,
-		"pdvs" : 2123.0,
-		"estacoes" : 896258.0
-	},
-	{
-		"nomeproduto" : "SGFOODS",
-		"idproduto" : 3.0,
-		"nomemodulo" : "Fluxo de Caixa",
-		"idmodulo" : 42.0,
-		"submodulo" : 7399.0,
-		"pdvs" : 2123.0,
-		"estacoes" : 896258.0
-	},
-	{
-		"nomeproduto" : "SGFOODS",
-		"idproduto" : 3.0,
-		"nomemodulo" : "Balcao",
-		"idmodulo" : 49.0,
-		"submodulo" : 7399.0,
-		"pdvs" : 2123.0,
-		"estacoes" : 896258.0
-	},
-	{
-		"nomeproduto" : "SGFOODS",
-		"idproduto" : 3.0,
-		"nomemodulo" : "Pedidos",
-		"idmodulo" : 50.0,
-		"submodulo" : 7399.0,
-		"pdvs" : 2123.0,
-		"estacoes" : 896258.0
-	},
-	{
-		"nomeproduto" : "SGFOODS",
-		"idproduto" : 3.0,
-		"nomemodulo" : "Mesa",
-		"idmodulo" : 51.0,
-		"submodulo" : 7399.0,
-		"pdvs" : 2123.0,
-		"estacoes" : 896258.0
-	},
-	{
-		"nomeproduto" : "SGFOODS",
-		"idproduto" : 3.0,
-		"nomemodulo" : "Producao para entrega",
-		"idmodulo" : 52.0,
-		"submodulo" : 7399.0,
-		"pdvs" : 2123.0,
-		"estacoes" : 896258.0
-	},
-	{
-		"nomeproduto" : "SGFOODS",
-		"idproduto" : 3.0,
-		"nomemodulo" : "Cartao",
-		"idmodulo" : 53.0,
-		"submodulo" : 7399.0,
-		"pdvs" : 2123.0,
-		"estacoes" : 896258.0
-	},
-	{
-		"nomeproduto" : "SGFOODS",
-		"idproduto" : 3.0,
-		"nomemodulo" : "Pre-Pedido",
-		"idmodulo" : 54.0,
-		"submodulo" : 7399.0,
-		"pdvs" : 2123.0,
-		"estacoes" : 896258.0
-	},
-	{
-		"nomeproduto" : "SGFOODS",
-		"idproduto" : 3.0,
-		"nomemodulo" : "Controle Gerencial",
-		"idmodulo" : 56.0,
-		"submodulo" : 7399.0,
-		"pdvs" : 2123.0,
-		"estacoes" : 896258.0
-	},
-	{
-		"nomeproduto" : "SGFOODS",
-		"idproduto" : 3.0,
-		"nomemodulo" : "SAT",
-		"idmodulo" : 74.0,
-		"submodulo" : 7399.0,
-		"pdvs" : 2123.0,
-		"estacoes" : 896258.0
-	},
-	{
-		"nomeproduto" : "SGFOODS",
-		"idproduto" : 3.0,
-		"nomemodulo" : "Autopagamento",
-		"idmodulo" : 103.0,
-		"submodulo" : 7399.0,
-		"pdvs" : 2123.0,
-		"estacoes" : 896258.0
-	},
-	{
-		"nomeproduto" : "SGFOODS",
-		"idproduto" : 3.0,
-		"nomemodulo" : "Scanntech",
-		"idmodulo" : 104.0,
-		"submodulo" : 7399.0,
-		"pdvs" : 2123.0,
-		"estacoes" : 896258.0
-	},
-	{
-		"nomeproduto" : "SGFOODS",
-		"idproduto" : 3.0,
-		"nomemodulo" : "Autopagamento - Demo",
-		"idmodulo" : 106.0,
-		"submodulo" : 7399.0,
-		"pdvs" : 2123.0,
-		"estacoes" : 896258.0
-	},
-	{
-		"nomeproduto" : "SGFOODS",
-		"idproduto" : 3.0,
-		"nomemodulo" : "Contribuicao Solidaria",
-		"idmodulo" : 107.0,
-		"submodulo" : 7399.0,
-		"pdvs" : 2123.0,
-		"estacoes" : 896258.0
-	},
-	{
-		"nomeproduto" : "SGFOODS",
-		"idproduto" : 3.0,
-		"nomemodulo" : "Conciliacao de cartoes - Conciflex",
-		"idmodulo" : 108.0,
-		"submodulo" : 7399.0,
-		"pdvs" : 2123.0,
-		"estacoes" : 896258.0
-	},
-	{
-		"nomeproduto" : "SGFOODS",
-		"idproduto" : 3.0,
-		"nomemodulo" : "Mix Fiscal",
-		"idmodulo" : 117.0,
-		"submodulo" : 7399.0,
-		"pdvs" : 2123.0,
-		"estacoes" : 896258.0
-	},
-	{
-		"nomeproduto" : "SGFOODS",
-		"idproduto" : 3.0,
-		"nomemodulo" : "PLAY VIEW",
-		"idmodulo" : 120.0,
-		"submodulo" : 7399.0,
-		"pdvs" : 2123.0,
-		"estacoes" : 896258.0
-	},
-	{
-		"nomeproduto" : "SGFOODS",
-		"idproduto" : 3.0,
-		"nomemodulo" : "Fidelizi",
-		"idmodulo" : 125.0,
-		"submodulo" : 7399.0,
-		"pdvs" : 2123.0,
-		"estacoes" : 896258.0
-	},
-	{
-		"nomeproduto" : "SGFOODS",
-		"idproduto" : 3.0,
-		"nomemodulo" : "Integracao Site Mercado",
-		"idmodulo" : 130.0,
-		"submodulo" : 7399.0,
-		"pdvs" : 2123.0,
-		"estacoes" : 896258.0
-	},
-	{
-		"nomeproduto" : "SGFOODS",
-		"idproduto" : 3.0,
-		"nomemodulo" : "Integracao XML SetUP - SGDFE GETCARD",
-		"idmodulo" : 132.0,
-		"submodulo" : 7399.0,
-		"pdvs" : 2123.0,
-		"estacoes" : 896258.0
-	},
-	{
-		"nomeproduto" : "SGFOODS",
-		"idproduto" : 3.0,
-		"nomemodulo" : "Google Maps",
-		"idmodulo" : 133.0,
-		"submodulo" : 7399.0,
-		"pdvs" : 2123.0,
-		"estacoes" : 896258.0
-	},
-	{
-		"nomeproduto" : "SGFOODS",
-		"idproduto" : 3.0,
-		"nomemodulo" : "Donuz",
-		"idmodulo" : 135.0,
-		"submodulo" : 7399.0,
-		"pdvs" : 2123.0,
-		"estacoes" : 896258.0
-	},
-	{
-		"nomeproduto" : "SGFOODS",
-		"idproduto" : 3.0,
-		"nomemodulo" : "Troco Simples",
-		"idmodulo" : 137.0,
-		"submodulo" : 7399.0,
-		"pdvs" : 2123.0,
-		"estacoes" : 896258.0
-	},
-	{
-		"nomeproduto" : "SGFOODS",
-		"idproduto" : 3.0,
-		"nomemodulo" : "Emissao de Boletos",
-		"idmodulo" : 139.0,
-		"submodulo" : 7399.0,
-		"pdvs" : 2123.0,
-		"estacoes" : 896258.0
-	},
-	{
-		"nomeproduto" : "SGFOODS",
-		"idproduto" : 3.0,
-		"nomemodulo" : "Integracao SIMPLUS",
-		"idmodulo" : 141.0,
-		"submodulo" : 7399.0,
-		"pdvs" : 2123.0,
-		"estacoes" : 896258.0
-	},
-	{
-		"nomeproduto" : "SGFOODS",
-		"idproduto" : 3.0,
-		"nomemodulo" : "Integracao Area Central - REDE",
-		"idmodulo" : 146.0,
-		"submodulo" : 7399.0,
-		"pdvs" : 2123.0,
-		"estacoes" : 896258.0
-	},
-	{
-		"nomeproduto" : "SGFOODS",
-		"idproduto" : 3.0,
-		"nomemodulo" : "Integracao Area Central - ASSOCIADO",
-		"idmodulo" : 147.0,
-		"submodulo" : 7399.0,
-		"pdvs" : 2123.0,
-		"estacoes" : 896258.0
-	},
-	{
-		"nomeproduto" : "SGFOODS",
-		"idproduto" : 3.0,
-		"nomemodulo" : "Integracao APPMercados",
-		"idmodulo" : 159.0,
-		"submodulo" : 7399.0,
-		"pdvs" : 2123.0,
-		"estacoes" : 896258.0
-	},
-	{
-		"nomeproduto" : "SGFOODS",
-		"idproduto" : 3.0,
-		"nomemodulo" : "Integracao Neemo",
-		"idmodulo" : 162.0,
-		"submodulo" : 7399.0,
-		"pdvs" : 2123.0,
-		"estacoes" : 896258.0
-	},
-	{
-		"nomeproduto" : "SGFOODS",
-		"idproduto" : 3.0,
-		"nomemodulo" : "Integracao LOJAQUI",
-		"idmodulo" : 163.0,
-		"submodulo" : 7399.0,
-		"pdvs" : 2123.0,
-		"estacoes" : 896258.0
-	},
-	{
-		"nomeproduto" : "SGFOODS",
-		"idproduto" : 3.0,
-		"nomemodulo" : "Integracao IFOOD",
-		"idmodulo" : 164.0,
-		"submodulo" : 7399.0,
-		"pdvs" : 2123.0,
-		"estacoes" : 896258.0
-	},
-	{
-		"nomeproduto" : "SGFOODS",
-		"idproduto" : 3.0,
-		"nomemodulo" : "Conciliacao de cartoes - VIZZO",
-		"idmodulo" : 165.0,
-		"submodulo" : 7399.0,
-		"pdvs" : 2123.0,
-		"estacoes" : 896258.0
-	},
-	{
-		"nomeproduto" : "SGFOODS",
-		"idproduto" : 3.0,
-		"nomemodulo" : "Integracao RAPPI",
-		"idmodulo" : 166.0,
-		"submodulo" : 7399.0,
-		"pdvs" : 2123.0,
-		"estacoes" : 896258.0
-	},
-	{
-		"nomeproduto" : "SGFOODS",
-		"idproduto" : 3.0,
-		"nomemodulo" : "Integracao Nexfood",
-		"idmodulo" : 167.0,
-		"submodulo" : 7399.0,
-		"pdvs" : 2123.0,
-		"estacoes" : 896258.0
-	},
-	{
-		"nomeproduto" : "SGFOODS",
-		"idproduto" : 3.0,
-		"nomemodulo" : "Integracao Tray",
-		"idmodulo" : 171.0,
-		"submodulo" : 7399.0,
-		"pdvs" : 2123.0,
-		"estacoes" : 896258.0
-	},
-	{
-		"nomeproduto" : "SGFOODS",
-		"idproduto" : 3.0,
-		"nomemodulo" : "Integracao Auditto",
-		"idmodulo" : 172.0,
-		"submodulo" : 7399.0,
-		"pdvs" : 2123.0,
-		"estacoes" : 896258.0
-	},
-	{
-		"nomeproduto" : "SGFOODS",
-		"idproduto" : 3.0,
-		"nomemodulo" : "Senha PDV por PINPAD - SITEF TUICCS",
-		"idmodulo" : 173.0,
-		"submodulo" : 7399.0,
-		"pdvs" : 2123.0,
-		"estacoes" : 896258.0
-	},
-	{
-		"nomeproduto" : "SGFOODS",
-		"idproduto" : 3.0,
-		"nomemodulo" : "Integracao Cresce Vendas",
-		"idmodulo" : 174.0,
-		"submodulo" : 7399.0,
-		"pdvs" : 2123.0,
-		"estacoes" : 896258.0
-	},
-	{
-		"nomeproduto" : "SGFOODS",
-		"idproduto" : 3.0,
-		"nomemodulo" : "Integracao SG SISTEMAS",
-		"idmodulo" : 176.0,
-		"submodulo" : 7399.0,
-		"pdvs" : 2123.0,
-		"estacoes" : 896258.0
-	},
-	{
-		"nomeproduto" : "SGFOODS",
-		"idproduto" : 3.0,
-		"nomemodulo" : "Integracao Compre Facil",
-		"idmodulo" : 180.0,
-		"submodulo" : 7399.0,
-		"pdvs" : 2123.0,
-		"estacoes" : 896258.0
-	},
-	{
-		"nomeproduto" : "SGFOODS",
-		"idproduto" : 3.0,
-		"nomemodulo" : "Integracao Insta Buy",
-		"idmodulo" : 181.0,
-		"submodulo" : 7399.0,
-		"pdvs" : 2123.0,
-		"estacoes" : 896258.0
-	},
-	{
-		"nomeproduto" : "SGFOODS",
-		"idproduto" : 3.0,
-		"nomemodulo" : "Integracao Deju",
-		"idmodulo" : 182.0,
-		"submodulo" : 7399.0,
-		"pdvs" : 2123.0,
-		"estacoes" : 896258.0
-	},
-	{
-		"nomeproduto" : "SGFOODS",
-		"idproduto" : 3.0,
-		"nomemodulo" : "Integracao Shipay",
-		"idmodulo" : 253.0,
-		"submodulo" : 7399.0,
-		"pdvs" : 2123.0,
-		"estacoes" : 896258.0
-	},
-	{
-		"nomeproduto" : "SGFOODS",
-		"idproduto" : 3.0,
-		"nomemodulo" : "Integracao Smart",
-		"idmodulo" : 254.0,
-		"submodulo" : 7399.0,
-		"pdvs" : 2123.0,
-		"estacoes" : 896258.0
-	},
-	{
-		"nomeproduto" : "SGFOODS",
-		"idproduto" : 3.0,
-		"nomemodulo" : "Integracao Web Jasper",
-		"idmodulo" : 256.0,
-		"submodulo" : 7399.0,
-		"pdvs" : 2123.0,
-		"estacoes" : 896258.0
-	},
-	{
-		"nomeproduto" : "SGFOODS",
-		"idproduto" : 3.0,
-		"nomemodulo" : "Integracao Go Find",
-		"idmodulo" : 291.0,
-		"submodulo" : 7399.0,
-		"pdvs" : 2123.0,
-		"estacoes" : 896258.0
-	},
-	{
-		"nomeproduto" : "SGFOODS",
-		"idproduto" : 3.0,
-		"nomemodulo" : "Integracao Dominio XML",
-		"idmodulo" : 294.0,
-		"submodulo" : 7399.0,
-		"pdvs" : 2123.0,
-		"estacoes" : 896258.0
-	},
-	{
-		"nomeproduto" : "SGFOODS",
-		"idproduto" : 3.0,
-		"nomemodulo" : "Homologacao Integradores",
-		"idmodulo" : 301.0,
-		"submodulo" : 7399.0,
-		"pdvs" : 2123.0,
-		"estacoes" : 896258.0
-	},
-	{
-		"nomeproduto" : "SGFOODS",
-		"idproduto" : 3.0,
-		"nomemodulo" : "Integracao Minus",
-		"idmodulo" : 308.0,
-		"submodulo" : 7399.0,
-		"pdvs" : 2123.0,
-		"estacoes" : 896258.0
-	},
-	{
-		"nomeproduto" : "SGFOODS",
-		"idproduto" : 3.0,
-		"nomemodulo" : "Integracao Supermercado Esperanca",
-		"idmodulo" : 311.0,
-		"submodulo" : 7399.0,
-		"pdvs" : 2123.0,
-		"estacoes" : 896258.0
-	},
-	{
-		"nomeproduto" : "SGFOODS",
-		"idproduto" : 3.0,
-		"nomemodulo" : "Integracao PagPix",
-		"idmodulo" : 312.0,
-		"submodulo" : 7399.0,
-		"pdvs" : 2123.0,
-		"estacoes" : 896258.0
-	},
-	{
-		"nomeproduto" : "SGFOODS",
-		"idproduto" : 3.0,
-		"nomemodulo" : "Integracao Ad Rocket",
-		"idmodulo" : 313.0,
-		"submodulo" : 7399.0,
-		"pdvs" : 2123.0,
-		"estacoes" : 896258.0
-	},
-	{
-		"nomeproduto" : "SGFOODS",
-		"idproduto" : 3.0,
-		"nomemodulo" : "Integracao Area Central - API",
-		"idmodulo" : 320.0,
-		"submodulo" : 7399.0,
-		"pdvs" : 2123.0,
-		"estacoes" : 896258.0
-	},
-	{
-		"nomeproduto" : "SGFOODS",
-		"idproduto" : 3.0,
-		"nomemodulo" : "Integracao TI Soluti",
-		"idmodulo" : 322.0,
-		"submodulo" : 7399.0,
-		"pdvs" : 2123.0,
-		"estacoes" : 896258.0
-	},
-	{
-		"nomeproduto" : "SGFOODS",
-		"idproduto" : 3.0,
-		"nomemodulo" : "Integracao Anota Ai",
-		"idmodulo" : 326.0,
-		"submodulo" : 7399.0,
-		"pdvs" : 2123.0,
-		"estacoes" : 896258.0
-	},
-	{
-		"nomeproduto" : "SGFOODS",
-		"idproduto" : 3.0,
-		"nomemodulo" : "Integracao Izi App",
-		"idmodulo" : 333.0,
-		"submodulo" : 7399.0,
-		"pdvs" : 2123.0,
-		"estacoes" : 896258.0
-	},
-	{
-		"nomeproduto" : "SGFOODS",
-		"idproduto" : 3.0,
-		"nomemodulo" : "Integracao Cartaz Facil",
-		"idmodulo" : 343.0,
-		"submodulo" : 7399.0,
-		"pdvs" : 2123.0,
-		"estacoes" : 896258.0
-	},
-	{
-		"nomeproduto" : "SGFOODS",
-		"idproduto" : 3.0,
-		"nomemodulo" : "Integracao Dattion",
-		"idmodulo" : 344.0,
-		"submodulo" : 7399.0,
-		"pdvs" : 2123.0,
-		"estacoes" : 896258.0
-	},
-	{
-		"nomeproduto" : "SGFOODS",
-		"idproduto" : 3.0,
-		"nomemodulo" : "Integracao Codevops",
-		"idmodulo" : 345.0,
-		"submodulo" : 7399.0,
-		"pdvs" : 2123.0,
-		"estacoes" : 896258.0
-	},
-	{
-		"nomeproduto" : "SGFOODS",
-		"idproduto" : 3.0,
-		"nomemodulo" : "Integracao Docerrano",
-		"idmodulo" : 346.0,
-		"submodulo" : 7399.0,
-		"pdvs" : 2123.0,
-		"estacoes" : 896258.0
-	},
-	{
-		"nomeproduto" : "SGFOODS",
-		"idproduto" : 3.0,
-		"nomemodulo" : "Integracao Moria Consultoria",
-		"idmodulo" : 347.0,
-		"submodulo" : 7399.0,
-		"pdvs" : 2123.0,
-		"estacoes" : 896258.0
-	},
-	{
-		"nomeproduto" : "SGFOODS",
-		"idproduto" : 3.0,
-		"nomemodulo" : "Integracao Simpletask",
-		"idmodulo" : 348.0,
-		"submodulo" : 7399.0,
-		"pdvs" : 2123.0,
-		"estacoes" : 896258.0
 	},
 	{
 		"nomeproduto" : "SGFOODS MOBILE",
@@ -4444,925 +3517,16 @@
 		"idmodulo" : null,
 		"submodulo" : null,
 		"pdvs" : null,
-		"estacoes" : 2777.0
-	},
-	{
-		"nomeproduto" : "SGHOTEL",
-		"idproduto" : 4.0,
-		"nomemodulo" : "Produtos e Precos",
-		"idmodulo" : 1.0,
-		"submodulo" : 346.0,
-		"pdvs" : null,
-		"estacoes" : 18038.0
-	},
-	{
-		"nomeproduto" : "SGHOTEL",
-		"idproduto" : 4.0,
-		"nomemodulo" : "Fornecedores",
-		"idmodulo" : 2.0,
-		"submodulo" : 346.0,
-		"pdvs" : null,
-		"estacoes" : 18038.0
-	},
-	{
-		"nomeproduto" : "SGHOTEL",
-		"idproduto" : 4.0,
-		"nomemodulo" : "Clientes",
-		"idmodulo" : 3.0,
-		"submodulo" : 346.0,
-		"pdvs" : null,
-		"estacoes" : 18038.0
-	},
-	{
-		"nomeproduto" : "SGHOTEL",
-		"idproduto" : 4.0,
-		"nomemodulo" : "Contas a Pagar",
-		"idmodulo" : 4.0,
-		"submodulo" : 346.0,
-		"pdvs" : null,
-		"estacoes" : 18038.0
-	},
-	{
-		"nomeproduto" : "SGHOTEL",
-		"idproduto" : 4.0,
-		"nomemodulo" : "Contas a Receber",
-		"idmodulo" : 5.0,
-		"submodulo" : 346.0,
-		"pdvs" : null,
-		"estacoes" : 18038.0
-	},
-	{
-		"nomeproduto" : "SGHOTEL",
-		"idproduto" : 4.0,
-		"nomemodulo" : "Controle de Cheques",
-		"idmodulo" : 12.0,
-		"submodulo" : 346.0,
-		"pdvs" : null,
-		"estacoes" : 18038.0
-	},
-	{
-		"nomeproduto" : "SGHOTEL",
-		"idproduto" : 4.0,
-		"nomemodulo" : "Movimentacao de Produtos",
-		"idmodulo" : 14.0,
-		"submodulo" : 346.0,
-		"pdvs" : null,
-		"estacoes" : 18038.0
-	},
-	{
-		"nomeproduto" : "SGHOTEL",
-		"idproduto" : 4.0,
-		"nomemodulo" : "Entrada de Notas",
-		"idmodulo" : 15.0,
-		"submodulo" : 346.0,
-		"pdvs" : null,
-		"estacoes" : 18038.0
-	},
-	{
-		"nomeproduto" : "SGHOTEL",
-		"idproduto" : 4.0,
-		"nomemodulo" : "Controle de Producao",
-		"idmodulo" : 19.0,
-		"submodulo" : 346.0,
-		"pdvs" : null,
-		"estacoes" : 18038.0
-	},
-	{
-		"nomeproduto" : "SGHOTEL",
-		"idproduto" : 4.0,
-		"nomemodulo" : "Contas Bancarias",
-		"idmodulo" : 20.0,
-		"submodulo" : 346.0,
-		"pdvs" : null,
-		"estacoes" : 18038.0
-	},
-	{
-		"nomeproduto" : "SGHOTEL",
-		"idproduto" : 4.0,
-		"nomemodulo" : "Controle de Comissao",
-		"idmodulo" : 23.0,
-		"submodulo" : 346.0,
-		"pdvs" : null,
-		"estacoes" : 18038.0
-	},
-	{
-		"nomeproduto" : "SGHOTEL",
-		"idproduto" : 4.0,
-		"nomemodulo" : "Compras de Ind£strias\/Distribuidoras",
-		"idmodulo" : 24.0,
-		"submodulo" : 346.0,
-		"pdvs" : null,
-		"estacoes" : 18038.0
-	},
-	{
-		"nomeproduto" : "SGHOTEL",
-		"idproduto" : 4.0,
-		"nomemodulo" : "Inventario Fiscal",
-		"idmodulo" : 26.0,
-		"submodulo" : 346.0,
-		"pdvs" : null,
-		"estacoes" : 18038.0
-	},
-	{
-		"nomeproduto" : "SGHOTEL",
-		"idproduto" : 4.0,
-		"nomemodulo" : "Movimento de Caixa",
-		"idmodulo" : 30.0,
-		"submodulo" : 346.0,
-		"pdvs" : null,
-		"estacoes" : 18038.0
-	},
-	{
-		"nomeproduto" : "SGHOTEL",
-		"idproduto" : 4.0,
-		"nomemodulo" : "Apoio Contabil",
-		"idmodulo" : 34.0,
-		"submodulo" : 346.0,
-		"pdvs" : null,
-		"estacoes" : 18038.0
-	},
-	{
-		"nomeproduto" : "SGHOTEL",
-		"idproduto" : 4.0,
-		"nomemodulo" : "Escrita Fiscal",
-		"idmodulo" : 40.0,
-		"submodulo" : 346.0,
-		"pdvs" : null,
-		"estacoes" : 18038.0
-	},
-	{
-		"nomeproduto" : "SGHOTEL",
-		"idproduto" : 4.0,
-		"nomemodulo" : "Fluxo de Caixa",
-		"idmodulo" : 42.0,
-		"submodulo" : 346.0,
-		"pdvs" : null,
-		"estacoes" : 18038.0
-	},
-	{
-		"nomeproduto" : "SGHOTEL",
-		"idproduto" : 4.0,
-		"nomemodulo" : "Balcao",
-		"idmodulo" : 49.0,
-		"submodulo" : 346.0,
-		"pdvs" : null,
-		"estacoes" : 18038.0
-	},
-	{
-		"nomeproduto" : "SGHOTEL",
-		"idproduto" : 4.0,
-		"nomemodulo" : "Producao para entrega",
-		"idmodulo" : 52.0,
-		"submodulo" : 346.0,
-		"pdvs" : null,
-		"estacoes" : 18038.0
-	},
-	{
-		"nomeproduto" : "SGHOTEL",
-		"idproduto" : 4.0,
-		"nomemodulo" : "Cartao",
-		"idmodulo" : 53.0,
-		"submodulo" : 346.0,
-		"pdvs" : null,
-		"estacoes" : 18038.0
-	},
-	{
-		"nomeproduto" : "SGHOTEL",
-		"idproduto" : 4.0,
-		"nomemodulo" : "Controle Gerencial",
-		"idmodulo" : 56.0,
-		"submodulo" : 346.0,
-		"pdvs" : null,
-		"estacoes" : 18038.0
-	},
-	{
-		"nomeproduto" : "SGHOTEL",
-		"idproduto" : 4.0,
-		"nomemodulo" : "Quartos",
-		"idmodulo" : 57.0,
-		"submodulo" : 346.0,
-		"pdvs" : null,
-		"estacoes" : 18038.0
+		"estacoes" : 2390.0
 	},
 	{
 		"nomeproduto" : "SGMOBILE",
 		"idproduto" : 5.0,
 		"nomemodulo" : null,
 		"idmodulo" : null,
-		"submodulo" : 150.0,
+		"submodulo" : null,
 		"pdvs" : null,
-		"estacoes" : 26173.0
-	},
-	{
-		"nomeproduto" : "SGMODA",
-		"idproduto" : 48.0,
-		"nomemodulo" : "Ordem de Servico",
-		"idmodulo" : 101.0,
-		"submodulo" : 398.0,
-		"pdvs" : 379.0,
-		"estacoes" : 594.0
-	},
-	{
-		"nomeproduto" : "SGMODA",
-		"idproduto" : 48.0,
-		"nomemodulo" : "Contribuicao Solidaria",
-		"idmodulo" : 107.0,
-		"submodulo" : 398.0,
-		"pdvs" : 379.0,
-		"estacoes" : 594.0
-	},
-	{
-		"nomeproduto" : "SGMODA",
-		"idproduto" : 48.0,
-		"nomemodulo" : "Conciliacao de cartoes - Conciflex",
-		"idmodulo" : 108.0,
-		"submodulo" : 398.0,
-		"pdvs" : 379.0,
-		"estacoes" : 594.0
-	},
-	{
-		"nomeproduto" : "SGMODA",
-		"idproduto" : 48.0,
-		"nomemodulo" : "Integracao APPMercados",
-		"idmodulo" : 159.0,
-		"submodulo" : 398.0,
-		"pdvs" : 379.0,
-		"estacoes" : 594.0
-	},
-	{
-		"nomeproduto" : "SGMODA",
-		"idproduto" : 48.0,
-		"nomemodulo" : "Integracao LOJAQUI",
-		"idmodulo" : 163.0,
-		"submodulo" : 398.0,
-		"pdvs" : 379.0,
-		"estacoes" : 594.0
-	},
-	{
-		"nomeproduto" : "SGMODA",
-		"idproduto" : 48.0,
-		"nomemodulo" : "Integracao Tray",
-		"idmodulo" : 171.0,
-		"submodulo" : 398.0,
-		"pdvs" : 379.0,
-		"estacoes" : 594.0
-	},
-	{
-		"nomeproduto" : "SGMODA",
-		"idproduto" : 48.0,
-		"nomemodulo" : "Integracao Cresce Vendas",
-		"idmodulo" : 174.0,
-		"submodulo" : 398.0,
-		"pdvs" : 379.0,
-		"estacoes" : 594.0
-	},
-	{
-		"nomeproduto" : "SGMODA",
-		"idproduto" : 48.0,
-		"nomemodulo" : "Integracao Compre Facil",
-		"idmodulo" : 180.0,
-		"submodulo" : 398.0,
-		"pdvs" : 379.0,
-		"estacoes" : 594.0
-	},
-	{
-		"nomeproduto" : "SGMODA",
-		"idproduto" : 48.0,
-		"nomemodulo" : "Integracao Insta Buy",
-		"idmodulo" : 181.0,
-		"submodulo" : 398.0,
-		"pdvs" : 379.0,
-		"estacoes" : 594.0
-	},
-	{
-		"nomeproduto" : "SGMODA",
-		"idproduto" : 48.0,
-		"nomemodulo" : "Integracao Deju",
-		"idmodulo" : 182.0,
-		"submodulo" : 398.0,
-		"pdvs" : 379.0,
-		"estacoes" : 594.0
-	},
-	{
-		"nomeproduto" : "SGMODA",
-		"idproduto" : 48.0,
-		"nomemodulo" : "DashBoards",
-		"idmodulo" : 183.0,
-		"submodulo" : 398.0,
-		"pdvs" : 379.0,
-		"estacoes" : 594.0
-	},
-	{
-		"nomeproduto" : "SGMODA",
-		"idproduto" : 48.0,
-		"nomemodulo" : "Cadastro de Produtos",
-		"idmodulo" : 184.0,
-		"submodulo" : 398.0,
-		"pdvs" : 379.0,
-		"estacoes" : 594.0
-	},
-	{
-		"nomeproduto" : "SGMODA",
-		"idproduto" : 48.0,
-		"nomemodulo" : "Cadastro de Fornecedores",
-		"idmodulo" : 186.0,
-		"submodulo" : 398.0,
-		"pdvs" : 379.0,
-		"estacoes" : 594.0
-	},
-	{
-		"nomeproduto" : "SGMODA",
-		"idproduto" : 48.0,
-		"nomemodulo" : "Controle Caixa",
-		"idmodulo" : 187.0,
-		"submodulo" : 398.0,
-		"pdvs" : 379.0,
-		"estacoes" : 594.0
-	},
-	{
-		"nomeproduto" : "SGMODA",
-		"idproduto" : 48.0,
-		"nomemodulo" : "Controle de Estoque-Quantidade\/Grade\/Cor",
-		"idmodulo" : 188.0,
-		"submodulo" : 398.0,
-		"pdvs" : 379.0,
-		"estacoes" : 594.0
-	},
-	{
-		"nomeproduto" : "SGMODA",
-		"idproduto" : 48.0,
-		"nomemodulo" : "Etiquetas",
-		"idmodulo" : 189.0,
-		"submodulo" : 398.0,
-		"pdvs" : 379.0,
-		"estacoes" : 594.0
-	},
-	{
-		"nomeproduto" : "SGMODA",
-		"idproduto" : 48.0,
-		"nomemodulo" : "Entrada de notas por XML",
-		"idmodulo" : 190.0,
-		"submodulo" : 398.0,
-		"pdvs" : 379.0,
-		"estacoes" : 594.0
-	},
-	{
-		"nomeproduto" : "SGMODA",
-		"idproduto" : 48.0,
-		"nomemodulo" : "Crediario",
-		"idmodulo" : 191.0,
-		"submodulo" : 398.0,
-		"pdvs" : 379.0,
-		"estacoes" : 594.0
-	},
-	{
-		"nomeproduto" : "SGMODA",
-		"idproduto" : 48.0,
-		"nomemodulo" : "Controle de Manequim",
-		"idmodulo" : 192.0,
-		"submodulo" : 398.0,
-		"pdvs" : 379.0,
-		"estacoes" : 594.0
-	},
-	{
-		"nomeproduto" : "SGMODA",
-		"idproduto" : 48.0,
-		"nomemodulo" : "Clube de fidelizacao (Pontos)",
-		"idmodulo" : 193.0,
-		"submodulo" : 398.0,
-		"pdvs" : 379.0,
-		"estacoes" : 594.0
-	},
-	{
-		"nomeproduto" : "SGMODA",
-		"idproduto" : 48.0,
-		"nomemodulo" : "Controle de Metas",
-		"idmodulo" : 194.0,
-		"submodulo" : 398.0,
-		"pdvs" : 379.0,
-		"estacoes" : 594.0
-	},
-	{
-		"nomeproduto" : "SGMODA",
-		"idproduto" : 48.0,
-		"nomemodulo" : "Comissao: Por Valor,Produto e Escalonado",
-		"idmodulo" : 195.0,
-		"submodulo" : 398.0,
-		"pdvs" : 379.0,
-		"estacoes" : 594.0
-	},
-	{
-		"nomeproduto" : "SGMODA",
-		"idproduto" : 48.0,
-		"nomemodulo" : "Consignado",
-		"idmodulo" : 196.0,
-		"submodulo" : 398.0,
-		"pdvs" : 379.0,
-		"estacoes" : 594.0
-	},
-	{
-		"nomeproduto" : "SGMODA",
-		"idproduto" : 48.0,
-		"nomemodulo" : "Contas a Pagar",
-		"idmodulo" : 199.0,
-		"submodulo" : 398.0,
-		"pdvs" : 379.0,
-		"estacoes" : 594.0
-	},
-	{
-		"nomeproduto" : "SGMODA",
-		"idproduto" : 48.0,
-		"nomemodulo" : "Contas a Receber",
-		"idmodulo" : 200.0,
-		"submodulo" : 398.0,
-		"pdvs" : 379.0,
-		"estacoes" : 594.0
-	},
-	{
-		"nomeproduto" : "SGMODA",
-		"idproduto" : 48.0,
-		"nomemodulo" : "Cartao Presente",
-		"idmodulo" : 202.0,
-		"submodulo" : 398.0,
-		"pdvs" : 379.0,
-		"estacoes" : 594.0
-	},
-	{
-		"nomeproduto" : "SGMODA",
-		"idproduto" : 48.0,
-		"nomemodulo" : "Venda Ambulante\/Sacoleiras",
-		"idmodulo" : 203.0,
-		"submodulo" : 398.0,
-		"pdvs" : 379.0,
-		"estacoes" : 594.0
-	},
-	{
-		"nomeproduto" : "SGMODA",
-		"idproduto" : 48.0,
-		"nomemodulo" : "Promocoes",
-		"idmodulo" : 204.0,
-		"submodulo" : 398.0,
-		"pdvs" : 379.0,
-		"estacoes" : 594.0
-	},
-	{
-		"nomeproduto" : "SGMODA",
-		"idproduto" : 48.0,
-		"nomemodulo" : "Relat¢rios Dinƒmicos",
-		"idmodulo" : 205.0,
-		"submodulo" : 398.0,
-		"pdvs" : 379.0,
-		"estacoes" : 594.0
-	},
-	{
-		"nomeproduto" : "SGMODA",
-		"idproduto" : 48.0,
-		"nomemodulo" : "D.R.E",
-		"idmodulo" : 206.0,
-		"submodulo" : 398.0,
-		"pdvs" : 379.0,
-		"estacoes" : 594.0
-	},
-	{
-		"nomeproduto" : "SGMODA",
-		"idproduto" : 48.0,
-		"nomemodulo" : "Cadastro de Tabela de Precos",
-		"idmodulo" : 216.0,
-		"submodulo" : 398.0,
-		"pdvs" : 379.0,
-		"estacoes" : 594.0
-	},
-	{
-		"nomeproduto" : "SGMODA",
-		"idproduto" : 48.0,
-		"nomemodulo" : "Emissao de Boletos",
-		"idmodulo" : 218.0,
-		"submodulo" : 398.0,
-		"pdvs" : 379.0,
-		"estacoes" : 594.0
-	},
-	{
-		"nomeproduto" : "SGMODA",
-		"idproduto" : 48.0,
-		"nomemodulo" : "PDV OFFLINE",
-		"idmodulo" : 221.0,
-		"submodulo" : 398.0,
-		"pdvs" : 379.0,
-		"estacoes" : 594.0
-	},
-	{
-		"nomeproduto" : "SGMODA",
-		"idproduto" : 48.0,
-		"nomemodulo" : "Alteracoes",
-		"idmodulo" : 223.0,
-		"submodulo" : 398.0,
-		"pdvs" : 379.0,
-		"estacoes" : 594.0
-	},
-	{
-		"nomeproduto" : "SGMODA",
-		"idproduto" : 48.0,
-		"nomemodulo" : "Recibo Avulso",
-		"idmodulo" : 224.0,
-		"submodulo" : 398.0,
-		"pdvs" : 379.0,
-		"estacoes" : 594.0
-	},
-	{
-		"nomeproduto" : "SGMODA",
-		"idproduto" : 48.0,
-		"nomemodulo" : "Vale para Funcionario",
-		"idmodulo" : 235.0,
-		"submodulo" : 398.0,
-		"pdvs" : 379.0,
-		"estacoes" : 594.0
-	},
-	{
-		"nomeproduto" : "SGMODA",
-		"idproduto" : 48.0,
-		"nomemodulo" : "Contrato de Cartao de Credito",
-		"idmodulo" : 244.0,
-		"submodulo" : 398.0,
-		"pdvs" : 379.0,
-		"estacoes" : 594.0
-	},
-	{
-		"nomeproduto" : "SGMODA",
-		"idproduto" : 48.0,
-		"nomemodulo" : "Movimentacao de Cheques",
-		"idmodulo" : 245.0,
-		"submodulo" : 398.0,
-		"pdvs" : 379.0,
-		"estacoes" : 594.0
-	},
-	{
-		"nomeproduto" : "SGMODA",
-		"idproduto" : 48.0,
-		"nomemodulo" : "Nota Avulsa",
-		"idmodulo" : 248.0,
-		"submodulo" : 398.0,
-		"pdvs" : 379.0,
-		"estacoes" : 594.0
-	},
-	{
-		"nomeproduto" : "SGMODA",
-		"idproduto" : 48.0,
-		"nomemodulo" : "Integracao Shipay",
-		"idmodulo" : 253.0,
-		"submodulo" : 398.0,
-		"pdvs" : 379.0,
-		"estacoes" : 594.0
-	},
-	{
-		"nomeproduto" : "SGMODA",
-		"idproduto" : 48.0,
-		"nomemodulo" : "Integracao Smart",
-		"idmodulo" : 254.0,
-		"submodulo" : 398.0,
-		"pdvs" : 379.0,
-		"estacoes" : 594.0
-	},
-	{
-		"nomeproduto" : "SGMODA",
-		"idproduto" : 48.0,
-		"nomemodulo" : "Integracao Web Jasper",
-		"idmodulo" : 256.0,
-		"submodulo" : 398.0,
-		"pdvs" : 379.0,
-		"estacoes" : 594.0
-	},
-	{
-		"nomeproduto" : "SGMODA",
-		"idproduto" : 48.0,
-		"nomemodulo" : "Cadastro de Clientes e Funcionarios",
-		"idmodulo" : 274.0,
-		"submodulo" : 398.0,
-		"pdvs" : 379.0,
-		"estacoes" : 594.0
-	},
-	{
-		"nomeproduto" : "SGMODA",
-		"idproduto" : 48.0,
-		"nomemodulo" : "Emissao de SAT \/ MFE",
-		"idmodulo" : 275.0,
-		"submodulo" : 398.0,
-		"pdvs" : 379.0,
-		"estacoes" : 594.0
-	},
-	{
-		"nomeproduto" : "SGMODA",
-		"idproduto" : 48.0,
-		"nomemodulo" : "Controle de Trocas",
-		"idmodulo" : 277.0,
-		"submodulo" : 398.0,
-		"pdvs" : 379.0,
-		"estacoes" : 594.0
-	},
-	{
-		"nomeproduto" : "SGMODA",
-		"idproduto" : 48.0,
-		"nomemodulo" : "Devolucoes de venda",
-		"idmodulo" : 278.0,
-		"submodulo" : 398.0,
-		"pdvs" : 379.0,
-		"estacoes" : 594.0
-	},
-	{
-		"nomeproduto" : "SGMODA",
-		"idproduto" : 48.0,
-		"nomemodulo" : "Inventario de Estoque (Parcial ou Total)",
-		"idmodulo" : 280.0,
-		"submodulo" : 398.0,
-		"pdvs" : 379.0,
-		"estacoes" : 594.0
-	},
-	{
-		"nomeproduto" : "SGMODA",
-		"idproduto" : 48.0,
-		"nomemodulo" : "Bancario",
-		"idmodulo" : 281.0,
-		"submodulo" : 398.0,
-		"pdvs" : 379.0,
-		"estacoes" : 594.0
-	},
-	{
-		"nomeproduto" : "SGMODA",
-		"idproduto" : 48.0,
-		"nomemodulo" : "Despesas",
-		"idmodulo" : 282.0,
-		"submodulo" : 398.0,
-		"pdvs" : 379.0,
-		"estacoes" : 594.0
-	},
-	{
-		"nomeproduto" : "SGMODA",
-		"idproduto" : 48.0,
-		"nomemodulo" : "Multilojas - Requisicao\/Transferencia",
-		"idmodulo" : 283.0,
-		"submodulo" : 398.0,
-		"pdvs" : 379.0,
-		"estacoes" : 594.0
-	},
-	{
-		"nomeproduto" : "SGMODA",
-		"idproduto" : 48.0,
-		"nomemodulo" : "Gerenciamento",
-		"idmodulo" : 284.0,
-		"submodulo" : 398.0,
-		"pdvs" : 379.0,
-		"estacoes" : 594.0
-	},
-	{
-		"nomeproduto" : "SGMODA",
-		"idproduto" : 48.0,
-		"nomemodulo" : "Catalogo",
-		"idmodulo" : 289.0,
-		"submodulo" : 398.0,
-		"pdvs" : 379.0,
-		"estacoes" : 594.0
-	},
-	{
-		"nomeproduto" : "SGMODA",
-		"idproduto" : 48.0,
-		"nomemodulo" : "Producao",
-		"idmodulo" : 297.0,
-		"submodulo" : 398.0,
-		"pdvs" : 379.0,
-		"estacoes" : 594.0
-	},
-	{
-		"nomeproduto" : "SGMODA",
-		"idproduto" : 48.0,
-		"nomemodulo" : "Fracionamento",
-		"idmodulo" : 298.0,
-		"submodulo" : 398.0,
-		"pdvs" : 379.0,
-		"estacoes" : 594.0
-	},
-	{
-		"nomeproduto" : "SGMODA",
-		"idproduto" : 48.0,
-		"nomemodulo" : "Homologacao Integradores",
-		"idmodulo" : 301.0,
-		"submodulo" : 398.0,
-		"pdvs" : 379.0,
-		"estacoes" : 594.0
-	},
-	{
-		"nomeproduto" : "SGMODA",
-		"idproduto" : 48.0,
-		"nomemodulo" : "Integracao Minus",
-		"idmodulo" : 308.0,
-		"submodulo" : 398.0,
-		"pdvs" : 379.0,
-		"estacoes" : 594.0
-	},
-	{
-		"nomeproduto" : "SGMODA",
-		"idproduto" : 48.0,
-		"nomemodulo" : "Integracao Supermercado Esperanca",
-		"idmodulo" : 311.0,
-		"submodulo" : 398.0,
-		"pdvs" : 379.0,
-		"estacoes" : 594.0
-	},
-	{
-		"nomeproduto" : "SGMODA",
-		"idproduto" : 48.0,
-		"nomemodulo" : "Integracao PagPix",
-		"idmodulo" : 312.0,
-		"submodulo" : 398.0,
-		"pdvs" : 379.0,
-		"estacoes" : 594.0
-	},
-	{
-		"nomeproduto" : "SGMODA",
-		"idproduto" : 48.0,
-		"nomemodulo" : "Integracao Ad Rocket",
-		"idmodulo" : 313.0,
-		"submodulo" : 398.0,
-		"pdvs" : 379.0,
-		"estacoes" : 594.0
-	},
-	{
-		"nomeproduto" : "SGMODA",
-		"idproduto" : 48.0,
-		"nomemodulo" : "Integracao PlugLead",
-		"idmodulo" : 317.0,
-		"submodulo" : 398.0,
-		"pdvs" : 379.0,
-		"estacoes" : 594.0
-	},
-	{
-		"nomeproduto" : "SGMODA",
-		"idproduto" : 48.0,
-		"nomemodulo" : "Integracao Magazord",
-		"idmodulo" : 318.0,
-		"submodulo" : 398.0,
-		"pdvs" : 379.0,
-		"estacoes" : 594.0
-	},
-	{
-		"nomeproduto" : "SGMODA",
-		"idproduto" : 48.0,
-		"nomemodulo" : "Integracao Nuvem Shop",
-		"idmodulo" : 319.0,
-		"submodulo" : 398.0,
-		"pdvs" : 379.0,
-		"estacoes" : 594.0
-	},
-	{
-		"nomeproduto" : "SGMODA",
-		"idproduto" : 48.0,
-		"nomemodulo" : "Integracao Area Central - API",
-		"idmodulo" : 320.0,
-		"submodulo" : 398.0,
-		"pdvs" : 379.0,
-		"estacoes" : 594.0
-	},
-	{
-		"nomeproduto" : "SGMODA",
-		"idproduto" : 48.0,
-		"nomemodulo" : "Integracao Shopify",
-		"idmodulo" : 321.0,
-		"submodulo" : 398.0,
-		"pdvs" : 379.0,
-		"estacoes" : 594.0
-	},
-	{
-		"nomeproduto" : "SGMODA",
-		"idproduto" : 48.0,
-		"nomemodulo" : "Integracao TI Soluti",
-		"idmodulo" : 322.0,
-		"submodulo" : 398.0,
-		"pdvs" : 379.0,
-		"estacoes" : 594.0
-	},
-	{
-		"nomeproduto" : "SGMODA",
-		"idproduto" : 48.0,
-		"nomemodulo" : "Integracao Loja Integrada",
-		"idmodulo" : 323.0,
-		"submodulo" : 398.0,
-		"pdvs" : 379.0,
-		"estacoes" : 594.0
-	},
-	{
-		"nomeproduto" : "SGMODA",
-		"idproduto" : 48.0,
-		"nomemodulo" : "Invetario fiscal",
-		"idmodulo" : 324.0,
-		"submodulo" : 398.0,
-		"pdvs" : 379.0,
-		"estacoes" : 594.0
-	},
-	{
-		"nomeproduto" : "SGMODA",
-		"idproduto" : 48.0,
-		"nomemodulo" : "Escrita fiscal",
-		"idmodulo" : 325.0,
-		"submodulo" : 398.0,
-		"pdvs" : 379.0,
-		"estacoes" : 594.0
-	},
-	{
-		"nomeproduto" : "SGMODA",
-		"idproduto" : 48.0,
-		"nomemodulo" : "Integracao Correios",
-		"idmodulo" : 327.0,
-		"submodulo" : 398.0,
-		"pdvs" : 379.0,
-		"estacoes" : 594.0
-	},
-	{
-		"nomeproduto" : "SGMODA",
-		"idproduto" : 48.0,
-		"nomemodulo" : "Emissao de MDF-e",
-		"idmodulo" : 328.0,
-		"submodulo" : 398.0,
-		"pdvs" : 379.0,
-		"estacoes" : 594.0
-	},
-	{
-		"nomeproduto" : "SGMODA",
-		"idproduto" : 48.0,
-		"nomemodulo" : "Emissao de NFS-e",
-		"idmodulo" : 329.0,
-		"submodulo" : 398.0,
-		"pdvs" : 379.0,
-		"estacoes" : 594.0
-	},
-	{
-		"nomeproduto" : "SGMODA",
-		"idproduto" : 48.0,
-		"nomemodulo" : "Compras",
-		"idmodulo" : 330.0,
-		"submodulo" : 398.0,
-		"pdvs" : 379.0,
-		"estacoes" : 594.0
-	},
-	{
-		"nomeproduto" : "SGMODA",
-		"idproduto" : 48.0,
-		"nomemodulo" : "Cotacao",
-		"idmodulo" : 331.0,
-		"submodulo" : 398.0,
-		"pdvs" : 379.0,
-		"estacoes" : 594.0
-	},
-	{
-		"nomeproduto" : "SGMODA",
-		"idproduto" : 48.0,
-		"nomemodulo" : "Cotacao Online",
-		"idmodulo" : 332.0,
-		"submodulo" : 398.0,
-		"pdvs" : 379.0,
-		"estacoes" : 594.0
-	},
-	{
-		"nomeproduto" : "SGMODA",
-		"idproduto" : 48.0,
-		"nomemodulo" : "Integracao Izi App",
-		"idmodulo" : 333.0,
-		"submodulo" : 398.0,
-		"pdvs" : 379.0,
-		"estacoes" : 594.0
-	},
-	{
-		"nomeproduto" : "SGMODA",
-		"idproduto" : 48.0,
-		"nomemodulo" : "Integracao Mercafacil",
-		"idmodulo" : 334.0,
-		"submodulo" : 398.0,
-		"pdvs" : 379.0,
-		"estacoes" : 594.0
-	},
-	{
-		"nomeproduto" : "SGMODA",
-		"idproduto" : 48.0,
-		"nomemodulo" : "Integracao Cartaz Facil",
-		"idmodulo" : 343.0,
-		"submodulo" : 398.0,
-		"pdvs" : 379.0,
-		"estacoes" : 594.0
-	},
-	{
-		"nomeproduto" : "SGMODA",
-		"idproduto" : 48.0,
-		"nomemodulo" : "Integracao Dattion",
-		"idmodulo" : 344.0,
-		"submodulo" : 398.0,
-		"pdvs" : 379.0,
-		"estacoes" : 594.0
-	},
-	{
-		"nomeproduto" : "SGMODA",
-		"idproduto" : 48.0,
-		"nomemodulo" : "Integracao Codevops",
-		"idmodulo" : 345.0,
-		"submodulo" : 398.0,
-		"pdvs" : 379.0,
-		"estacoes" : 594.0
+		"estacoes" : 371.0
 	},
 	{
 		"nomeproduto" : "SGMONITORAMENTONOTAS",
@@ -5380,21 +3544,21 @@
 		"idmodulo" : null,
 		"submodulo" : null,
 		"pdvs" : null,
-		"estacoes" : 6.0
+		"estacoes" : null
 	},
 	{
 		"nomeproduto" : "SGPOCKET",
 		"idproduto" : 6.0,
 		"nomemodulo" : null,
 		"idmodulo" : null,
-		"submodulo" : 940.0,
+		"submodulo" : null,
 		"pdvs" : null,
-		"estacoes" : 199098.0
+		"estacoes" : 98.0
 	},
 	{
 		"nomeproduto" : "TEF",
 		"idproduto" : 12.0,
-		"nomemodulo" : "TEF CLOUD (SITEF - VPN GSURF)",
+		"nomemodulo" : "TEF SITEF - VPN GSURF",
 		"idmodulo" : 62.0,
 		"submodulo" : null,
 		"pdvs" : null,
@@ -5403,7 +3567,7 @@
 	{
 		"nomeproduto" : "TEF",
 		"idproduto" : 12.0,
-		"nomemodulo" : "TEF LOCAL (SCOPE GETCARD)",
+		"nomemodulo" : "TEF SCOPE ITAUTEC LOCAL",
 		"idmodulo" : 63.0,
 		"submodulo" : null,
 		"pdvs" : null,
@@ -5412,7 +3576,7 @@
 	{
 		"nomeproduto" : "TEF",
 		"idproduto" : 12.0,
-		"nomemodulo" : "TEF CLOUD (SCOPE GETCARD)",
+		"nomemodulo" : "TEF SCOPE ITAUTEC GETCARD",
 		"idmodulo" : 64.0,
 		"submodulo" : null,
 		"pdvs" : null,
@@ -5421,7 +3585,7 @@
 	{
 		"nomeproduto" : "TEF",
 		"idproduto" : 12.0,
-		"nomemodulo" : "TEF CLOUD (SITEF TEFWAY DIRETO COM INTEGRADOR)",
+		"nomemodulo" : "TEFWAY",
 		"idmodulo" : 65.0,
 		"submodulo" : null,
 		"pdvs" : null,
@@ -5430,7 +3594,7 @@
 	{
 		"nomeproduto" : "TEF",
 		"idproduto" : 12.0,
-		"nomemodulo" : "TEF CLOUD (SITEF SMART DIRETO COM INTEGRADOR)",
+		"nomemodulo" : "TEF SMART",
 		"idmodulo" : 66.0,
 		"submodulo" : null,
 		"pdvs" : null,
@@ -5457,7 +3621,7 @@
 	{
 		"nomeproduto" : "TEF",
 		"idproduto" : 12.0,
-		"nomemodulo" : "TEF CLOUD (SCOPE GETCARD DIRETO COM INTEGRADOR)",
+		"nomemodulo" : "TEF SCOPE INTEGRACAO GETCARD",
 		"idmodulo" : 127.0,
 		"submodulo" : null,
 		"pdvs" : null,
@@ -5466,7 +3630,7 @@
 	{
 		"nomeproduto" : "TEF",
 		"idproduto" : 12.0,
-		"nomemodulo" : "TEF CLOUD (SITEF - REDE VPN GSURF)",
+		"nomemodulo" : "TEF REDE (SITEF)",
 		"idmodulo" : 144.0,
 		"submodulo" : null,
 		"pdvs" : null,
@@ -5484,8 +3648,26 @@
 	{
 		"nomeproduto" : "TEF",
 		"idproduto" : 12.0,
-		"nomemodulo" : "TEF CLOUD (SITEF GETCARD DIRETO COM INTEGRADOR)",
+		"nomemodulo" : "TEF CLOUD GETCARD (SITEF)",
 		"idmodulo" : 210.0,
+		"submodulo" : null,
+		"pdvs" : null,
+		"estacoes" : null
+	},
+	{
+		"nomeproduto" : "TEF",
+		"idproduto" : 12.0,
+		"nomemodulo" : "TEF CLOUD (SITEF) - CNPJ SG",
+		"idmodulo" : 285.0,
+		"submodulo" : null,
+		"pdvs" : null,
+		"estacoes" : null
+	},
+	{
+		"nomeproduto" : "TEF",
+		"idproduto" : 12.0,
+		"nomemodulo" : "TEF CLOUD GETCARD (SITEF) - CNPJ SG",
+		"idmodulo" : 286.0,
 		"submodulo" : null,
 		"pdvs" : null,
 		"estacoes" : null
@@ -5502,7 +3684,7 @@
 	{
 		"nomeproduto" : "TEF",
 		"idproduto" : 12.0,
-		"nomemodulo" : "TEF CLOUD (SITEF - REDE TLS FISERV)",
+		"nomemodulo" : "TEF REDE (SITEF - TLS FISERV)",
 		"idmodulo" : 342.0,
 		"submodulo" : null,
 		"pdvs" : null,
