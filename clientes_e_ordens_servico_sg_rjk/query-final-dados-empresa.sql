@@ -10,6 +10,7 @@
 	q.classificacao,
 	q.representante,
 	q.representante2,
+	q.representante3,
 	q.contato,
 	q.telefone,
 	q.valor,
