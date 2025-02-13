@@ -12,6 +12,7 @@
 	ct.descricao as "CLASSIFICACAO",
 	tp.desctipo as "REPRESENTANTE",
 	tp2.desctipo as "REPRESENTANTE2",
+	tp3.desctipo as "REPRESENTANTE3",
 	cc.nomecon10 as "CONTATO",
 	cc.fonecli10 as "TELEFONE",
 	sr.VALOR,
@@ -69,6 +70,8 @@ inner join tipcli tp on
 	tp.codtipo = cc.tipocli10
 left join tipcli tp2 on
 	tp2.codtipo = sg.parceiro2
+left join tipcli tp3 on
+	tp3.codtipo = sg.parceiro3
 left join (
 	select
 		sc.codcli,
