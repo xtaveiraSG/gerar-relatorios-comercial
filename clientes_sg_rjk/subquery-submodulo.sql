@@ -1,5 +1,5 @@
 SELECT CONCAT('
-SELECT cnpj AS CNPJSUBMODULO, ', GROUP_CONCAT(
+SELECT cnpj AS CNPJSUBMODULOS, ', GROUP_CONCAT(
 			CONCAT("
 	IF(p.produto = ",submodulo.produto,", s.descricao, '') AS `",submodulo.produto,"_SUBMODULO`"
 			)

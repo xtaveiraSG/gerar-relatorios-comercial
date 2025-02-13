@@ -1,5 +1,6 @@
 SELECT CONCAT('
-SELECT cnpj AS CNPJESTACOES, ', GROUP_CONCAT(
+SELECT cnpj AS CNPJESTACOES,
+SUM(qtdestac) as "TOTAL_ESTACOES", ', GROUP_CONCAT(
 			CONCAT("
 	IF(p.produto = ",estac.produto,", p.qtdestac, 0) AS `",estac.produto,"_ESTACOES`"
 			)
