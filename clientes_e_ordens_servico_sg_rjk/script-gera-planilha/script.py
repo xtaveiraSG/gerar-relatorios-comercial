@@ -3,6 +3,7 @@ import pandas as pd
 import os
 import re
 from datetime import datetime
+from openpyxl import load_workbook
 
 # Padrão do nome dos arquivos JSON
 def encontrar_arquivo_mais_recente():
@@ -43,7 +44,7 @@ array_dados = encontrar_array(data)
 
 # Determinar o nome da planilha com base no nome do arquivo JSON
 # Remover a palavra "ordenada" do nome do arquivo antes de salvar
-nome_planilha = json_file.replace('ordenada-', '').replace('.json', '.xlsx')
+nome_planilha = json_file.replace('ordenada-clientes', 'CLIENTES-DETALHADOS').replace('.json', '.xlsx')
 
 if array_dados:
     # Converter para DataFrame
@@ -57,6 +58,24 @@ if array_dados:
     
     # Salvar em Excel com o nome correspondente ao arquivo JSON
     df.to_excel(nome_planilha, index=False, engine="openpyxl")
+    
+    # Ajustar automaticamente as colunas ao conteúdo
+    wb = load_workbook(nome_planilha)
+    ws = wb.active
+    for col in ws.columns:
+        max_length = 0
+        col_letter = col[0].column_letter  # Obtém a letra da coluna
+        for cell in col:
+            try:
+                if cell.value:
+                    max_length = max(max_length, len(str(cell.value)))
+            except:
+                pass
+        adjusted_width = (max_length + 2)
+        ws.column_dimensions[col_letter].width = adjusted_width
+    
+    wb.save(nome_planilha)
     print(f"Planilha gerada com sucesso: {nome_planilha} (Baseado em: {json_file})")
 else:
     print("Nenhum array de objetos encontrado no JSON.")
+
