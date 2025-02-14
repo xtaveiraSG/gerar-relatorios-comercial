@@ -17,4 +17,4 @@ group by
     m.descricao
 order by
     p.descricao,
-    m.modulo
+    m.descricao

@@ -9,6 +9,7 @@
 	sg.datainstal as "DATAINSTALACAO",
 	sg.dtreajuste as "DATAULTIMOREAJUSTE",
 	tv.nome as "VENDEDOR",
+  	tv2.nome as "TECNICORESPONSAVEL",
 	ct.descricao as "CLASSIFICACAO",
 	tp.desctipo as "REPRESENTANTE",
 	tp2.desctipo as "REPRESENTANTE2",
@@ -35,7 +36,6 @@
 	submodulos.*,
 	quantidadesPDV.*,
 	quantidadesESTACOES.*,
-	cc.vended10 as "TECNICO",
 	cc.emailcli10 as "EMAIL",
 	case sg.tipo
 		 WHEN 'C' THEN "ADMINISTRADORA DE CARTOES" 
@@ -64,6 +64,8 @@ inner join cadcli cc on
 	cc.cgccpf10 = sg.cgc
 left join tabven tv on
 	tv.codigo = cc.vended210
+left join tabven tv2 on
+	tv2.codigo = cc.vended10
 left join catcli ct on
 	ct.codigo = sg.codcatcli
 inner join tipcli tp on
@@ -160,25 +162,17 @@ left join (
 )  modulos on
     modulos.CNPJMODULO = sg.cgc
 left join (
-	select 
-		cnpj as CNPJPDV,
-	    SUM(qtdpdv) as "TOTAL_PDVs",
     
     SUBQUERY TOTAL PDVS
 
 )   quantidadesPDV on quantidadesPDV.CNPJPDV = sg.cgc
 	left join (		
-	select 
-		cnpj as CNPJESTACOES,
-	    SUM(qtdestac) as "TOTAL_ESTACOES",
-
+	
     SUBQUERY TOTAL ESTACOES
 
 )   quantidadesESTACOES on quantidadesESTACOES.CNPJESTACOES = sg.cgc
 left join (
-		select
-			pd.cnpj as CNPJSUBMODULOS,
-
+		
     SUBQUERY SUBMODULOS
 
 ) submodulos on submodulos.CNPJSUBMODULOS = sg.cgc
