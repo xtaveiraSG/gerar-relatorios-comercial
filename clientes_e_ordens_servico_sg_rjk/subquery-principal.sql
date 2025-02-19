@@ -14,7 +14,14 @@
 	tp.desctipo as "REPRESENTANTE",
 	tp2.desctipo as "REPRESENTANTE2",
 	tp3.desctipo as "REPRESENTANTE3",
+	cc.endcli10 as "ENDERECO",
+	CC.NUMENDCL10 as "NUMERO",
+	CC.bairro10 as "BAIRRO",
+	cc.codmunic10 as "CODIGO_CIDADE",
+	tm.nome as "CIDADE",
+	tm.uf as "ESTADO",
 	cc.nomecon10 as "CONTATO",
+        if(sg.codrede is null, 0,sg.codrede) as "CODIGO_REDE",
 	cc.fonecli10 as "TELEFONE",
 	sr.VALOR,
 	SG.cgc as "CNPJ",
@@ -149,6 +156,8 @@ LEFT JOIN(
         WHERE spt.codcat in (6,11,19,21) and codsit is null
         GROUP BY codcli
 ) as quantidadeOSEmAbertoPendencia ON (quantidadeOSEmAbertoPendencia.codcli = cc.codcli10)
+left join tabmun tm on
+	tm.codigo = cc.codmunic10 
 left join (
 
     SUBQUERY PRODUTOS
