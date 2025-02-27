@@ -2,94 +2,99 @@ const fs = require("fs");
 const path = require("path");
 const xlsx = require("xlsx");
 
-// Função para encontrar os arquivos JSON mais recentes (SG e RJK)
-function findLatestFiles(directory) {
-    const files = fs.readdirSync(directory)
-        .filter(file => file.endsWith(".json"))
-        .sort((a, b) => b.localeCompare(a)); // Ordena pela data mais recente
+// Diretório atual
+const directory = __dirname;
 
-    const latestSG = files.find(file => file.includes("-sg"));
-    const latestRJK = files.find(file => file.includes("-rjk"));
+// Função para pegar os arquivos mais recentes
+function getLatestFiles() {
+    const files = fs.readdirSync(directory);
+    const sgFile = files.filter(f => f.match(/^\d{4}-\d{2}-\d{2}-SG\.json$/)).sort().reverse()[0];
+    const rjkFile = files.filter(f => f.match(/^\d{4}-\d{2}-\d{2}-RJK\.json$/)).sort().reverse()[0];
 
-    if (!latestSG || !latestRJK) {
-        throw new Error("Arquivos SG e RJK mais recentes não encontrados.");
+    if (!sgFile || !rjkFile) {
+        console.error("Arquivos SG ou RJK não encontrados!");
+        return null;
     }
 
     return {
-        sg: path.join(directory, latestSG),
-        rjk: path.join(directory, latestRJK),
-        date: latestSG.split("-")[0] // Usa a data do arquivo SG como referência
+        sgFile: path.join(directory, sgFile),
+        rjkFile: path.join(directory, rjkFile),
+        date: sgFile.split("-SG.json")[0] // Pega a data do nome do arquivo
     };
 }
 
-// Função para carregar e extrair os dados JSON corretamente
-function loadJson(filePath) {
-    const data = JSON.parse(fs.readFileSync(filePath, "utf-8"));
-    const key = Object.keys(data).find(key => Array.isArray(data[key])); // Detecta a chave que contém um array
-
-    return key ? data[key] : []; // Retorna o array de objetos ou vazio
-}
-
-// Ajusta automaticamente a largura das colunas
-function autoAdjustColumns(worksheet, jsonData) {
-    const colWidths = Object.keys(jsonData[0] || {}).map(key => {
-        return Math.max(key.length, ...jsonData.map(row => String(row[key] || "").length));
-    });
-
-    worksheet["!cols"] = colWidths.map(width => ({ wch: width + 2 })); // Ajuste extra
-}
-
-// Função principal para criar a planilha XLSX
-function createExcelFile(outputPath, sgData, rjkData) {
-    const uniqueData = new Map();
-
-    // Adiciona primeiro os registros da SG (prioridade)
-    sgData.forEach(item => uniqueData.set(item.CNPJ, item));
-
-    // Adiciona registros da RJK apenas se o CNPJ não estiver na SG
-    rjkData.forEach(item => {
-        if (!uniqueData.has(item.CNPJ)) {
-            uniqueData.set(item.CNPJ, item);
-        }
-    });
-
-    const finalData = Array.from(uniqueData.values());
-
-    if (finalData.length === 0) {
-        throw new Error("Nenhum dado disponível para gerar a planilha.");
-    }
-
-    const worksheet = xlsx.utils.json_to_sheet(finalData);
-    autoAdjustColumns(worksheet, finalData);
-
-    const workbook = xlsx.utils.book_new();
-    xlsx.utils.book_append_sheet(workbook, worksheet, "Clientes");
-
-    xlsx.writeFile(workbook, outputPath);
-}
-
-// Executa o script
-(function () {
+// Função para ler e processar os arquivos JSON
+function readJson(filename) {
     try {
-        const directory = __dirname;
-        const { sg, rjk, date } = findLatestFiles(directory);
-
-        console.log(`📂 Processando arquivos:\nSG: ${sg}\nRJK: ${rjk}`);
-
-        const sgData = loadJson(sg);
-        const rjkData = loadJson(rjk);
-
-        if (sgData.length === 0 && rjkData.length === 0) {
-            throw new Error("Nenhum dado encontrado nos arquivos JSON.");
+        if (!fs.existsSync(filename)) {
+            console.error(`Arquivo não encontrado: ${filename}`);
+            return [];
         }
 
-        const outputFileName = `${date}-clientes-sem-integracao-pdv.xlsx`;
-        const outputPath = path.join(directory, outputFileName);
-
-        createExcelFile(outputPath, sgData, rjkData);
-
-        console.log(`✅ Planilha gerada com sucesso: ${outputFileName}`);
+        const data = JSON.parse(fs.readFileSync(filename, "utf-8"));
+        const key = Object.keys(data)[0]; // Pegando o nome do array
+        return data[key] || [];
     } catch (error) {
-        console.error(`❌ Erro: ${error.message}`);
+        console.error(`Erro ao ler o arquivo ${filename}:`, error.message);
+        return [];
     }
-})();
+}
+
+// Função para formatar datas (YYYY-MM-DD → DD/MM/YYYY)
+function formatDate(date) {
+    if (!date || !date.match(/^\d{4}-\d{2}-\d{2}$/)) return date;
+    const [year, month, day] = date.split("-");
+    return `${day}/${month}/${year}`;
+}
+
+// Criar a planilha XLSX
+function createExcel(data, date) {
+    if (data.length === 0) {
+        console.error("Nenhum dado disponível para criar a planilha!");
+        return;
+    }
+
+    const ws = xlsx.utils.json_to_sheet(data);
+
+    // Ajustar o tamanho das colunas com base no maior valor
+    const colWidths = Object.keys(data[0]).map(key => ({
+        wch: Math.max(
+            key.length, 
+            ...data.map(row => (row[key] ? row[key].toString().length : 0))
+        )
+    }));
+    ws["!cols"] = colWidths;
+
+    // Criar o workbook e salvar
+    const wb = xlsx.utils.book_new();
+    xlsx.utils.book_append_sheet(wb, ws, "Clientes");
+
+    const filename = path.join(directory, `${date}-clientes-sem-integracao-pdv.xlsx`);
+    xlsx.writeFile(wb, filename);
+
+    console.log(`✅ Planilha criada: ${filename}`);
+}
+
+// Função principal
+function main() {
+    const files = getLatestFiles();
+    if (!files) return;
+
+    const sgData = readJson(files.sgFile);
+    const rjkData = readJson(files.rjkFile);
+
+    // Remover duplicados (CNPJ) e garantir prioridade para SG
+    const cnpjSet = new Set(sgData.map(item => item.CNPJ));
+    const mergedData = [...sgData, ...rjkData.filter(item => !cnpjSet.has(item.CNPJ))];
+
+    // Converter formato de data
+    mergedData.forEach(item => {
+        if (item["DATA_INSTALAÇÃO"]) {
+            item["DATA_INSTALAÇÃO"] = formatDate(item["DATA_INSTALAÇÃO"]);
+        }
+    });
+
+    createExcel(mergedData, files.date);
+}
+
+main();
